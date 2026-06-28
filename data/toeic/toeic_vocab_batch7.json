@@ -1,0 +1,752 @@
+[
+    {
+        "term": "urgent",
+        "reading": "/ˈɜːrdʒənt/",
+        "meaning": "khẩn cấp",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Urgent matter.",
+                "translation": "Vấn đề khẩn cấp."
+            }
+        ]
+    },
+    {
+        "term": "utility",
+        "reading": "/juːˈtɪləti/",
+        "meaning": "tiện ích",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Utility bills.",
+                "translation": "Hóa đơn tiện ích."
+            }
+        ]
+    },
+    {
+        "term": "vacancy",
+        "reading": "/ˈveɪkənsi/",
+        "meaning": "vị trí trống",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Job vacancy.",
+                "translation": "Vị trí việc làm trống."
+            }
+        ]
+    },
+    {
+        "term": "valid",
+        "reading": "/ˈvælɪd/",
+        "meaning": "có hiệu lực",
+        "meta_data": {
+            "topic": "Legal",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Valid passport.",
+                "translation": "Hộ chiếu có hiệu lực."
+            }
+        ]
+    },
+    {
+        "term": "value",
+        "reading": "/ˈvæljuː/",
+        "meaning": "giá trị",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Market value.",
+                "translation": "Giá trị thị trường."
+            }
+        ]
+    },
+    {
+        "term": "variety",
+        "reading": "/vəˈraɪəti/",
+        "meaning": "sự đa dạng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "A variety of options.",
+                "translation": "Đa dạng lựa chọn."
+            }
+        ]
+    },
+    {
+        "term": "vehicle",
+        "reading": "/ˈviːəkl/",
+        "meaning": "phương tiện",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Company vehicle.",
+                "translation": "Xe công ty."
+            }
+        ]
+    },
+    {
+        "term": "vendor",
+        "reading": "/ˈvendər/",
+        "meaning": "nhà cung cấp",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Contact the vendor.",
+                "translation": "Liên hệ nhà cung cấp."
+            }
+        ]
+    },
+    {
+        "term": "venue",
+        "reading": "/ˈvenjuː/",
+        "meaning": "địa điểm",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Venue for the event.",
+                "translation": "Địa điểm tổ chức sự kiện."
+            }
+        ]
+    },
+    {
+        "term": "verify",
+        "reading": "/ˈverɪfaɪ/",
+        "meaning": "xác minh",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Verify the information.",
+                "translation": "Xác minh thông tin."
+            }
+        ]
+    },
+    {
+        "term": "via",
+        "reading": "/ˈvaɪə/",
+        "meaning": "qua, thông qua",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "prep"
+        },
+        "examples": [
+            {
+                "sentence": "Fly via Tokyo.",
+                "translation": "Bay qua Tokyo."
+            }
+        ]
+    },
+    {
+        "term": "visa",
+        "reading": "/ˈviːzə/",
+        "meaning": "thị thực",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Apply for a visa.",
+                "translation": "Xin thị thực."
+            }
+        ]
+    },
+    {
+        "term": "volume",
+        "reading": "/ˈvɑːljuːm/",
+        "meaning": "khối lượng, âm lượng",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "High volume of sales.",
+                "translation": "Khối lượng bán hàng lớn."
+            }
+        ]
+    },
+    {
+        "term": "wage",
+        "reading": "/weɪdʒ/",
+        "meaning": "tiền công",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Minimum wage.",
+                "translation": "Tiền công tối thiểu."
+            }
+        ]
+    },
+    {
+        "term": "warranty",
+        "reading": "/ˈwɔːrənti/",
+        "meaning": "bảo hành",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Under warranty.",
+                "translation": "Trong thời hạn bảo hành."
+            }
+        ]
+    },
+    {
+        "term": "waste",
+        "reading": "/weɪst/",
+        "meaning": "rác thải, lãng phí",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Reduce waste.",
+                "translation": "Giảm rác thải."
+            }
+        ]
+    },
+    {
+        "term": "wealth",
+        "reading": "/welθ/",
+        "meaning": "sự giàu có",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Accumulate wealth.",
+                "translation": "Tích lũy tài sản."
+            }
+        ]
+    },
+    {
+        "term": "wholesale",
+        "reading": "/ˈhoʊlseɪl/",
+        "meaning": "bán buôn",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Wholesale price.",
+                "translation": "Giá bán buôn."
+            }
+        ]
+    },
+    {
+        "term": "withdraw",
+        "reading": "/wɪðˈdrɔː/",
+        "meaning": "rút tiền, rút lui",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Withdraw cash.",
+                "translation": "Rút tiền mặt."
+            }
+        ]
+    },
+    {
+        "term": "workforce",
+        "reading": "/ˈwɜːrkfɔːrs/",
+        "meaning": "lực lượng lao động",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Skilled workforce.",
+                "translation": "Lực lượng lao động lành nghề."
+            }
+        ]
+    },
+    {
+        "term": "workload",
+        "reading": "/ˈwɜːrkloʊd/",
+        "meaning": "khối lượng công việc",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Heavy workload.",
+                "translation": "Khối lượng công việc lớn."
+            }
+        ]
+    },
+    {
+        "term": "workspace",
+        "reading": "/ˈwɜːrk.speɪs/",
+        "meaning": "không gian làm việc",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Clean workspace.",
+                "translation": "Không gian làm việc sạch sẽ."
+            }
+        ]
+    },
+    {
+        "term": "yield",
+        "reading": "/jiːld/",
+        "meaning": "sản lượng, lợi suất",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "High yield.",
+                "translation": "Lợi suất cao."
+            }
+        ]
+    },
+    {
+        "term": "zone",
+        "reading": "/zoʊn/",
+        "meaning": "khu vực",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Time zone.",
+                "translation": "Múi giờ."
+            }
+        ]
+    },
+    {
+        "term": "abroad",
+        "reading": "/əˈbrɔːd/",
+        "meaning": "ở nước ngoài",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "adv"
+        },
+        "examples": [
+            {
+                "sentence": "Travel abroad.",
+                "translation": "Du lịch nước ngoài."
+            }
+        ]
+    },
+    {
+        "term": "absent",
+        "reading": "/ˈæbsənt/",
+        "meaning": "vắng mặt",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Absent from work.",
+                "translation": "Vắng làm."
+            }
+        ]
+    },
+    {
+        "term": "absorb",
+        "reading": "/əbˈzɔːrb/",
+        "meaning": "hấp thụ, tiếp thu",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Absorb information.",
+                "translation": "Tiếp thu thông tin."
+            }
+        ]
+    },
+    {
+        "term": "accept",
+        "reading": "/əkˈsept/",
+        "meaning": "chấp nhận",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Accept the offer.",
+                "translation": "Chấp nhận lời đề nghị."
+            }
+        ]
+    },
+    {
+        "term": "accessible",
+        "reading": "/əkˈsesəbl/",
+        "meaning": "có thể tiếp cận",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Easily accessible.",
+                "translation": "Dễ dàng tiếp cận."
+            }
+        ]
+    },
+    {
+        "term": "accident",
+        "reading": "/ˈæksɪdənt/",
+        "meaning": "tai nạn",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Report an accident.",
+                "translation": "Báo cáo tai nạn."
+            }
+        ]
+    },
+    {
+        "term": "account",
+        "reading": "/əˈkaʊnt/",
+        "meaning": "tài khoản",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Bank account.",
+                "translation": "Tài khoản ngân hàng."
+            }
+        ]
+    },
+    {
+        "term": "achieve",
+        "reading": "/əˈtʃiːv/",
+        "meaning": "đạt được",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Achieve a goal.",
+                "translation": "Đạt được mục tiêu."
+            }
+        ]
+    },
+    {
+        "term": "acknowledge",
+        "reading": "/əkˈnɑːlɪdʒ/",
+        "meaning": "công nhận, thừa nhận",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Acknowledge receipt.",
+                "translation": "Xác nhận đã nhận."
+            }
+        ]
+    },
+    {
+        "term": "active",
+        "reading": "/ˈæktɪv/",
+        "meaning": "hoạt động, tích cực",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Active member.",
+                "translation": "Thành viên tích cực."
+            }
+        ]
+    },
+    {
+        "term": "adapt",
+        "reading": "/əˈdæpt/",
+        "meaning": "thích nghi",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Adapt to changes.",
+                "translation": "Thích nghi với thay đổi."
+            }
+        ]
+    },
+    {
+        "term": "add",
+        "reading": "/æd/",
+        "meaning": "thêm",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Add details.",
+                "translation": "Thêm chi tiết."
+            }
+        ]
+    },
+    {
+        "term": "address",
+        "reading": "/əˈdres/",
+        "meaning": "địa chỉ, giải quyết",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Address the issue.",
+                "translation": "Giải quyết vấn đề."
+            }
+        ]
+    },
+    {
+        "term": "administer",
+        "reading": "/ədˈmɪnɪstər/",
+        "meaning": "quản lý, điều hành",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Administer the program.",
+                "translation": "Điều hành chương trình."
+            }
+        ]
+    },
+    {
+        "term": "admire",
+        "reading": "/ədˈmaɪər/",
+        "meaning": "ngưỡng mộ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "I admire your work.",
+                "translation": "Tôi ngưỡng mộ công việc của bạn."
+            }
+        ]
+    },
+    {
+        "term": "admit",
+        "reading": "/ədˈmɪt/",
+        "meaning": "thừa nhận",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Admit a mistake.",
+                "translation": "Thừa nhận lỗi."
+            }
+        ]
+    },
+    {
+        "term": "advance",
+        "reading": "/ədˈvæns/",
+        "meaning": "tiến bộ, trước",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "In advance.",
+                "translation": "Trước."
+            }
+        ]
+    },
+    {
+        "term": "advice",
+        "reading": "/ədˈvaɪs/",
+        "meaning": "lời khuyên",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Give advice.",
+                "translation": "Đưa ra lời khuyên."
+            }
+        ]
+    },
+    {
+        "term": "advise",
+        "reading": "/ədˈvaɪz/",
+        "meaning": "khuyên",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Advise the client.",
+                "translation": "Khuyên khách hàng."
+            }
+        ]
+    },
+    {
+        "term": "afford",
+        "reading": "/əˈfɔːrd/",
+        "meaning": "có khả năng chi trả",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Can't afford it.",
+                "translation": "Không thể chi trả."
+            }
+        ]
+    },
+    {
+        "term": "agency",
+        "reading": "/ˈeɪdʒənsi/",
+        "meaning": "đại lý, cơ quan",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Travel agency.",
+                "translation": "Đại lý du lịch."
+            }
+        ]
+    },
+    {
+        "term": "agreement",
+        "reading": "/əˈɡriːmənt/",
+        "meaning": "thỏa thuận",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Sign an agreement.",
+                "translation": "Ký thỏa thuận."
+            }
+        ]
+    },
+    {
+        "term": "aim",
+        "reading": "/eɪm/",
+        "meaning": "mục đích, nhắm tới",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We aim to succeed.",
+                "translation": "Chúng tôi nhắm tới thành công."
+            }
+        ]
+    },
+    {
+        "term": "airline",
+        "reading": "/ˈerlaɪn/",
+        "meaning": "hãng hàng không",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Airline ticket.",
+                "translation": "Vé máy bay."
+            }
+        ]
+    },
+    {
+        "term": "aisle",
+        "reading": "/aɪl/",
+        "meaning": "lối đi",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Aisle seat.",
+                "translation": "Ghế gần lối đi."
+            }
+        ]
+    },
+    {
+        "term": "allow",
+        "reading": "/əˈlaʊ/",
+        "meaning": "cho phép",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Allow access.",
+                "translation": "Cho phép truy cập."
+            }
+        ]
+    }
+]

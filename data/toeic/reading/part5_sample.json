@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "question": "Ms. Sato has _______ a copy of the annual report to the board of directors.",
+        "options": [
+            "submit",
+            "submission",
+            "submitted",
+            "submitting"
+        ],
+        "correct_index": 2,
+        "explanation": "Ta cần một phân từ quá khứ (V3/ed) sau trợ động từ 'has' để tạo thì Hiện tại hoàn thành.",
+        "topic": "Verb Tense"
+    },
+    {
+        "id": 2,
+        "question": "The conference will be held _______ the convention center in Tokyo.",
+        "options": [
+            "on",
+            "at",
+            "to",
+            "of"
+        ],
+        "correct_index": 1,
+        "explanation": "Dùng 'at' để chỉ địa điểm cụ thể (convention center).",
+        "topic": "Prepositions"
+    },
+    {
+        "id": 3,
+        "question": "Please review the attached _______ for the upcoming marketing campaign.",
+        "options": [
+            "propose",
+            "proposal",
+            "proposed",
+            "proposing"
+        ],
+        "correct_index": 1,
+        "explanation": "Cần một danh từ sau mạo từ 'the' và tính từ 'attached'. 'Proposal' là danh từ.",
+        "topic": "Word Form"
+    }
+]

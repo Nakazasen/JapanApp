@@ -1,0 +1,752 @@
+[
+    {
+        "term": "hide",
+        "reading": "/haɪd/",
+        "meaning": "giấu",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Hide the data.",
+                "translation": "Giấu dữ liệu."
+            }
+        ]
+    },
+    {
+        "term": "high",
+        "reading": "/haɪ/",
+        "meaning": "cao",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "High quality.",
+                "translation": "Chất lượng cao."
+            }
+        ]
+    },
+    {
+        "term": "highlight",
+        "reading": "/ˈhaɪlaɪt/",
+        "meaning": "làm nổi bật",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Highlight key points.",
+                "translation": "Làm nổi bật các điểm chính."
+            }
+        ]
+    },
+    {
+        "term": "hire",
+        "reading": "/ˈhaɪər/",
+        "meaning": "thuê, tuyển dụng",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Hire new staff.",
+                "translation": "Tuyển nhân viên mới."
+            }
+        ]
+    },
+    {
+        "term": "history",
+        "reading": "/ˈhɪstri/",
+        "meaning": "lịch sử",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Company history.",
+                "translation": "Lịch sử công ty."
+            }
+        ]
+    },
+    {
+        "term": "hold",
+        "reading": "/hoʊld/",
+        "meaning": "cầm, giữ, tổ chức",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Hold a meeting.",
+                "translation": "Tổ chức một cuộc họp."
+            }
+        ]
+    },
+    {
+        "term": "holiday",
+        "reading": "/ˈhɑːlədeɪ/",
+        "meaning": "kỳ nghỉ",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Public holiday.",
+                "translation": "Ngày lễ."
+            }
+        ]
+    },
+    {
+        "term": "home",
+        "reading": "/hoʊm/",
+        "meaning": "nhà",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Work from home.",
+                "translation": "Làm việc tại nhà."
+            }
+        ]
+    },
+    {
+        "term": "honor",
+        "reading": "/ˈɑːnər/",
+        "meaning": "vinh danh",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Honor an employee.",
+                "translation": "Vinh danh một nhân viên."
+            }
+        ]
+    },
+    {
+        "term": "hope",
+        "reading": "/hoʊp/",
+        "meaning": "hy vọng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "I hope so.",
+                "translation": "Tôi hy vọng vậy."
+            }
+        ]
+    },
+    {
+        "term": "host",
+        "reading": "/hoʊst/",
+        "meaning": "chủ nhà, đăng cai",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Host an event.",
+                "translation": "Đăng cai một sự kiện."
+            }
+        ]
+    },
+    {
+        "term": "hour",
+        "reading": "/ˈaʊər/",
+        "meaning": "giờ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Office hours.",
+                "translation": "Giờ làm việc."
+            }
+        ]
+    },
+    {
+        "term": "house",
+        "reading": "/haʊs/",
+        "meaning": "nhà, chứa",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Warehouse.",
+                "translation": "Nhà kho."
+            }
+        ]
+    },
+    {
+        "term": "huge",
+        "reading": "/hjuːdʒ/",
+        "meaning": "khổng lồ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Huge success.",
+                "translation": "Thành công lớn."
+            }
+        ]
+    },
+    {
+        "term": "human",
+        "reading": "/ˈhjuːmən/",
+        "meaning": "con người",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Human resources.",
+                "translation": "Nhân sự."
+            }
+        ]
+    },
+    {
+        "term": "hurt",
+        "reading": "/hɜːrt/",
+        "meaning": "đau, làm tổn thương",
+        "meta_data": {
+            "topic": "Health",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Hurt sales.",
+                "translation": "Ảnh hưởng xấu đến doanh số."
+            }
+        ]
+    },
+    {
+        "term": "idea",
+        "reading": "/aɪˈdiːə/",
+        "meaning": "ý tưởng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Good idea.",
+                "translation": "Ý tưởng hay."
+            }
+        ]
+    },
+    {
+        "term": "ideal",
+        "reading": "/aɪˈdiːəl/",
+        "meaning": "lý tưởng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Ideal candidate.",
+                "translation": "Ứng viên lý tưởng."
+            }
+        ]
+    },
+    {
+        "term": "identify",
+        "reading": "/aɪˈdentɪfaɪ/",
+        "meaning": "nhận diện",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Identify the problem.",
+                "translation": "Nhận diện vấn đề."
+            }
+        ]
+    },
+    {
+        "term": "ignore",
+        "reading": "/ɪɡˈnɔːr/",
+        "meaning": "phớt lờ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Ignore the warning.",
+                "translation": "Phớt lờ cảnh báo."
+            }
+        ]
+    },
+    {
+        "term": "ill",
+        "reading": "/ɪl/",
+        "meaning": "ốm",
+        "meta_data": {
+            "topic": "Health",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Fall ill.",
+                "translation": "Bị ốm."
+            }
+        ]
+    },
+    {
+        "term": "illegal",
+        "reading": "/ɪˈliːɡl/",
+        "meaning": "bất hợp pháp",
+        "meta_data": {
+            "topic": "Legal",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Illegal activity.",
+                "translation": "Hoạt động bất hợp pháp."
+            }
+        ]
+    },
+    {
+        "term": "image",
+        "reading": "/ˈɪmɪdʒ/",
+        "meaning": "hình ảnh",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Brand image.",
+                "translation": "Hình ảnh thương hiệu."
+            }
+        ]
+    },
+    {
+        "term": "imagine",
+        "reading": "/ɪˈmædʒɪn/",
+        "meaning": "tưởng tượng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Imagine the future.",
+                "translation": "Tưởng tượng tương lai."
+            }
+        ]
+    },
+    {
+        "term": "immediate",
+        "reading": "/ɪˈmiːdiət/",
+        "meaning": "ngay lập tức",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Immediate action.",
+                "translation": "Hành động ngay lập tức."
+            }
+        ]
+    },
+    {
+        "term": "impact",
+        "reading": "/ˈɪmpækt/",
+        "meaning": "tác động",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "High impact.",
+                "translation": "Tác động lớn."
+            }
+        ]
+    },
+    {
+        "term": "implement",
+        "reading": "/ˈɪmplɪment/",
+        "meaning": "thực hiện",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Implement a policy.",
+                "translation": "Thực hiện chính sách."
+            }
+        ]
+    },
+    {
+        "term": "imply",
+        "reading": "/ɪmˈplaɪ/",
+        "meaning": "ngụ ý",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Imply agreement.",
+                "translation": "Ngụ ý đồng ý."
+            }
+        ]
+    },
+    {
+        "term": "import",
+        "reading": "/ˈɪmpɔːrt/",
+        "meaning": "nhập khẩu",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Import duty.",
+                "translation": "Thuế nhập khẩu."
+            }
+        ]
+    },
+    {
+        "term": "important",
+        "reading": "/ɪmˈpɔːrtnt/",
+        "meaning": "quan trọng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Important meeting.",
+                "translation": "Cuộc họp quan trọng."
+            }
+        ]
+    },
+    {
+        "term": "impose",
+        "reading": "/ɪmˈpoʊz/",
+        "meaning": "áp đặt",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Impose a tax.",
+                "translation": "Áp thuế."
+            }
+        ]
+    },
+    {
+        "term": "impossible",
+        "reading": "/ɪmˈpɑːsəbl/",
+        "meaning": "không thể",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Mission impossible.",
+                "translation": "Nhiệm vụ bất khả thi."
+            }
+        ]
+    },
+    {
+        "term": "impress",
+        "reading": "/ɪmˈpres/",
+        "meaning": "gây ấn tượng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Impress the boss.",
+                "translation": "Gây ấn tượng với sếp."
+            }
+        ]
+    },
+    {
+        "term": "impression",
+        "reading": "/ɪmˈpreʃn/",
+        "meaning": "ấn tượng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "First impression.",
+                "translation": "Ấn tượng đầu tiên."
+            }
+        ]
+    },
+    {
+        "term": "impressive",
+        "reading": "/ɪmˈpresɪv/",
+        "meaning": "ấn tượng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Impressive results.",
+                "translation": "Kết quả ấn tượng."
+            }
+        ]
+    },
+    {
+        "term": "improve",
+        "reading": "/ɪmˈpruːv/",
+        "meaning": "cải thiện",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Improve skills.",
+                "translation": "Cải thiện kỹ năng."
+            }
+        ]
+    },
+    {
+        "term": "incentive",
+        "reading": "/ɪnˈsentɪv/",
+        "meaning": "khuyến khích",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Performance incentive.",
+                "translation": "Khuyến khích hiệu suất."
+            }
+        ]
+    },
+    {
+        "term": "inch",
+        "reading": "/ɪntʃ/",
+        "meaning": "inch (đơn vị đo)",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Every inch.",
+                "translation": "Mọi inch."
+            }
+        ]
+    },
+    {
+        "term": "include",
+        "reading": "/ɪnˈkluːd/",
+        "meaning": "bao gồm",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Include details.",
+                "translation": "Bao gồm chi tiết."
+            }
+        ]
+    },
+    {
+        "term": "income",
+        "reading": "/ˈɪnkʌm/",
+        "meaning": "thu nhập",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Annual income.",
+                "translation": "Thu nhập hàng năm."
+            }
+        ]
+    },
+    {
+        "term": "increase",
+        "reading": "/ɪnˈkriːs/",
+        "meaning": "tăng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Increase sales.",
+                "translation": "Tăng doanh số."
+            }
+        ]
+    },
+    {
+        "term": "incur",
+        "reading": "/ɪnˈkɜːr/",
+        "meaning": "gánh chịu",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Incur expenses.",
+                "translation": "Gánh chịu chi phí."
+            }
+        ]
+    },
+    {
+        "term": "independent",
+        "reading": "/ˌɪndɪˈpendənt/",
+        "meaning": "độc lập",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Independent contractor.",
+                "translation": "Nhà thầu độc lập."
+            }
+        ]
+    },
+    {
+        "term": "index",
+        "reading": "/ˈɪndeks/",
+        "meaning": "chỉ số, mục lục",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Price index.",
+                "translation": "Chỉ số giá."
+            }
+        ]
+    },
+    {
+        "term": "individual",
+        "reading": "/ˌɪndɪˈvɪdʒuəl/",
+        "meaning": "cá nhân",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Private individual.",
+                "translation": "Cá nhân riêng tư."
+            }
+        ]
+    },
+    {
+        "term": "indoor",
+        "reading": "/ˌɪnˈdɔːr/",
+        "meaning": "trong nhà",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Indoor pool.",
+                "translation": "Bể bơi trong nhà."
+            }
+        ]
+    },
+    {
+        "term": "influence",
+        "reading": "/ˈɪnfluəns/",
+        "meaning": "ảnh hưởng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Have influence.",
+                "translation": "Có ảnh hưởng."
+            }
+        ]
+    },
+    {
+        "term": "inform",
+        "reading": "/ɪnˈfɔːrm/",
+        "meaning": "thông báo",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Inform the staff.",
+                "translation": "Thông báo cho nhân viên."
+            }
+        ]
+    },
+    {
+        "term": "initial",
+        "reading": "/ɪˈnɪʃl/",
+        "meaning": "ban đầu",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Initial cost.",
+                "translation": "Chi phí ban đầu."
+            }
+        ]
+    },
+    {
+        "term": "initiative",
+        "reading": "/ɪˈnɪʃətɪv/",
+        "meaning": "sáng kiến",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Take initiative.",
+                "translation": "Dẫn đầu chủ động."
+            }
+        ]
+    }
+]

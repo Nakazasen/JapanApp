@@ -1,0 +1,402 @@
+[
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "General",
+        "question_text": "Where is the meeting room?",
+        "options": [
+            "It's on the second floor.",
+            "Yes, at 3 o'clock.",
+            "About 20 people."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a 'where' question asking about location. Only option A provides a location.",
+        "audio_path": "data/toeic/audio/part2_001.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "General",
+        "question_text": "When does the office open?",
+        "options": [
+            "It's across the street.",
+            "At 9 a.m.",
+            "Mr. Johnson will open it."
+        ],
+        "correct_answer": "B",
+        "explanation": "This is a 'when' question asking about time. Option B provides a time.",
+        "audio_path": "data/toeic/audio/part2_002.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "General",
+        "question_text": "Who is in charge of this project?",
+        "options": [
+            "The deadline is Friday.",
+            "Sarah from marketing.",
+            "Yes, it's very important."
+        ],
+        "correct_answer": "B",
+        "explanation": "This is a 'who' question asking about a person. Option B names a person.",
+        "audio_path": "data/toeic/audio/part2_003.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "General",
+        "question_text": "How long have you worked here?",
+        "options": [
+            "About five years.",
+            "The office is on the third floor.",
+            "I work in the sales department."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a 'how long' question asking about duration. Option A provides a time period.",
+        "audio_path": "data/toeic/audio/part2_004.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 3,
+        "topic": "General",
+        "question_text": "Would you like coffee or tea?",
+        "options": [
+            "Tea, please.",
+            "I don't think so.",
+            "In the kitchen."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a choice question. Option A makes a selection from the given choices.",
+        "audio_path": "data/toeic/audio/part2_005.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "General",
+        "question_text": "Why was the meeting postponed?",
+        "options": [
+            "Because the director is traveling.",
+            "Tomorrow at 2 p.m.",
+            "In the conference room."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a 'why' question asking about reason. Option A provides a reason.",
+        "audio_path": "data/toeic/audio/part2_006.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 3,
+        "topic": "General",
+        "question_text": "Can you finish the report by Friday?",
+        "options": [
+            "Yes, I started yesterday.",
+            "It was about sales.",
+            "The report is on your desk."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a yes/no question. Option A answers with 'yes' and provides additional context.",
+        "audio_path": "data/toeic/audio/part2_007.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "Travel",
+        "question_text": "How do you get to work?",
+        "options": [
+            "I drive my car.",
+            "About 30 minutes.",
+            "At 8 o'clock."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a 'how' question asking about method of transportation. Option A describes the method.",
+        "audio_path": "data/toeic/audio/part2_008.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "General",
+        "question_text": "What time does the store close?",
+        "options": [
+            "On the main street.",
+            "At 9 p.m.",
+            "It sells electronics."
+        ],
+        "correct_answer": "B",
+        "explanation": "This is a 'what time' question. Option B provides a specific time.",
+        "audio_path": "data/toeic/audio/part2_009.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 3,
+        "topic": "General",
+        "question_text": "Have you seen the new proposal?",
+        "options": [
+            "Yes, I reviewed it this morning.",
+            "He proposed last month.",
+            "It's a new product."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a yes/no question about seeing something. Option A answers correctly.",
+        "audio_path": "data/toeic/audio/part2_010.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "General",
+        "question_text": "Where can I find the printer paper?",
+        "options": [
+            "In the supply closet.",
+            "It prints 20 pages per minute.",
+            "The paper is white."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a 'where' question about location. Option A provides a location.",
+        "audio_path": "data/toeic/audio/part2_011.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 3,
+        "topic": "General",
+        "question_text": "Should we order lunch now or wait?",
+        "options": [
+            "Let's wait until noon.",
+            "I had pasta.",
+            "The restaurant is nearby."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a choice question. Option A chooses one of the options (wait).",
+        "audio_path": "data/toeic/audio/part2_012.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "General",
+        "question_text": "Who sent this email?",
+        "options": [
+            "It was sent yesterday.",
+            "The IT department.",
+            "By regular mail."
+        ],
+        "correct_answer": "B",
+        "explanation": "This is a 'who' question. Option B identifies the sender.",
+        "audio_path": "data/toeic/audio/part2_013.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 3,
+        "topic": "General",
+        "question_text": "Isn't the deadline next week?",
+        "options": [
+            "No, it was moved to this Friday.",
+            "The line is busy.",
+            "Yes, it's dead."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a negative question. Option A corrects the assumption with accurate information.",
+        "audio_path": "data/toeic/audio/part2_014.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "General",
+        "question_text": "How many copies do you need?",
+        "options": [
+            "Ten should be enough.",
+            "The copy machine is broken.",
+            "Yes, I need them."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a 'how many' question. Option A provides a number.",
+        "audio_path": "data/toeic/audio/part2_015.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "Travel",
+        "question_text": "When is your flight?",
+        "options": [
+            "At gate 23.",
+            "Tomorrow morning at 6.",
+            "Business class."
+        ],
+        "correct_answer": "B",
+        "explanation": "This is a 'when' question. Option B provides a time.",
+        "audio_path": "data/toeic/audio/part2_016.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 3,
+        "topic": "General",
+        "question_text": "Could you help me with this task?",
+        "options": [
+            "Sure, what do you need?",
+            "It's a difficult task.",
+            "I finished my help."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a request for help. Option A agrees to help and asks for details.",
+        "audio_path": "data/toeic/audio/part2_017.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "General",
+        "question_text": "What department do you work in?",
+        "options": [
+            "Human Resources.",
+            "For about two years.",
+            "On the fifth floor."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a 'what' question about department. Option A names a department.",
+        "audio_path": "data/toeic/audio/part2_018.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 3,
+        "topic": "General",
+        "question_text": "Do you prefer the morning or afternoon shift?",
+        "options": [
+            "I'll take the morning.",
+            "The shift lasted 8 hours.",
+            "Yes, I prefer it."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a choice question. Option A makes a selection.",
+        "audio_path": "data/toeic/audio/part2_019.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "General",
+        "question_text": "Why didn't you attend the conference?",
+        "options": [
+            "I was in Tokyo on business.",
+            "It was very informative.",
+            "At the convention center."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a 'why' question asking for a reason. Option A provides a reason.",
+        "audio_path": "data/toeic/audio/part2_020.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "General",
+        "question_text": "Where is the nearest bank?",
+        "options": [
+            "Two blocks down the street.",
+            "It opens at 9.",
+            "Yes, I bank there."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a 'where' question. Option A provides a location.",
+        "audio_path": "data/toeic/audio/part2_021.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 3,
+        "topic": "General",
+        "question_text": "Has the contract been signed yet?",
+        "options": [
+            "Not yet, we're still negotiating.",
+            "It was a good contract.",
+            "Mr. Lee signed up."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a yes/no question about status. Option A answers with 'not yet' and provides context.",
+        "audio_path": "data/toeic/audio/part2_022.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "General",
+        "question_text": "How much does this cost?",
+        "options": [
+            "It's $50.",
+            "At the checkout counter.",
+            "It costs time and effort."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a 'how much' question about price. Option A provides a price.",
+        "audio_path": "data/toeic/audio/part2_023.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 2,
+        "topic": "General",
+        "question_text": "What is the password for the Wi-Fi?",
+        "options": [
+            "It's 'office2024'.",
+            "The connection is fast.",
+            "Yes, we have Wi-Fi."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a 'what' question asking for specific information. Option A provides the password.",
+        "audio_path": "data/toeic/audio/part2_024.mp3",
+        "source": "Sample"
+    },
+    {
+        "part": 2,
+        "question_type": "qr",
+        "difficulty": 3,
+        "topic": "General",
+        "question_text": "Shouldn't we update the software?",
+        "options": [
+            "Yes, I'll do it after lunch.",
+            "The software is expensive.",
+            "It's already soft."
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a negative question suggesting action. Option A agrees and provides a plan.",
+        "audio_path": "data/toeic/audio/part2_025.mp3",
+        "source": "Sample"
+    }
+]

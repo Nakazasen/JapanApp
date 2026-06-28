@@ -1,0 +1,7 @@
+<svg width="320" height="180" viewBox="0 0 320 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="320" height="180" rx="12" fill="#DCFCE7"/>
+<path d="M140 30L170 30" stroke="#EF4444" stroke-width="10" stroke-linecap="round"/>
+<path d="M120 70H180L130 120H190C210 120 210 150 190 150H150" stroke="#EF4444" stroke-width="10" stroke-linecap="round"/>
+<path d="M180 80L220 40M220 40L210 60M220 40L240 50" stroke="#166534" stroke-width="4" stroke-linecap="round"/>
+<text x="160" y="170" font-family="Arial" font-size="14" text-anchor="middle" fill="#14532D">Exotic Bird for 'E'</text>
+</svg>

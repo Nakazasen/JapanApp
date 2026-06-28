@@ -1,0 +1,8 @@
+<svg width="320" height="180" viewBox="0 0 320 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="320" height="180" rx="12" fill="#E0F2FE"/>
+<path d="M120 50H180" stroke="#EF4444" stroke-width="10" stroke-linecap="round"/>
+<path d="M150 30V100C150 140 120 130 130 110C140 90 200 80 200 120C200 140 180 150 160 150" stroke="#EF4444" stroke-width="10" stroke-linecap="round"/>
+<circle cx="210" cy="50" r="10" fill="#EF4444"/>
+<circle cx="220" cy="140" r="8" fill="white" stroke="black" stroke-width="2"/>
+<text x="160" y="170" font-family="Arial" font-size="14" text-anchor="middle" fill="#0C4A6E">On the Green (Golf) for 'O'</text>
+</svg>

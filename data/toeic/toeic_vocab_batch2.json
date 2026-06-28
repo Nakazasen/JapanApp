@@ -1,0 +1,752 @@
+[
+    {
+        "term": "accomplish",
+        "reading": "/əˈkɑːmplɪʃ/",
+        "meaning": "hoàn thành, đạt được",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We accomplished our goals.",
+                "translation": "Chúng tôi đã đạt được mục tiêu."
+            }
+        ]
+    },
+    {
+        "term": "accurate",
+        "reading": "/ˈækjərət/",
+        "meaning": "chính xác",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "The data is accurate.",
+                "translation": "Dữ liệu chính xác."
+            }
+        ]
+    },
+    {
+        "term": "acquire",
+        "reading": "/əˈkwaɪər/",
+        "meaning": "mua lại, thu được",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "The company acquired a new building.",
+                "translation": "Công ty đã mua lại tòa nhà mới."
+            }
+        ]
+    },
+    {
+        "term": "adjacent",
+        "reading": "/əˈdʒeɪsnt/",
+        "meaning": "kế bên, liền kề",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "The office is adjacent to the parking lot.",
+                "translation": "Văn phòng nằm kế bên bãi đậu xe."
+            }
+        ]
+    },
+    {
+        "term": "adjust",
+        "reading": "/əˈdʒʌst/",
+        "meaning": "điều chỉnh",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Please adjust the settings.",
+                "translation": "Vui lòng điều chỉnh cài đặt."
+            }
+        ]
+    },
+    {
+        "term": "advantage",
+        "reading": "/ədˈvæntɪdʒ/",
+        "meaning": "lợi thế",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "This gives us an advantage.",
+                "translation": "Điều này cho chúng ta lợi thế."
+            }
+        ]
+    },
+    {
+        "term": "advertisement",
+        "reading": "/ˌædvərˈtaɪzmənt/",
+        "meaning": "quảng cáo",
+        "meta_data": {
+            "topic": "Marketing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "We placed an advertisement.",
+                "translation": "Chúng tôi đã đăng quảng cáo."
+            }
+        ]
+    },
+    {
+        "term": "agenda",
+        "reading": "/əˈdʒendə/",
+        "meaning": "chương trình nghị sự",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Here is the meeting agenda.",
+                "translation": "Đây là chương trình họp."
+            }
+        ]
+    },
+    {
+        "term": "alternative",
+        "reading": "/ɔːlˈtɜːrnətɪv/",
+        "meaning": "phương án thay thế",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "We need an alternative plan.",
+                "translation": "Chúng ta cần phương án thay thế."
+            }
+        ]
+    },
+    {
+        "term": "analyze",
+        "reading": "/ˈænəlaɪz/",
+        "meaning": "phân tích",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We need to analyze the data.",
+                "translation": "Chúng ta cần phân tích dữ liệu."
+            }
+        ]
+    },
+    {
+        "term": "anticipate",
+        "reading": "/ænˈtɪsɪpeɪt/",
+        "meaning": "dự đoán, mong đợi",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We anticipate strong sales.",
+                "translation": "Chúng tôi dự đoán doanh số mạnh."
+            }
+        ]
+    },
+    {
+        "term": "apologize",
+        "reading": "/əˈpɑːlədʒaɪz/",
+        "meaning": "xin lỗi",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We apologize for the inconvenience.",
+                "translation": "Chúng tôi xin lỗi vì sự bất tiện."
+            }
+        ]
+    },
+    {
+        "term": "application",
+        "reading": "/ˌæplɪˈkeɪʃn/",
+        "meaning": "đơn xin việc, ứng dụng",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Submit your application online.",
+                "translation": "Nộp đơn của bạn trực tuyến."
+            }
+        ]
+    },
+    {
+        "term": "appreciate",
+        "reading": "/əˈpriːʃieɪt/",
+        "meaning": "đánh giá cao, cảm kích",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We appreciate your help.",
+                "translation": "Chúng tôi đánh giá cao sự giúp đỡ của bạn."
+            }
+        ]
+    },
+    {
+        "term": "appropriate",
+        "reading": "/əˈproʊpriət/",
+        "meaning": "phù hợp, thích hợp",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "This is the appropriate time.",
+                "translation": "Đây là thời điểm thích hợp."
+            }
+        ]
+    },
+    {
+        "term": "arrange",
+        "reading": "/əˈreɪndʒ/",
+        "meaning": "sắp xếp",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "I will arrange the meeting.",
+                "translation": "Tôi sẽ sắp xếp cuộc họp."
+            }
+        ]
+    },
+    {
+        "term": "assembly",
+        "reading": "/əˈsembli/",
+        "meaning": "lắp ráp, hội họp",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The assembly line is ready.",
+                "translation": "Dây chuyền lắp ráp đã sẵn sàng."
+            }
+        ]
+    },
+    {
+        "term": "asset",
+        "reading": "/ˈæset/",
+        "meaning": "tài sản",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The building is a valuable asset.",
+                "translation": "Tòa nhà là tài sản có giá trị."
+            }
+        ]
+    },
+    {
+        "term": "assign",
+        "reading": "/əˈsaɪn/",
+        "meaning": "phân công, giao việc",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "I will assign the task to you.",
+                "translation": "Tôi sẽ giao nhiệm vụ cho bạn."
+            }
+        ]
+    },
+    {
+        "term": "assistance",
+        "reading": "/əˈsɪstəns/",
+        "meaning": "sự hỗ trợ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Do you need any assistance?",
+                "translation": "Bạn cần hỗ trợ gì không?"
+            }
+        ]
+    },
+    {
+        "term": "associate",
+        "reading": "/əˈsoʊʃieɪt/",
+        "meaning": "cộng sự, liên kết",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "He is a business associate.",
+                "translation": "Anh ấy là cộng sự kinh doanh."
+            }
+        ]
+    },
+    {
+        "term": "assure",
+        "reading": "/əˈʃʊr/",
+        "meaning": "đảm bảo",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "I assure you it will be done.",
+                "translation": "Tôi đảm bảo việc sẽ được hoàn thành."
+            }
+        ]
+    },
+    {
+        "term": "attach",
+        "reading": "/əˈtætʃ/",
+        "meaning": "đính kèm",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Please attach the document.",
+                "translation": "Vui lòng đính kèm tài liệu."
+            }
+        ]
+    },
+    {
+        "term": "attempt",
+        "reading": "/əˈtempt/",
+        "meaning": "cố gắng, nỗ lực",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We will attempt to fix it.",
+                "translation": "Chúng tôi sẽ cố gắng sửa."
+            }
+        ]
+    },
+    {
+        "term": "authority",
+        "reading": "/əˈθɔːrəti/",
+        "meaning": "thẩm quyền, cơ quan",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "You have the authority to approve.",
+                "translation": "Bạn có thẩm quyền phê duyệt."
+            }
+        ]
+    },
+    {
+        "term": "authorize",
+        "reading": "/ˈɔːθəraɪz/",
+        "meaning": "ủy quyền, cho phép",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Only managers can authorize this.",
+                "translation": "Chỉ quản lý mới có thể ủy quyền."
+            }
+        ]
+    },
+    {
+        "term": "automobile",
+        "reading": "/ˈɔːtəməbiːl/",
+        "meaning": "ô tô, xe hơi",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The automobile industry is growing.",
+                "translation": "Ngành công nghiệp ô tô đang phát triển."
+            }
+        ]
+    },
+    {
+        "term": "baggage",
+        "reading": "/ˈbæɡɪdʒ/",
+        "meaning": "hành lý",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Please collect your baggage.",
+                "translation": "Vui lòng nhận hành lý của bạn."
+            }
+        ]
+    },
+    {
+        "term": "balance",
+        "reading": "/ˈbæləns/",
+        "meaning": "số dư, cân bằng",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Check your account balance.",
+                "translation": "Kiểm tra số dư tài khoản."
+            }
+        ]
+    },
+    {
+        "term": "banquet",
+        "reading": "/ˈbæŋkwɪt/",
+        "meaning": "tiệc, yến tiệc",
+        "meta_data": {
+            "topic": "Dining",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The banquet hall is reserved.",
+                "translation": "Phòng tiệc đã được đặt trước."
+            }
+        ]
+    },
+    {
+        "term": "benefit",
+        "reading": "/ˈbenɪfɪt/",
+        "meaning": "lợi ích, phúc lợi",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The job includes health benefits.",
+                "translation": "Công việc bao gồm phúc lợi sức khỏe."
+            }
+        ]
+    },
+    {
+        "term": "beverage",
+        "reading": "/ˈbevərɪdʒ/",
+        "meaning": "đồ uống",
+        "meta_data": {
+            "topic": "Dining",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "What beverage would you like?",
+                "translation": "Bạn muốn đồ uống gì?"
+            }
+        ]
+    },
+    {
+        "term": "brochure",
+        "reading": "/broʊˈʃʊr/",
+        "meaning": "tờ rơi, tài liệu quảng cáo",
+        "meta_data": {
+            "topic": "Marketing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Here is our brochure.",
+                "translation": "Đây là tờ rơi của chúng tôi."
+            }
+        ]
+    },
+    {
+        "term": "calculate",
+        "reading": "/ˈkælkjuleɪt/",
+        "meaning": "tính toán",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Please calculate the total cost.",
+                "translation": "Vui lòng tính tổng chi phí."
+            }
+        ]
+    },
+    {
+        "term": "cancel",
+        "reading": "/ˈkænsl/",
+        "meaning": "hủy bỏ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We need to cancel the order.",
+                "translation": "Chúng ta cần hủy đơn hàng."
+            }
+        ]
+    },
+    {
+        "term": "capacity",
+        "reading": "/kəˈpæsəti/",
+        "meaning": "công suất, năng lực",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The factory operates at full capacity.",
+                "translation": "Nhà máy hoạt động hết công suất."
+            }
+        ]
+    },
+    {
+        "term": "cargo",
+        "reading": "/ˈkɑːrɡoʊ/",
+        "meaning": "hàng hóa vận chuyển",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The cargo will arrive tomorrow.",
+                "translation": "Hàng hóa sẽ đến vào ngày mai."
+            }
+        ]
+    },
+    {
+        "term": "catering",
+        "reading": "/ˈkeɪtərɪŋ/",
+        "meaning": "dịch vụ ăn uống",
+        "meta_data": {
+            "topic": "Dining",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "We provide catering services.",
+                "translation": "Chúng tôi cung cấp dịch vụ ăn uống."
+            }
+        ]
+    },
+    {
+        "term": "certificate",
+        "reading": "/sərˈtɪfɪkət/",
+        "meaning": "chứng chỉ, giấy chứng nhận",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "You need a certificate to apply.",
+                "translation": "Bạn cần chứng chỉ để nộp đơn."
+            }
+        ]
+    },
+    {
+        "term": "chairperson",
+        "reading": "/ˈtʃerˌpɜːrsn/",
+        "meaning": "chủ tịch",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The chairperson opened the meeting.",
+                "translation": "Chủ tịch đã mở cuộc họp."
+            }
+        ]
+    },
+    {
+        "term": "characteristic",
+        "reading": "/ˌkærəktəˈrɪstɪk/",
+        "meaning": "đặc điểm",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Quality is our main characteristic.",
+                "translation": "Chất lượng là đặc điểm chính của chúng tôi."
+            }
+        ]
+    },
+    {
+        "term": "client",
+        "reading": "/ˈklaɪənt/",
+        "meaning": "khách hàng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The client requested a meeting.",
+                "translation": "Khách hàng yêu cầu một cuộc họp."
+            }
+        ]
+    },
+    {
+        "term": "collaborate",
+        "reading": "/kəˈlæbəreɪt/",
+        "meaning": "cộng tác, hợp tác",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We will collaborate on this project.",
+                "translation": "Chúng ta sẽ hợp tác trong dự án này."
+            }
+        ]
+    },
+    {
+        "term": "commence",
+        "reading": "/kəˈmens/",
+        "meaning": "bắt đầu",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "The meeting will commence at 9 AM.",
+                "translation": "Cuộc họp sẽ bắt đầu lúc 9 giờ sáng."
+            }
+        ]
+    },
+    {
+        "term": "commission",
+        "reading": "/kəˈmɪʃn/",
+        "meaning": "hoa hồng, ủy ban",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Sales staff earn commission.",
+                "translation": "Nhân viên bán hàng được hoa hồng."
+            }
+        ]
+    },
+    {
+        "term": "commitment",
+        "reading": "/kəˈmɪtmənt/",
+        "meaning": "cam kết",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "We have a commitment to quality.",
+                "translation": "Chúng tôi có cam kết về chất lượng."
+            }
+        ]
+    },
+    {
+        "term": "committee",
+        "reading": "/kəˈmɪti/",
+        "meaning": "ủy ban, hội đồng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The committee will make a decision.",
+                "translation": "Ủy ban sẽ đưa ra quyết định."
+            }
+        ]
+    },
+    {
+        "term": "communicate",
+        "reading": "/kəˈmjuːnɪkeɪt/",
+        "meaning": "giao tiếp, liên lạc",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Please communicate with the team.",
+                "translation": "Vui lòng liên lạc với nhóm."
+            }
+        ]
+    },
+    {
+        "term": "compensate",
+        "reading": "/ˈkɑːmpenseɪt/",
+        "meaning": "bồi thường, đền bù",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We will compensate for the damage.",
+                "translation": "Chúng tôi sẽ bồi thường thiệt hại."
+            }
+        ]
+    },
+    {
+        "term": "competition",
+        "reading": "/ˌkɑːmpəˈtɪʃn/",
+        "meaning": "cạnh tranh, cuộc thi",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The competition is strong.",
+                "translation": "Sự cạnh tranh rất mạnh."
+            }
+        ]
+    }
+]

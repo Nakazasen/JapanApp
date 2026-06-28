@@ -1,0 +1,752 @@
+[
+    {
+        "term": "deadline",
+        "reading": "/ˈdedlaɪn/",
+        "meaning": "hạn chót",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Meet the deadline.",
+                "translation": "Đáp ứng hạn chót."
+            }
+        ]
+    },
+    {
+        "term": "defect",
+        "reading": "/ˈdiːfekt/",
+        "meaning": "khuyết điểm, lỗi",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Report any defects.",
+                "translation": "Báo cáo mọi lỗi."
+            }
+        ]
+    },
+    {
+        "term": "delegate",
+        "reading": "/ˈdelɪɡeɪt/",
+        "meaning": "ủy thác, đại biểu",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Delegate the work.",
+                "translation": "Ủy thác công việc."
+            }
+        ]
+    },
+    {
+        "term": "deliver",
+        "reading": "/dɪˈlɪvər/",
+        "meaning": "giao hàng",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We will deliver tomorrow.",
+                "translation": "Chúng tôi sẽ giao vào ngày mai."
+            }
+        ]
+    },
+    {
+        "term": "demonstrate",
+        "reading": "/ˈdemənstreɪt/",
+        "meaning": "chứng minh, trình diễn",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "I will demonstrate the product.",
+                "translation": "Tôi sẽ trình diễn sản phẩm."
+            }
+        ]
+    },
+    {
+        "term": "department",
+        "reading": "/dɪˈpɑːrtmənt/",
+        "meaning": "phòng ban",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Contact the HR department.",
+                "translation": "Liên hệ phòng nhân sự."
+            }
+        ]
+    },
+    {
+        "term": "describe",
+        "reading": "/dɪˈskraɪb/",
+        "meaning": "mô tả",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Describe the problem.",
+                "translation": "Mô tả vấn đề."
+            }
+        ]
+    },
+    {
+        "term": "determine",
+        "reading": "/dɪˈtɜːrmɪn/",
+        "meaning": "xác định",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We need to determine the cause.",
+                "translation": "Chúng ta cần xác định nguyên nhân."
+            }
+        ]
+    },
+    {
+        "term": "develop",
+        "reading": "/dɪˈveləp/",
+        "meaning": "phát triển",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We develop new products.",
+                "translation": "Chúng tôi phát triển sản phẩm mới."
+            }
+        ]
+    },
+    {
+        "term": "director",
+        "reading": "/dəˈrektər/",
+        "meaning": "giám đốc",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The director approved it.",
+                "translation": "Giám đốc đã phê duyệt."
+            }
+        ]
+    },
+    {
+        "term": "distribute",
+        "reading": "/dɪˈstrɪbjuːt/",
+        "meaning": "phân phối",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We distribute worldwide.",
+                "translation": "Chúng tôi phân phối toàn cầu."
+            }
+        ]
+    },
+    {
+        "term": "document",
+        "reading": "/ˈdɑːkjumənt/",
+        "meaning": "tài liệu",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Sign the document.",
+                "translation": "Ký tài liệu."
+            }
+        ]
+    },
+    {
+        "term": "donate",
+        "reading": "/ˈdoʊneɪt/",
+        "meaning": "quyên góp",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We donate to charity.",
+                "translation": "Chúng tôi quyên góp cho từ thiện."
+            }
+        ]
+    },
+    {
+        "term": "duration",
+        "reading": "/duˈreɪʃn/",
+        "meaning": "thời lượng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The duration is 2 hours.",
+                "translation": "Thời lượng là 2 giờ."
+            }
+        ]
+    },
+    {
+        "term": "efficient",
+        "reading": "/ɪˈfɪʃnt/",
+        "meaning": "hiệu quả",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "This method is efficient.",
+                "translation": "Phương pháp này hiệu quả."
+            }
+        ]
+    },
+    {
+        "term": "eliminate",
+        "reading": "/ɪˈlɪmɪneɪt/",
+        "meaning": "loại bỏ",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Eliminate waste.",
+                "translation": "Loại bỏ lãng phí."
+            }
+        ]
+    },
+    {
+        "term": "emphasize",
+        "reading": "/ˈemfəsaɪz/",
+        "meaning": "nhấn mạnh",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "I emphasize the importance.",
+                "translation": "Tôi nhấn mạnh tầm quan trọng."
+            }
+        ]
+    },
+    {
+        "term": "employee",
+        "reading": "/ɪmˈplɔɪiː/",
+        "meaning": "nhân viên",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "All employees must attend.",
+                "translation": "Tất cả nhân viên phải tham dự."
+            }
+        ]
+    },
+    {
+        "term": "enable",
+        "reading": "/ɪˈneɪbl/",
+        "meaning": "cho phép, kích hoạt",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Enable the feature.",
+                "translation": "Kích hoạt tính năng."
+            }
+        ]
+    },
+    {
+        "term": "encourage",
+        "reading": "/ɪnˈkɜːrɪdʒ/",
+        "meaning": "khuyến khích",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We encourage feedback.",
+                "translation": "Chúng tôi khuyến khích phản hồi."
+            }
+        ]
+    },
+    {
+        "term": "ensure",
+        "reading": "/ɪnˈʃʊr/",
+        "meaning": "đảm bảo",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Ensure quality.",
+                "translation": "Đảm bảo chất lượng."
+            }
+        ]
+    },
+    {
+        "term": "enterprise",
+        "reading": "/ˈentərpraɪz/",
+        "meaning": "doanh nghiệp",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "A growing enterprise.",
+                "translation": "Một doanh nghiệp đang phát triển."
+            }
+        ]
+    },
+    {
+        "term": "entire",
+        "reading": "/ɪnˈtaɪər/",
+        "meaning": "toàn bộ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "The entire team.",
+                "translation": "Toàn bộ nhóm."
+            }
+        ]
+    },
+    {
+        "term": "establish",
+        "reading": "/ɪˈstæblɪʃ/",
+        "meaning": "thành lập",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Establish a company.",
+                "translation": "Thành lập công ty."
+            }
+        ]
+    },
+    {
+        "term": "estimate",
+        "reading": "/ˈestɪmeɪt/",
+        "meaning": "ước tính",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Estimate the cost.",
+                "translation": "Ước tính chi phí."
+            }
+        ]
+    },
+    {
+        "term": "evaluate",
+        "reading": "/ɪˈvæljueɪt/",
+        "meaning": "đánh giá",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Evaluate performance.",
+                "translation": "Đánh giá hiệu suất."
+            }
+        ]
+    },
+    {
+        "term": "exceed",
+        "reading": "/ɪkˈsiːd/",
+        "meaning": "vượt quá",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Sales exceeded targets.",
+                "translation": "Doanh số vượt mục tiêu."
+            }
+        ]
+    },
+    {
+        "term": "exchange",
+        "reading": "/ɪksˈtʃeɪndʒ/",
+        "meaning": "trao đổi",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Exchange currency.",
+                "translation": "Đổi tiền."
+            }
+        ]
+    },
+    {
+        "term": "executive",
+        "reading": "/ɪɡˈzekjətɪv/",
+        "meaning": "giám đốc điều hành",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The executive approved.",
+                "translation": "Giám đốc điều hành đã phê duyệt."
+            }
+        ]
+    },
+    {
+        "term": "exhibit",
+        "reading": "/ɪɡˈzɪbɪt/",
+        "meaning": "trưng bày, triển lãm",
+        "meta_data": {
+            "topic": "Marketing",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Exhibit at the trade show.",
+                "translation": "Trưng bày tại hội chợ."
+            }
+        ]
+    },
+    {
+        "term": "expand",
+        "reading": "/ɪkˈspænd/",
+        "meaning": "mở rộng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Expand the business.",
+                "translation": "Mở rộng kinh doanh."
+            }
+        ]
+    },
+    {
+        "term": "expertise",
+        "reading": "/ˌekspɜːrˈtiːz/",
+        "meaning": "chuyên môn",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Technical expertise.",
+                "translation": "Chuyên môn kỹ thuật."
+            }
+        ]
+    },
+    {
+        "term": "expire",
+        "reading": "/ɪkˈspaɪər/",
+        "meaning": "hết hạn",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "The contract expires.",
+                "translation": "Hợp đồng hết hạn."
+            }
+        ]
+    },
+    {
+        "term": "extend",
+        "reading": "/ɪkˈstend/",
+        "meaning": "gia hạn, mở rộng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Extend the deadline.",
+                "translation": "Gia hạn thời hạn."
+            }
+        ]
+    },
+    {
+        "term": "facility",
+        "reading": "/fəˈsɪləti/",
+        "meaning": "cơ sở, tiện ích",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "A manufacturing facility.",
+                "translation": "Cơ sở sản xuất."
+            }
+        ]
+    },
+    {
+        "term": "feature",
+        "reading": "/ˈfiːtʃər/",
+        "meaning": "tính năng",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "A new feature.",
+                "translation": "Một tính năng mới."
+            }
+        ]
+    },
+    {
+        "term": "fee",
+        "reading": "/fiː/",
+        "meaning": "phí, lệ phí",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Pay the fee.",
+                "translation": "Trả phí."
+            }
+        ]
+    },
+    {
+        "term": "feedback",
+        "reading": "/ˈfiːdbæk/",
+        "meaning": "phản hồi",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Give feedback.",
+                "translation": "Đưa ra phản hồi."
+            }
+        ]
+    },
+    {
+        "term": "figure",
+        "reading": "/ˈfɪɡjər/",
+        "meaning": "con số, hình ảnh",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Sales figures.",
+                "translation": "Số liệu bán hàng."
+            }
+        ]
+    },
+    {
+        "term": "finalize",
+        "reading": "/ˈfaɪnəlaɪz/",
+        "meaning": "hoàn tất",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Finalize the deal.",
+                "translation": "Hoàn tất thỏa thuận."
+            }
+        ]
+    },
+    {
+        "term": "flexible",
+        "reading": "/ˈfleksəbl/",
+        "meaning": "linh hoạt",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Flexible schedule.",
+                "translation": "Lịch làm việc linh hoạt."
+            }
+        ]
+    },
+    {
+        "term": "forecast",
+        "reading": "/ˈfɔːrkæst/",
+        "meaning": "dự báo",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Sales forecast.",
+                "translation": "Dự báo bán hàng."
+            }
+        ]
+    },
+    {
+        "term": "fund",
+        "reading": "/fʌnd/",
+        "meaning": "quỹ, tài trợ",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Investment fund.",
+                "translation": "Quỹ đầu tư."
+            }
+        ]
+    },
+    {
+        "term": "generate",
+        "reading": "/ˈdʒenəreɪt/",
+        "meaning": "tạo ra",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Generate revenue.",
+                "translation": "Tạo ra doanh thu."
+            }
+        ]
+    },
+    {
+        "term": "guarantee",
+        "reading": "/ˌɡærənˈtiː/",
+        "meaning": "bảo đảm",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We guarantee quality.",
+                "translation": "Chúng tôi bảo đảm chất lượng."
+            }
+        ]
+    },
+    {
+        "term": "headquarters",
+        "reading": "/ˈhedˌkwɔːrtərz/",
+        "meaning": "trụ sở chính",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Company headquarters.",
+                "translation": "Trụ sở chính công ty."
+            }
+        ]
+    },
+    {
+        "term": "implement",
+        "reading": "/ˈɪmplɪment/",
+        "meaning": "thực hiện",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Implement the plan.",
+                "translation": "Thực hiện kế hoạch."
+            }
+        ]
+    },
+    {
+        "term": "improve",
+        "reading": "/ɪmˈpruːv/",
+        "meaning": "cải thiện",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Improve quality.",
+                "translation": "Cải thiện chất lượng."
+            }
+        ]
+    },
+    {
+        "term": "income",
+        "reading": "/ˈɪnkʌm/",
+        "meaning": "thu nhập",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Annual income.",
+                "translation": "Thu nhập hàng năm."
+            }
+        ]
+    },
+    {
+        "term": "increase",
+        "reading": "/ɪnˈkriːs/",
+        "meaning": "tăng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Increase production.",
+                "translation": "Tăng sản xuất."
+            }
+        ]
+    }
+]

@@ -1,0 +1,320 @@
+/* Global Reset & Base Styles */
+QWidget {
+    color: {{TEXT_PRIMARY}};
+    font-family: {{FONT_FAMILY}};
+    font-size: {{FONT_SIZE_BASE}};
+    selection-background-color: {{PRIMARY}};
+    selection-color: {{TEXT_PRIMARY}};
+    outline: none;
+}
+
+QMainWindow, QDialog {
+    background-color: {{BG_PRIMARY}};
+}
+
+/* ScrollBars */
+QScrollBar:vertical {
+    border: none;
+    background: {{BG_PRIMARY}};
+    width: 8px;
+    margin: 0px 0px 0px 0px;
+}
+QScrollBar::handle:vertical {
+    background: {{BG_TERTIARY}};
+    min-height: 20px;
+    border-radius: 4px;
+}
+QScrollBar::handle:vertical:hover {
+    background: {{SECONDARY}};
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background: {{BG_PRIMARY}};
+    height: 8px;
+    margin: 0px 0px 0px 0px;
+}
+QScrollBar::handle:horizontal {
+    background: {{BG_TERTIARY}};
+    min-width: 20px;
+    border-radius: 4px;
+}
+
+/* QWidget (Generic) */
+QFrame, QWidget#content_widget {
+    background-color: transparent;
+    border: none;
+}
+
+/* Sidebar Specific */
+QWidget#SidebarWidget {
+    background-color: {{BG_SECONDARY}};
+    border-right: 1px solid {{BORDER}};
+}
+
+/* Buttons */
+QPushButton {
+    background-color: {{BG_TERTIARY}};
+    border: 1px solid {{BORDER}};
+    border-radius: 6px;
+    padding: 8px 16px;
+    color: {{TEXT_PRIMARY}};
+    font-weight: 500;
+}
+QPushButton:hover {
+    background-color: {{SECONDARY_HOVER}};
+    border-color: {{SECONDARY}};
+}
+QPushButton:pressed {
+    background-color: {{BG_SECONDARY}};
+}
+QPushButton:disabled {
+    background-color: {{BG_PRIMARY}};
+    color: {{TEXT_SECONDARY}};
+    border-color: {{BG_TERTIARY}};
+}
+
+/* Primary Button Style (Class based) */
+QPushButton[class="primary"] {
+    background-color: {{PRIMARY}};
+    border: 1px solid {{PRIMARY}};
+    color: white;
+}
+QPushButton[class="primary"]:hover {
+    background-color: {{PRIMARY_HOVER}};
+    border-color: {{PRIMARY_HOVER}};
+}
+QPushButton[class="primary"]:pressed {
+    background-color: {{PRIMARY_PRESSED}};
+}
+
+/* Danger Button Style */
+QPushButton[class="danger"] {
+    background-color: transparent;
+    border: 1px solid {{DANGER}};
+    color: {{DANGER}};
+}
+QPushButton[class="danger"]:hover {
+    background-color: {{DANGER}};
+    color: white;
+}
+
+/* Sidebar Buttons */
+QPushButton[class="nav-btn"] {
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 12px;
+    color: {{TEXT_SECONDARY}};
+    font-size: 14px;
+    min-height: 40px;
+}
+QPushButton[class="nav-btn"]:hover {
+    background-color: {{BG_TERTIARY}};
+    color: {{TEXT_PRIMARY}};
+}
+QPushButton[class="nav-btn"]:checked {
+    background-color: {{BG_TERTIARY}};
+    color: {{PRIMARY}};
+    border-left: 3px solid {{PRIMARY}};
+    font-weight: bold;
+}
+
+/* Input Fields */
+QLineEdit, QTextEdit, QPlainTextEdit, QSpinBox, QComboBox {
+    background-color: {{BG_SECONDARY}};
+    border: 1px solid {{BORDER}};
+    border-radius: 6px;
+    padding: 8px;
+    color: {{TEXT_PRIMARY}};
+}
+QLineEdit:focus, QTextEdit:focus, QPlainTextEdit:focus, QSpinBox:focus, QComboBox:focus {
+    border: 1px solid {{BORDER_FOCUS}};
+    background-color: {{BG_TERTIARY}};
+}
+QLineEdit:disabled {
+    color: {{TEXT_SECONDARY}};
+    background-color: {{BG_PRIMARY}};
+}
+
+/* Tables & Lists */
+QTableWidget, QTreeWidget, QListWidget {
+    background-color: {{BG_SECONDARY}};
+    alternate-background-color: {{BG_PRIMARY}};
+    border: 1px solid {{BORDER}};
+    border-radius: 6px;
+    gridline-color: {{BORDER}};
+}
+QHeaderView::section {
+    background-color: {{BG_TERTIARY}};
+    padding: 6px;
+    border: none;
+    border-bottom: 2px solid {{BORDER}};
+    color: {{TEXT_PRIMARY}};
+    font-weight: bold;
+}
+QTableWidget::item {
+    border-bottom: 1px solid {{BG_PRIMARY}};
+    padding: 5px;
+}
+QTableWidget::item:selected {
+    background-color: {{BG_TERTIARY}};
+    color: {{PRIMARY}};
+}
+
+/* Tab Widget */
+QTabWidget::pane {
+    border: 1px solid {{BORDER}};
+    background-color: {{BG_SECONDARY}};
+    border-radius: 6px;
+}
+QTabBar::tab {
+    background-color: {{BG_PRIMARY}};
+    color: {{TEXT_SECONDARY}};
+    padding: 8px 16px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-right: 2px;
+}
+QTabBar::tab:selected {
+    background-color: {{BG_SECONDARY}};
+    color: {{PRIMARY}};
+    font-weight: bold;
+}
+
+/* Tooltips */
+QToolTip {
+    background-color: {{BG_TERTIARY}};
+    color: {{TEXT_PRIMARY}};
+    border: 1px solid {{BORDER}};
+    padding: 4px;
+    font-size: 12px;
+}
+
+/* GroupBox */
+QGroupBox {
+    border: 1px solid {{BORDER}};
+    border-radius: 6px;
+    margin-top: 1.5em; 
+    padding-top: 10px;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 0 5px;
+    color: {{PRIMARY}};
+    font-weight: bold;
+}
+
+/* Login Specific Styles */
+QWidget#LoginDialog {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 {{BG_PRIMARY}}, stop:1 #E0F2F1);
+}
+
+QFrame#login_card {
+    background-color: {{BG_SECONDARY}};
+    border: 1px solid {{BORDER}};
+    border-radius: 12px;
+}
+
+QLabel#login_title {
+    color: {{PRIMARY}};
+    font-size: 24px;
+    font-weight: bold;
+}
+
+QLabel#login_subtitle {
+    color: {{TEXT_SECONDARY}};
+    font-size: 14px;
+}
+
+/* ==============================================
+   Reading Practice Tab Styles (Contrast Fix)
+   ============================================== */
+
+/* Main Container */
+QWidget#ReadingPracticeTab { background-color: {{BG_PRIMARY}}; }
+
+/* Sidebar */
+QWidget#ReadingPracticeTab QFrame#Sidebar {
+    background-color: {{BG_SECONDARY}};
+    border-right: 1px solid {{BORDER}};
+}
+
+QWidget#ReadingPracticeTab QLabel#SidebarLabel {
+    font-size: 13px; font-weight: 900; color: {{ACCENT}};
+    margin-top: 15px; letter-spacing: 1px;
+}
+
+QWidget#ReadingPracticeTab QLabel#WhiteLabels { color: {{TEXT_SECONDARY}}; }
+
+/* Primary Button */
+QWidget#ReadingPracticeTab QPushButton#PrimaryBtn {
+    background-color: {{SUCCESS}};
+    color: {{TEXT_INVERSE}}; border-radius: 12px; font-weight: bold; padding: 15px;
+    font-size: 14px; border: none;
+}
+QWidget#ReadingPracticeTab QPushButton#PrimaryBtn:hover {
+    background-color: {{SUCCESS_HOVER}};
+}
+
+/* Category List */
+QWidget#ReadingPracticeTab QListWidget { background: transparent; border: none; color: {{TEXT_SECONDARY}}; outline: none; }
+QWidget#ReadingPracticeTab QListWidget::item { padding: 15px; border-bottom: 1px solid {{BORDER}}; }
+QWidget#ReadingPracticeTab QListWidget::item:selected {
+    background: {{BG_TERTIARY}};
+    color: {{ACCENT}};
+    border-left: 4px solid {{ACCENT}};
+    font-weight: bold;
+}
+QWidget#ReadingPracticeTab QListWidget::item:hover:!selected { background: {{BG_TERTIARY}}; }
+
+/* Item List */
+QWidget#ReadingPracticeTab QListWidget#ItemList {
+    background-color: {{BG_PRIMARY}}; border-radius: 12px; border: 1px solid {{BORDER}}; outline: none;
+}
+QWidget#ReadingPracticeTab QListWidget#ItemList::item {
+    padding: 20px; border-bottom: 1px solid {{BORDER}}; color: {{TEXT_PRIMARY}}; font-size: 15px;
+}
+QWidget#ReadingPracticeTab QListWidget#ItemList::item:hover { background: {{BG_SECONDARY}}; }
+QWidget#ReadingPracticeTab QListWidget#ItemList::item:selected {
+    background: {{BG_TERTIARY}};
+    color: {{PRIMARY}};
+    font-weight: bold;
+    border-left: 5px solid {{PRIMARY}};
+}
+
+/* Search Input */
+QWidget#ReadingPracticeTab QLineEdit#SearchInput {
+    background-color: {{BG_SECONDARY}}; border: 1px solid {{BORDER}}; border-radius: 20px; padding: 10px 20px;
+    font-size: 14px; color: {{TEXT_PRIMARY}};
+}
+QWidget#ReadingPracticeTab QLineEdit#SearchInput:focus { border-color: {{PRIMARY}}; }
+
+/* Stat Card */
+QWidget#ReadingPracticeTab QFrame#StatCard {
+    background-color: {{BG_TERTIARY}};
+    border-radius: 12px; padding: 15px;
+    border: 1px solid {{BORDER}};
+}
+
+/* ==============================================
+   Sentence Card Styles
+   ============================================== */
+QFrame#SentenceCard {
+    background-color: {{BG_PRIMARY}}; border-radius: 12px;
+    border: 1px solid {{BORDER}}; margin-bottom: 12px;
+}
+QFrame#SentenceCard:hover { border: 1px solid {{PRIMARY}}; background-color: {{BG_SECONDARY}}; }
+
+QFrame#SentenceCard QLabel#lb_original { font-size: 19px; font-weight: bold; color: {{TEXT_PRIMARY}}; line-height: 1.5; }
+QFrame#SentenceCard QLabel#lb_trans { font-size: 16px; color: {{SUCCESS}}; font-weight: 500; }
+QFrame#SentenceCard QLabel#lb_grammar {
+    font-size: 13px; color: {{TEXT_SECONDARY}}; font-style: italic;
+    background-color: {{BG_TERTIARY}}; padding: 10px; border-radius: 6px; margin-top: 5px;
+}

@@ -1,0 +1,8 @@
+<svg width="320" height="180" viewBox="0 0 320 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="320" height="180" rx="12" fill="#DBEAFE"/>
+<path d="M120 40C120 40 110 140 120 150C130 160 140 140 140 140" stroke="#EF4444" stroke-width="12" stroke-linecap="round"/>
+<path d="M190 40C190 40 180 100 190 110" stroke="#EF4444" stroke-width="12" stroke-linecap="round"/>
+<circle cx="120" cy="40" r="5" fill="black"/>
+<circle cx="190" cy="40" r="5" fill="black"/>
+<text x="160" y="170" font-family="Arial" font-size="14" text-anchor="middle" fill="#1E40AF">Two Eels for 'I'</text>
+</svg>

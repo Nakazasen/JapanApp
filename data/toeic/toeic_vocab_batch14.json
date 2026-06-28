@@ -1,0 +1,752 @@
+[
+    {
+        "term": "function",
+        "reading": "/ˈfʌŋkʃn/",
+        "meaning": "chức năng, buổi lễ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Company function.",
+                "translation": "Buổi tiệc công ty."
+            }
+        ]
+    },
+    {
+        "term": "fund",
+        "reading": "/fʌnd/",
+        "meaning": "quỹ, tài trợ",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Pension fund.",
+                "translation": "Quỹ lương hưu."
+            }
+        ]
+    },
+    {
+        "term": "furniture",
+        "reading": "/ˈfɜːrnɪtʃər/",
+        "meaning": "nội thất",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Office furniture.",
+                "translation": "Nội thất văn phòng."
+            }
+        ]
+    },
+    {
+        "term": "gain",
+        "reading": "/ɡeɪn/",
+        "meaning": "đạt được, lợi nhuận",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Gain market share.",
+                "translation": "Giành thị phần."
+            }
+        ]
+    },
+    {
+        "term": "gap",
+        "reading": "/ɡæp/",
+        "meaning": "khoảng cách, lỗ hổng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Gap in the market.",
+                "translation": "Lỗ hổng thị trường."
+            }
+        ]
+    },
+    {
+        "term": "garage",
+        "reading": "/ɡəˈrɑːʒ/",
+        "meaning": "nhà để xe, xưởng sửa chữa",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Parking garage.",
+                "translation": "Nhà để xe."
+            }
+        ]
+    },
+    {
+        "term": "gate",
+        "reading": "/ɡeɪt/",
+        "meaning": "cổng",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Boarding gate.",
+                "translation": "Cổng lên máy bay."
+            }
+        ]
+    },
+    {
+        "term": "gather",
+        "reading": "/ˈɡæðər/",
+        "meaning": "tụ tập, thu thập",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Gather information.",
+                "translation": "Thu thập thông tin."
+            }
+        ]
+    },
+    {
+        "term": "general",
+        "reading": "/ˈdʒenrəl/",
+        "meaning": "chung",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "General manager.",
+                "translation": "Tổng giám đốc."
+            }
+        ]
+    },
+    {
+        "term": "generate",
+        "reading": "/ˈdʒenəreɪt/",
+        "meaning": "tạo ra",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Generate revenue.",
+                "translation": "Tạo doanh thu."
+            }
+        ]
+    },
+    {
+        "term": "generous",
+        "reading": "/ˈdʒenərəs/",
+        "meaning": "hào phóng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Generous offer.",
+                "translation": "Lời đề nghị hào phóng."
+            }
+        ]
+    },
+    {
+        "term": "gift",
+        "reading": "/ɡɪft/",
+        "meaning": "quà tặng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Free gift.",
+                "translation": "Quà tặng miễn phí."
+            }
+        ]
+    },
+    {
+        "term": "give",
+        "reading": "/ɡɪv/",
+        "meaning": "cho",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Give a presentation.",
+                "translation": "Thuyết trình."
+            }
+        ]
+    },
+    {
+        "term": "glad",
+        "reading": "/ɡlæd/",
+        "meaning": "vui mừng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Glad to meet you.",
+                "translation": "Rất vui được gặp bạn."
+            }
+        ]
+    },
+    {
+        "term": "global",
+        "reading": "/ˈɡloʊbl/",
+        "meaning": "toàn cầu",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Global economy.",
+                "translation": "Nền kinh tế toàn cầu."
+            }
+        ]
+    },
+    {
+        "term": "goal",
+        "reading": "/ɡoʊl/",
+        "meaning": "mục tiêu",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Set a goal.",
+                "translation": "Đặt mục tiêu."
+            }
+        ]
+    },
+    {
+        "term": "goods",
+        "reading": "/ɡʊdz/",
+        "meaning": "hàng hóa",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Consumer goods.",
+                "translation": "Hàng tiêu dùng."
+            }
+        ]
+    },
+    {
+        "term": "grade",
+        "reading": "/ɡreɪd/",
+        "meaning": "cấp bậc, điểm số",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "High grade.",
+                "translation": "Điểm cao."
+            }
+        ]
+    },
+    {
+        "term": "graduate",
+        "reading": "/ˈɡrædʒuət/",
+        "meaning": "tốt nghiệp",
+        "meta_data": {
+            "topic": "Education",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Graduate from college.",
+                "translation": "Tốt nghiệp đại học."
+            }
+        ]
+    },
+    {
+        "term": "grant",
+        "reading": "/ɡrænt/",
+        "meaning": "trợ cấp, ban cho",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Research grant.",
+                "translation": "Trợ cấp nghiên cứu."
+            }
+        ]
+    },
+    {
+        "term": "graph",
+        "reading": "/ɡræf/",
+        "meaning": "biểu đồ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Bar graph.",
+                "translation": "Biểu đồ cột."
+            }
+        ]
+    },
+    {
+        "term": "grateful",
+        "reading": "/ˈɡreɪtfl/",
+        "meaning": "biết ơn",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "I am grateful.",
+                "translation": "Tôi rất biết ơn."
+            }
+        ]
+    },
+    {
+        "term": "grocery",
+        "reading": "/ˈɡroʊsəri/",
+        "meaning": "cửa hàng tạp hóa",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Grocery shopping.",
+                "translation": "Đi chợ."
+            }
+        ]
+    },
+    {
+        "term": "gross",
+        "reading": "/ɡroʊs/",
+        "meaning": "tổng (thu nhập)",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Gross income.",
+                "translation": "Tổng thu nhập."
+            }
+        ]
+    },
+    {
+        "term": "grow",
+        "reading": "/ɡroʊ/",
+        "meaning": "phát triển, tăng trưởng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Grow the business.",
+                "translation": "Phát triển kinh doanh."
+            }
+        ]
+    },
+    {
+        "term": "growth",
+        "reading": "/ɡroʊθ/",
+        "meaning": "sự tăng trưởng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Economic growth.",
+                "translation": "Tăng trưởng kinh tế."
+            }
+        ]
+    },
+    {
+        "term": "guarantee",
+        "reading": "/ˌɡærənˈtiː/",
+        "meaning": "đảm bảo, bảo hành",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Satisfaction guarantee.",
+                "translation": "Đảm bảo sự hài lòng."
+            }
+        ]
+    },
+    {
+        "term": "guard",
+        "reading": "/ɡɑːrd/",
+        "meaning": "bảo vệ",
+        "meta_data": {
+            "topic": "Security",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Security guard.",
+                "translation": "Nhân viên bảo vệ."
+            }
+        ]
+    },
+    {
+        "term": "guest",
+        "reading": "/ɡest/",
+        "meaning": "khách",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Guest speaker.",
+                "translation": "Diễn giả khách mời."
+            }
+        ]
+    },
+    {
+        "term": "guide",
+        "reading": "/ɡaɪd/",
+        "meaning": "hướng dẫn viên, sách hướng dẫn",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Tour guide.",
+                "translation": "Hướng dẫn viên du lịch."
+            }
+        ]
+    },
+    {
+        "term": "guideline",
+        "reading": "/ˈɡaɪdlaɪn/",
+        "meaning": "nguyên tắc chỉ đạo",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Follow guidelines.",
+                "translation": "Tuân theo các nguyên tắc."
+            }
+        ]
+    },
+    {
+        "term": "habit",
+        "reading": "/ˈhæbɪt/",
+        "meaning": "thói quen",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Spending habits.",
+                "translation": "Thói quen chi tiêu."
+            }
+        ]
+    },
+    {
+        "term": "hand",
+        "reading": "/hænd/",
+        "meaning": "tay, đưa",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Hand in a report.",
+                "translation": "Nộp báo cáo."
+            }
+        ]
+    },
+    {
+        "term": "handle",
+        "reading": "/ˈhændl/",
+        "meaning": "xử lý",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Handle complaints.",
+                "translation": "Xử lý khiếu nại."
+            }
+        ]
+    },
+    {
+        "term": "handout",
+        "reading": "/ˈhændaʊt/",
+        "meaning": "tài liệu phát tay",
+        "meta_data": {
+            "topic": "Education",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Read the handout.",
+                "translation": "Đọc tài liệu phát tay."
+            }
+        ]
+    },
+    {
+        "term": "hang",
+        "reading": "/hæŋ/",
+        "meaning": "treo",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Hang a picture.",
+                "translation": "Treo bức tranh."
+            }
+        ]
+    },
+    {
+        "term": "happen",
+        "reading": "/ˈhæpən/",
+        "meaning": "xảy ra",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "What happened?",
+                "translation": "Chuyện gì đã xảy ra?"
+            }
+        ]
+    },
+    {
+        "term": "hard",
+        "reading": "/hɑːrd/",
+        "meaning": "khó, chăm chỉ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Work hard.",
+                "translation": "Làm việc chăm chỉ."
+            }
+        ]
+    },
+    {
+        "term": "hardly",
+        "reading": "/ˈhɑːrdli/",
+        "meaning": "hầu như không",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adv"
+        },
+        "examples": [
+            {
+                "sentence": "Hardly working.",
+                "translation": "Hầu như không làm việc."
+            }
+        ]
+    },
+    {
+        "term": "hardware",
+        "reading": "/ˈhɑːrdwer/",
+        "meaning": "phần cứng",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Computer hardware.",
+                "translation": "Phần cứng máy tính."
+            }
+        ]
+    },
+    {
+        "term": "harmful",
+        "reading": "/ˈhɑːrmfl/",
+        "meaning": "có hại",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Harmful chemicals.",
+                "translation": "Hóa chất độc hại."
+            }
+        ]
+    },
+    {
+        "term": "head",
+        "reading": "/hed/",
+        "meaning": "trưởng, đầu não",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Head of department.",
+                "translation": "Trưởng phòng."
+            }
+        ]
+    },
+    {
+        "term": "headquarters",
+        "reading": "/ˈhedkwɔːrtərz/",
+        "meaning": "trụ sở chính",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Company headquarters.",
+                "translation": "Trụ sở công ty."
+            }
+        ]
+    },
+    {
+        "term": "health",
+        "reading": "/helθ/",
+        "meaning": "sức khỏe",
+        "meta_data": {
+            "topic": "Health",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Health insurance.",
+                "translation": "Bảo hiểm y tế."
+            }
+        ]
+    },
+    {
+        "term": "healthy",
+        "reading": "/ˈhelθi/",
+        "meaning": "khỏe mạnh",
+        "meta_data": {
+            "topic": "Health",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Healthy lifestyle.",
+                "translation": "Lối sống lành mạnh."
+            }
+        ]
+    },
+    {
+        "term": "hear",
+        "reading": "/hɪr/",
+        "meaning": "nghe",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Did you hear?",
+                "translation": "Bạn có nghe thấy không?"
+            }
+        ]
+    },
+    {
+        "term": "heavy",
+        "reading": "/ˈhevi/",
+        "meaning": "nặng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Heavy rain.",
+                "translation": "Mưa to."
+            }
+        ]
+    },
+    {
+        "term": "help",
+        "reading": "/help/",
+        "meaning": "giúp đỡ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Help me.",
+                "translation": "Giúp tôi."
+            }
+        ]
+    },
+    {
+        "term": "helpful",
+        "reading": "/ˈhelpfl/",
+        "meaning": "hữu ích",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Helpful advice.",
+                "translation": "Lời khuyên hữu ích."
+            }
+        ]
+    },
+    {
+        "term": "hesitate",
+        "reading": "/ˈhezɪteɪt/",
+        "meaning": "do dự",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Don't hesitate.",
+                "translation": "Đừng ngần ngại."
+            }
+        ]
+    }
+]

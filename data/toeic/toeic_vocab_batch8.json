@@ -1,0 +1,752 @@
+[
+    {
+        "term": "amount",
+        "reading": "/əˈmaʊnt/",
+        "meaning": "số lượng",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Total amount.",
+                "translation": "Tổng số lượng."
+            }
+        ]
+    },
+    {
+        "term": "announce",
+        "reading": "/əˈnaʊns/",
+        "meaning": "thông báo",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Announce the news.",
+                "translation": "Thông báo tin tức."
+            }
+        ]
+    },
+    {
+        "term": "announcement",
+        "reading": "/əˈnaʊnsmənt/",
+        "meaning": "thông báo (danh từ)",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Make an announcement.",
+                "translation": "Đưa ra thông báo."
+            }
+        ]
+    },
+    {
+        "term": "anticipation",
+        "reading": "/ænˌtɪsɪˈpeɪʃn/",
+        "meaning": "sự dự đoán, mong đợi",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "In anticipation of.",
+                "translation": "Trong sự mong đợi."
+            }
+        ]
+    },
+    {
+        "term": "apology",
+        "reading": "/əˈpɑːlədʒi/",
+        "meaning": "lời xin lỗi",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Accept my apology.",
+                "translation": "Chấp nhận lời xin lỗi của tôi."
+            }
+        ]
+    },
+    {
+        "term": "appeal",
+        "reading": "/əˈpiːl/",
+        "meaning": "kháng cáo, hấp dẫn",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Appeal to the public.",
+                "translation": "Kêu gọi công chúng."
+            }
+        ]
+    },
+    {
+        "term": "applicant",
+        "reading": "/ˈæplɪkənt/",
+        "meaning": "ứng viên",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Job applicant.",
+                "translation": "Người xin việc."
+            }
+        ]
+    },
+    {
+        "term": "apply",
+        "reading": "/əˈplaɪ/",
+        "meaning": "nộp đơn, áp dụng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Apply for a job.",
+                "translation": "Xin việc."
+            }
+        ]
+    },
+    {
+        "term": "appoint",
+        "reading": "/əˈpɔɪnt/",
+        "meaning": "bổ nhiệm",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Appoint a manager.",
+                "translation": "Bổ nhiệm quản lý."
+            }
+        ]
+    },
+    {
+        "term": "appraise",
+        "reading": "/əˈpreɪz/",
+        "meaning": "đánh giá",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Appraise performance.",
+                "translation": "Đánh giá hiệu suất."
+            }
+        ]
+    },
+    {
+        "term": "approval",
+        "reading": "/əˈpruːvl/",
+        "meaning": "sự phê duyệt",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Wait for approval.",
+                "translation": "Chờ phê duyệt."
+            }
+        ]
+    },
+    {
+        "term": "approve",
+        "reading": "/əˈpruːv/",
+        "meaning": "phê duyệt",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Approve the budget.",
+                "translation": "Phê duyệt ngân sách."
+            }
+        ]
+    },
+    {
+        "term": "approximate",
+        "reading": "/əˈprɑːksɪmət/",
+        "meaning": "xấp xỉ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Approximate cost.",
+                "translation": "Chi phí xấp xỉ."
+            }
+        ]
+    },
+    {
+        "term": "arrival",
+        "reading": "/əˈraɪvl/",
+        "meaning": "sự đến",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Arrival time.",
+                "translation": "Giờ đến."
+            }
+        ]
+    },
+    {
+        "term": "arrive",
+        "reading": "/əˈraɪv/",
+        "meaning": "đến",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Arrive at the airport.",
+                "translation": "Đến sân bay."
+            }
+        ]
+    },
+    {
+        "term": "article",
+        "reading": "/ˈɑːrtɪkl/",
+        "meaning": "bài báo",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Read an article.",
+                "translation": "Đọc một bài báo."
+            }
+        ]
+    },
+    {
+        "term": "assess",
+        "reading": "/əˈses/",
+        "meaning": "đánh giá",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Assess the situation.",
+                "translation": "Đánh giá tình hình."
+            }
+        ]
+    },
+    {
+        "term": "assignment",
+        "reading": "/əˈsaɪnmənt/",
+        "meaning": "bài tập, nhiệm vụ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Complete the assignment.",
+                "translation": "Hoàn thành nhiệm vụ."
+            }
+        ]
+    },
+    {
+        "term": "assist",
+        "reading": "/əˈsɪst/",
+        "meaning": "hỗ trợ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Assist customers.",
+                "translation": "Hỗ trợ khách hàng."
+            }
+        ]
+    },
+    {
+        "term": "assistant",
+        "reading": "/əˈsɪstənt/",
+        "meaning": "trợ lý",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Personal assistant.",
+                "translation": "Trợ lý cá nhân."
+            }
+        ]
+    },
+    {
+        "term": "association",
+        "reading": "/əˌsoʊʃiˈeɪʃn/",
+        "meaning": "hiệp hội",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Trade association.",
+                "translation": "Hiệp hội thương mại."
+            }
+        ]
+    },
+    {
+        "term": "assume",
+        "reading": "/əˈsuːm/",
+        "meaning": "giả sử, đảm nhận",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Assume responsibility.",
+                "translation": "Đảm nhận trách nhiệm."
+            }
+        ]
+    },
+    {
+        "term": "atmosphere",
+        "reading": "/ˈætməsfɪr/",
+        "meaning": "bầu không khí",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Friendly atmosphere.",
+                "translation": "Bầu không khí thân thiện."
+            }
+        ]
+    },
+    {
+        "term": "attach",
+        "reading": "/əˈtætʃ/",
+        "meaning": "đính kèm",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Attach a file.",
+                "translation": "Đính kèm tệp."
+            }
+        ]
+    },
+    {
+        "term": "attachment",
+        "reading": "/əˈtætʃmənt/",
+        "meaning": "tệp đính kèm",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Open the attachment.",
+                "translation": "Mở tệp đính kèm."
+            }
+        ]
+    },
+    {
+        "term": "attendee",
+        "reading": "/əˌtenˈdiː/",
+        "meaning": "người tham dự",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Conference attendee.",
+                "translation": "Người tham dự hội nghị."
+            }
+        ]
+    },
+    {
+        "term": "attention",
+        "reading": "/əˈtenʃn/",
+        "meaning": "sự chú ý",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Pay attention.",
+                "translation": "Chú ý."
+            }
+        ]
+    },
+    {
+        "term": "attract",
+        "reading": "/əˈtrækt/",
+        "meaning": "thu hút",
+        "meta_data": {
+            "topic": "Marketing",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Attract customers.",
+                "translation": "Thu hút khách hàng."
+            }
+        ]
+    },
+    {
+        "term": "audience",
+        "reading": "/ˈɔːdiəns/",
+        "meaning": "khán giả",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Target audience.",
+                "translation": "Khán giả mục tiêu."
+            }
+        ]
+    },
+    {
+        "term": "audit",
+        "reading": "/ˈɔːdɪt/",
+        "meaning": "kiểm toán",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Audit the accounts.",
+                "translation": "Kiểm toán tài khoản."
+            }
+        ]
+    },
+    {
+        "term": "auditorium",
+        "reading": "/ˌɔːdɪˈtɔːriəm/",
+        "meaning": "thính phòng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "School auditorium.",
+                "translation": "Thính phòng trường học."
+            }
+        ]
+    },
+    {
+        "term": "available",
+        "reading": "/əˈveɪləbl/",
+        "meaning": "có sẵn",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Available now.",
+                "translation": "Hiện có sẵn."
+            }
+        ]
+    },
+    {
+        "term": "average",
+        "reading": "/ˈævərɪdʒ/",
+        "meaning": "trung bình",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Average cost.",
+                "translation": "Chi phí trung bình."
+            }
+        ]
+    },
+    {
+        "term": "avoid",
+        "reading": "/əˈvɔɪd/",
+        "meaning": "tránh",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Avoid mistakes.",
+                "translation": "Tránh sai lầm."
+            }
+        ]
+    },
+    {
+        "term": "announce",
+        "reading": "/əˈnaʊns/",
+        "meaning": "tuyên bố",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Announce the winner.",
+                "translation": "Tuyên bố người chiến thắng."
+            }
+        ]
+    },
+    {
+        "term": "award",
+        "reading": "/əˈwɔːrd/",
+        "meaning": "giải thưởng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Win an award.",
+                "translation": "Giành giải thưởng."
+            }
+        ]
+    },
+    {
+        "term": "aware",
+        "reading": "/əˈwer/",
+        "meaning": "nhận thức",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Be aware of risks.",
+                "translation": "Nhận thức rủi ro."
+            }
+        ]
+    },
+    {
+        "term": "background",
+        "reading": "/ˈbækɡraʊnd/",
+        "meaning": "nền tảng",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Educational background.",
+                "translation": "Nền tảng giáo dục."
+            }
+        ]
+    },
+    {
+        "term": "badge",
+        "reading": "/bædʒ/",
+        "meaning": "huy hiệu, thẻ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "ID badge.",
+                "translation": "Thẻ ID."
+            }
+        ]
+    },
+    {
+        "term": "balance",
+        "reading": "/ˈbæləns/",
+        "meaning": "cân bằng",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Balance the books.",
+                "translation": "Cân đối sổ sách."
+            }
+        ]
+    },
+    {
+        "term": "bankrupt",
+        "reading": "/ˈbæŋkrʌpt/",
+        "meaning": "phá sản",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Go bankrupt.",
+                "translation": "Bị phá sản."
+            }
+        ]
+    },
+    {
+        "term": "bargain",
+        "reading": "/ˈbɑːrɡən/",
+        "meaning": "mặc cả, món hời",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "A good bargain.",
+                "translation": "Một món hời."
+            }
+        ]
+    },
+    {
+        "term": "base",
+        "reading": "/beɪs/",
+        "meaning": "cơ sở, dựa vào",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Based on data.",
+                "translation": "Dựa trên dữ liệu."
+            }
+        ]
+    },
+    {
+        "term": "basis",
+        "reading": "/ˈbeɪsɪs/",
+        "meaning": "nền tảng, cơ sở (danh từ)",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "On a daily basis.",
+                "translation": "Hàng ngày."
+            }
+        ]
+    },
+    {
+        "term": "behavior",
+        "reading": "/bɪˈheɪvjər/",
+        "meaning": "hành vi",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Professional behavior.",
+                "translation": "Hành vi chuyên nghiệp."
+            }
+        ]
+    },
+    {
+        "term": "belief",
+        "reading": "/bɪˈliːf/",
+        "meaning": "niềm tin",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Core beliefs.",
+                "translation": "Niềm tin cốt lõi."
+            }
+        ]
+    },
+    {
+        "term": "belong",
+        "reading": "/bɪˈlɔːŋ/",
+        "meaning": "thuộc về",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Belong to a group.",
+                "translation": "Thuộc về một nhóm."
+            }
+        ]
+    },
+    {
+        "term": "beneficial",
+        "reading": "/ˌbenɪˈfɪʃl/",
+        "meaning": "có lợi",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Beneficial to health.",
+                "translation": "Có lợi cho sức khỏe."
+            }
+        ]
+    },
+    {
+        "term": "bid",
+        "reading": "/bɪd/",
+        "meaning": "đấu thầu",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Bid for a contract.",
+                "translation": "Đấu thầu hợp đồng."
+            }
+        ]
+    },
+    {
+        "term": "bill",
+        "reading": "/bɪl/",
+        "meaning": "hóa đơn (điện, nước)",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Electricity bill.",
+                "translation": "Hóa đơn tiền điện."
+            }
+        ]
+    }
+]

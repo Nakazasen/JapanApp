@@ -1,0 +1,752 @@
+[
+    {
+        "term": "convention",
+        "reading": "/kənˈvenʃn/",
+        "meaning": "hội nghị, quy ước",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Annual convention.",
+                "translation": "Hội nghị thường niên."
+            }
+        ]
+    },
+    {
+        "term": "convert",
+        "reading": "/kənˈvɜːrt/",
+        "meaning": "chuyển đổi",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Convert files.",
+                "translation": "Chuyển đổi tệp."
+            }
+        ]
+    },
+    {
+        "term": "convince",
+        "reading": "/kənˈvɪns/",
+        "meaning": "thuyết phục",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Convince the client.",
+                "translation": "Thuyết phục khách hàng."
+            }
+        ]
+    },
+    {
+        "term": "cooperate",
+        "reading": "/koʊˈɑːpəreɪt/",
+        "meaning": "hợp tác",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Cooperate with others.",
+                "translation": "Hợp tác với người khác."
+            }
+        ]
+    },
+    {
+        "term": "coordinate",
+        "reading": "/koʊˈɔːrdɪneɪt/",
+        "meaning": "phối hợp",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Coordinate the project.",
+                "translation": "Phối hợp dự án."
+            }
+        ]
+    },
+    {
+        "term": "copy",
+        "reading": "/ˈkɑːpi/",
+        "meaning": "bản sao",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Make a copy.",
+                "translation": "Tạo bản sao."
+            }
+        ]
+    },
+    {
+        "term": "core",
+        "reading": "/kɔːr/",
+        "meaning": "cốt lõi",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Core business.",
+                "translation": "Kinh doanh cốt lõi."
+            }
+        ]
+    },
+    {
+        "term": "corporate",
+        "reading": "/ˈkɔːrpərət/",
+        "meaning": "doanh nghiệp",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Corporate event.",
+                "translation": "Sự kiện doanh nghiệp."
+            }
+        ]
+    },
+    {
+        "term": "corporation",
+        "reading": "/ˌkɔːrpəˈreɪʃn/",
+        "meaning": "tập đoàn",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Large corporation.",
+                "translation": "Tập đoàn lớn."
+            }
+        ]
+    },
+    {
+        "term": "correct",
+        "reading": "/kəˈrekt/",
+        "meaning": "đúng, sửa",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Correct address.",
+                "translation": "Địa chỉ đúng."
+            }
+        ]
+    },
+    {
+        "term": "cost",
+        "reading": "/kɔːst/",
+        "meaning": "chi phí",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Cost estimate.",
+                "translation": "Ước tính chi phí."
+            }
+        ]
+    },
+    {
+        "term": "costume",
+        "reading": "/ˈkɑːstuːm/",
+        "meaning": "trang phục",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Stage costume.",
+                "translation": "Trang phục sân khấu."
+            }
+        ]
+    },
+    {
+        "term": "council",
+        "reading": "/ˈkaʊnsl/",
+        "meaning": "hội đồng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "City council.",
+                "translation": "Hội đồng thành phố."
+            }
+        ]
+    },
+    {
+        "term": "counsel",
+        "reading": "/ˈkaʊnsl/",
+        "meaning": "tư vấn, luật sư",
+        "meta_data": {
+            "topic": "Legal",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Seek counsel.",
+                "translation": "Tìm tư vấn."
+            }
+        ]
+    },
+    {
+        "term": "count",
+        "reading": "/kaʊnt/",
+        "meaning": "đếm",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Count inventory.",
+                "translation": "Kiểm kê hàng tồn kho."
+            }
+        ]
+    },
+    {
+        "term": "counter",
+        "reading": "/ˈkaʊntər/",
+        "meaning": "quầy",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Checkout counter.",
+                "translation": "Quầy thanh toán."
+            }
+        ]
+    },
+    {
+        "term": "courier",
+        "reading": "/ˈkʊriər/",
+        "meaning": "người chuyển phát",
+        "meta_data": {
+            "topic": "Logistics",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Send by courier.",
+                "translation": "Gửi bằng chuyển phát nhanh."
+            }
+        ]
+    },
+    {
+        "term": "course",
+        "reading": "/kɔːrs/",
+        "meaning": "khóa học",
+        "meta_data": {
+            "topic": "Education",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Training course.",
+                "translation": "Khóa đào tạo."
+            }
+        ]
+    },
+    {
+        "term": "cover",
+        "reading": "/ˈkʌvər/",
+        "meaning": "bao gồm, che phủ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Cover the costs.",
+                "translation": "Chi trả chi phí."
+            }
+        ]
+    },
+    {
+        "term": "coverage",
+        "reading": "/ˈkʌvərɪdʒ/",
+        "meaning": "phạm vi bảo hiểm",
+        "meta_data": {
+            "topic": "Insurance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Insurance coverage.",
+                "translation": "Phạm vi bảo hiểm."
+            }
+        ]
+    },
+    {
+        "term": "create",
+        "reading": "/kriˈeɪt/",
+        "meaning": "tạo ra",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Create an account.",
+                "translation": "Tạo tài khoản."
+            }
+        ]
+    },
+    {
+        "term": "creative",
+        "reading": "/kriˈeɪtɪv/",
+        "meaning": "sáng tạo",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Creative idea.",
+                "translation": "Ý tưởng sáng tạo."
+            }
+        ]
+    },
+    {
+        "term": "credit",
+        "reading": "/ˈkredɪt/",
+        "meaning": "tín dụng",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Credit card.",
+                "translation": "Thẻ tín dụng."
+            }
+        ]
+    },
+    {
+        "term": "crew",
+        "reading": "/kruː/",
+        "meaning": "phi hành đoàn, đội",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Cabin crew.",
+                "translation": "Phi hành đoàn."
+            }
+        ]
+    },
+    {
+        "term": "crisis",
+        "reading": "/ˈkraɪsɪs/",
+        "meaning": "khủng hoảng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Economic crisis.",
+                "translation": "Khủng hoảng kinh tế."
+            }
+        ]
+    },
+    {
+        "term": "criteria",
+        "reading": "/kraɪˈtɪriə/",
+        "meaning": "tiêu chí",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Selection criteria.",
+                "translation": "Tiêu chí lựa chọn."
+            }
+        ]
+    },
+    {
+        "term": "critical",
+        "reading": "/ˈkrɪtɪkl/",
+        "meaning": "quan trọng, phê bình",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Critical factor.",
+                "translation": "Yếu tố quan trọng."
+            }
+        ]
+    },
+    {
+        "term": "criticize",
+        "reading": "/ˈkrɪtɪsaɪz/",
+        "meaning": "phê bình",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Don't criticize.",
+                "translation": "Đừng phê bình."
+            }
+        ]
+    },
+    {
+        "term": "cross",
+        "reading": "/krɔːs/",
+        "meaning": "băng qua",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Cross the street.",
+                "translation": "Băng qua đường."
+            }
+        ]
+    },
+    {
+        "term": "crowd",
+        "reading": "/kraʊd/",
+        "meaning": "đám đông",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Large crowd.",
+                "translation": "Đám đông lớn."
+            }
+        ]
+    },
+    {
+        "term": "crucial",
+        "reading": "/ˈkruːʃl/",
+        "meaning": "cốt yếu",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Crucial decision.",
+                "translation": "Quyết định cốt yếu."
+            }
+        ]
+    },
+    {
+        "term": "cruise",
+        "reading": "/kruːz/",
+        "meaning": "chuyến du ngoạn",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Cruise ship.",
+                "translation": "Tàu du lịch."
+            }
+        ]
+    },
+    {
+        "term": "currency",
+        "reading": "/ˈkɜːrənsi/",
+        "meaning": "tiền tệ",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Foreign currency.",
+                "translation": "Ngoại tệ."
+            }
+        ]
+    },
+    {
+        "term": "current",
+        "reading": "/ˈkɜːrənt/",
+        "meaning": "hiện tại",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Current status.",
+                "translation": "Trạng thái hiện tại."
+            }
+        ]
+    },
+    {
+        "term": "curriculum",
+        "reading": "/kəˈrɪkjələm/",
+        "meaning": "chương trình giảng dạy",
+        "meta_data": {
+            "topic": "Education",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "School curriculum.",
+                "translation": "Chương trình học."
+            }
+        ]
+    },
+    {
+        "term": "custom",
+        "reading": "/ˈkʌstəm/",
+        "meaning": "phong tục, tùy chỉnh",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Local custom.",
+                "translation": "Phong tục địa phương."
+            }
+        ]
+    },
+    {
+        "term": "customer",
+        "reading": "/ˈkʌstəmər/",
+        "meaning": "khách hàng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Satisfied customer.",
+                "translation": "Khách hàng hài lòng."
+            }
+        ]
+    },
+    {
+        "term": "customs",
+        "reading": "/ˈkʌstəmz/",
+        "meaning": "hải quan",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Clear customs.",
+                "translation": "Thông quan."
+            }
+        ]
+    },
+    {
+        "term": "cycle",
+        "reading": "/ˈsaɪkl/",
+        "meaning": "chu kỳ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Business cycle.",
+                "translation": "Chu kỳ kinh doanh."
+            }
+        ]
+    },
+    {
+        "term": "daily",
+        "reading": "/ˈdeɪli/",
+        "meaning": "hàng ngày",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Daily routine.",
+                "translation": "Thói quen hàng ngày."
+            }
+        ]
+    },
+    {
+        "term": "damage",
+        "reading": "/ˈdæmɪdʒ/",
+        "meaning": "thiệt hại",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Assess damage.",
+                "translation": "Đánh giá thiệt hại."
+            }
+        ]
+    },
+    {
+        "term": "data",
+        "reading": "/ˈdeɪtə/",
+        "meaning": "dữ liệu",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Data analysis.",
+                "translation": "Phân tích dữ liệu."
+            }
+        ]
+    },
+    {
+        "term": "date",
+        "reading": "/deɪt/",
+        "meaning": "ngày, hẹn hò",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Due date.",
+                "translation": "Ngày đáo hạn."
+            }
+        ]
+    },
+    {
+        "term": "deal",
+        "reading": "/diːl/",
+        "meaning": "thỏa thuận",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Close a deal.",
+                "translation": "Chốt thỏa thuận."
+            }
+        ]
+    },
+    {
+        "term": "dealer",
+        "reading": "/ˈdiːlər/",
+        "meaning": "người buôn bán",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Car dealer.",
+                "translation": "Đại lý xe hơi."
+            }
+        ]
+    },
+    {
+        "term": "debate",
+        "reading": "/dɪˈbeɪt/",
+        "meaning": "tranh luận",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Debate an issue.",
+                "translation": "Tranh luận về một vấn đề."
+            }
+        ]
+    },
+    {
+        "term": "debt",
+        "reading": "/det/",
+        "meaning": "nợ",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Pay off debt.",
+                "translation": "Trả hết nợ."
+            }
+        ]
+    },
+    {
+        "term": "decade",
+        "reading": "/ˈdekeɪd/",
+        "meaning": "thập kỷ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Last decade.",
+                "translation": "Thập kỷ trước."
+            }
+        ]
+    },
+    {
+        "term": "decide",
+        "reading": "/dɪˈsaɪd/",
+        "meaning": "quyết định",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Decide quickly.",
+                "translation": "Quyết định nhanh chóng."
+            }
+        ]
+    },
+    {
+        "term": "decision",
+        "reading": "/dɪˈsɪʒn/",
+        "meaning": "quyết định (danh từ)",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Final decision.",
+                "translation": "Quyết định cuối cùng."
+            }
+        ]
+    }
+]

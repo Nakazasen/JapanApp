@@ -1,0 +1,7 @@
+<svg width="320" height="180" viewBox="0 0 320 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="320" height="180" rx="12" fill="#FCE7F3"/>
+<path d="M140 30L180 30" stroke="#EF4444" stroke-width="10" stroke-linecap="round"/>
+<path d="M120 60C120 60 220 60 220 110C220 160 160 160 140 140" stroke="#EF4444" stroke-width="10" stroke-linecap="round"/>
+<path d="M120 100C100 120 100 160 120 170" stroke="#9D174D" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 4"/>
+<text x="160" y="170" font-family="Arial" font-size="14" text-anchor="middle" fill="#831843">Heavy weight (Ugh!) for 'U'</text>
+</svg>

@@ -1,0 +1,752 @@
+[
+    {
+        "term": "fabric",
+        "reading": "/ˈfæbrɪk/",
+        "meaning": "vải",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Silk fabric.",
+                "translation": "Vải lụa."
+            }
+        ]
+    },
+    {
+        "term": "facility",
+        "reading": "/fəˈsɪləti/",
+        "meaning": "cơ sở vật chất",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Sports facility.",
+                "translation": "Cơ sở thể thao."
+            }
+        ]
+    },
+    {
+        "term": "factor",
+        "reading": "/ˈfæktər/",
+        "meaning": "yếu tố",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Key factor.",
+                "translation": "Yếu tố chính."
+            }
+        ]
+    },
+    {
+        "term": "factory",
+        "reading": "/ˈfæktri/",
+        "meaning": "nhà máy",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Car factory.",
+                "translation": "Nhà máy ô tô."
+            }
+        ]
+    },
+    {
+        "term": "fail",
+        "reading": "/feɪl/",
+        "meaning": "thất bại",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Fail to comply.",
+                "translation": "Không tuân thủ."
+            }
+        ]
+    },
+    {
+        "term": "failure",
+        "reading": "/ˈfeɪljər/",
+        "meaning": "sự thất bại",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "System failure.",
+                "translation": "Lỗi hệ thống."
+            }
+        ]
+    },
+    {
+        "term": "fair",
+        "reading": "/fer/",
+        "meaning": "công bằng, hội chợ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Job fair.",
+                "translation": "Hội chợ việc làm."
+            }
+        ]
+    },
+    {
+        "term": "faith",
+        "reading": "/feɪθ/",
+        "meaning": "niềm tin",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Have faith.",
+                "translation": "Có niềm tin."
+            }
+        ]
+    },
+    {
+        "term": "fall",
+        "reading": "/fɔːl/",
+        "meaning": "rơi, giảm",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Profits fall.",
+                "translation": "Lợi nhuận giảm."
+            }
+        ]
+    },
+    {
+        "term": "familiar",
+        "reading": "/fəˈmɪliər/",
+        "meaning": "quen thuộc",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Look familiar.",
+                "translation": "Trông quen thuộc."
+            }
+        ]
+    },
+    {
+        "term": "fare",
+        "reading": "/fer/",
+        "meaning": "giá vé",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Bus fare.",
+                "translation": "Giá vé xe buýt."
+            }
+        ]
+    },
+    {
+        "term": "fashion",
+        "reading": "/ˈfæʃn/",
+        "meaning": "thời trang",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Fashion show.",
+                "translation": "Show diễn thời trang."
+            }
+        ]
+    },
+    {
+        "term": "fasten",
+        "reading": "/ˈfæsn/",
+        "meaning": "thắt, buộc",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Fasten your seatbelt.",
+                "translation": "Thắt dây an toàn."
+            }
+        ]
+    },
+    {
+        "term": "favor",
+        "reading": "/ˈfeɪvər/",
+        "meaning": "ủng hộ, ân huệ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Do a favor.",
+                "translation": "Làm giúp một việc."
+            }
+        ]
+    },
+    {
+        "term": "favorable",
+        "reading": "/ˈfeɪvərəbl/",
+        "meaning": "thuận lợi",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Favorable conditions.",
+                "translation": "Điều kiện thuận lợi."
+            }
+        ]
+    },
+    {
+        "term": "feature",
+        "reading": "/ˈfiːtʃər/",
+        "meaning": "tính năng",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "New features.",
+                "translation": "Tính năng mới."
+            }
+        ]
+    },
+    {
+        "term": "fee",
+        "reading": "/fiː/",
+        "meaning": "phí",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Consulting fee.",
+                "translation": "Phí tư vấn."
+            }
+        ]
+    },
+    {
+        "term": "feedback",
+        "reading": "/ˈfiːdbæk/",
+        "meaning": "phản hồi",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Customer feedback.",
+                "translation": "Phản hồi của khách hàng."
+            }
+        ]
+    },
+    {
+        "term": "field",
+        "reading": "/fiːld/",
+        "meaning": "lĩnh vực",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Field of study.",
+                "translation": "Lĩnh vực nghiên cứu."
+            }
+        ]
+    },
+    {
+        "term": "figure",
+        "reading": "/ˈfɪɡjər/",
+        "meaning": "con số, nhân vật",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Sales figures.",
+                "translation": "Số liệu bán hàng."
+            }
+        ]
+    },
+    {
+        "term": "file",
+        "reading": "/faɪl/",
+        "meaning": "tệp, hồ sơ",
+        "meta_data": {
+            "topic": "Office",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "File a complaint.",
+                "translation": "Nộp đơn khiếu nại."
+            }
+        ]
+    },
+    {
+        "term": "fill",
+        "reading": "/fɪl/",
+        "meaning": "điền, lấp đầy",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Fill out a form.",
+                "translation": "Điền vào mẫu đơn."
+            }
+        ]
+    },
+    {
+        "term": "final",
+        "reading": "/ˈfaɪnl/",
+        "meaning": "cuối cùng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Final decision.",
+                "translation": "Quyết định cuối cùng."
+            }
+        ]
+    },
+    {
+        "term": "finance",
+        "reading": "/ˈfaɪnæns/",
+        "meaning": "tài chính",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Finance department.",
+                "translation": "Phòng tài chính."
+            }
+        ]
+    },
+    {
+        "term": "financial",
+        "reading": "/faɪˈnænʃl/",
+        "meaning": "thuộc về tài chính",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Financial report.",
+                "translation": "Báo cáo tài chính."
+            }
+        ]
+    },
+    {
+        "term": "fine",
+        "reading": "/faɪn/",
+        "meaning": "tiền phạt, tốt",
+        "meta_data": {
+            "topic": "Legal",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Pay a fine.",
+                "translation": "Nộp phạt."
+            }
+        ]
+    },
+    {
+        "term": "finish",
+        "reading": "/ˈfɪnɪʃ/",
+        "meaning": "hoàn thành",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Finish the project.",
+                "translation": "Hoàn thành dự án."
+            }
+        ]
+    },
+    {
+        "term": "firm",
+        "reading": "/fɜːrm/",
+        "meaning": "công ty, chắc chắn",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Law firm.",
+                "translation": "Công ty luật."
+            }
+        ]
+    },
+    {
+        "term": "fix",
+        "reading": "/fɪks/",
+        "meaning": "sửa chữa",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Fix the problem.",
+                "translation": "Sửa vấn đề."
+            }
+        ]
+    },
+    {
+        "term": "flexible",
+        "reading": "/ˈfleksəbl/",
+        "meaning": "linh hoạt",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Flexible hours.",
+                "translation": "Giờ làm việc linh hoạt."
+            }
+        ]
+    },
+    {
+        "term": "flight",
+        "reading": "/flaɪt/",
+        "meaning": "chuyến bay",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Flight attendant.",
+                "translation": "Tiếp viên hàng không."
+            }
+        ]
+    },
+    {
+        "term": "fluctuate",
+        "reading": "/ˈflʌktʃueɪt/",
+        "meaning": "dao động",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Prices fluctuate.",
+                "translation": "Giá cả dao động."
+            }
+        ]
+    },
+    {
+        "term": "focus",
+        "reading": "/ˈfoʊkəs/",
+        "meaning": "tập trung",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Focus on quality.",
+                "translation": "Tập trung vào chất lượng."
+            }
+        ]
+    },
+    {
+        "term": "fold",
+        "reading": "/foʊld/",
+        "meaning": "gấp",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Fold the paper.",
+                "translation": "Gấp giấy."
+            }
+        ]
+    },
+    {
+        "term": "folder",
+        "reading": "/ˈfoʊldər/",
+        "meaning": "thư mục",
+        "meta_data": {
+            "topic": "Office",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Check the folder.",
+                "translation": "Kiểm tra thư mục."
+            }
+        ]
+    },
+    {
+        "term": "follow",
+        "reading": "/ˈfɑːloʊ/",
+        "meaning": "theo dõi, tuân theo",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Follow instructions.",
+                "translation": "Làm theo hướng dẫn."
+            }
+        ]
+    },
+    {
+        "term": "foreign",
+        "reading": "/ˈfɔːrən/",
+        "meaning": "nước ngoài",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Foreign language.",
+                "translation": "Ngoại ngữ."
+            }
+        ]
+    },
+    {
+        "term": "forget",
+        "reading": "/fərˈɡet/",
+        "meaning": "quên",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Don't forget.",
+                "translation": "Đừng quên."
+            }
+        ]
+    },
+    {
+        "term": "form",
+        "reading": "/fɔːrm/",
+        "meaning": "mẫu đơn, hình thức",
+        "meta_data": {
+            "topic": "Office",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Application form.",
+                "translation": "Đơn xin việc."
+            }
+        ]
+    },
+    {
+        "term": "formal",
+        "reading": "/ˈfɔːrml/",
+        "meaning": "trang trọng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Formal attire.",
+                "translation": "Trang phục trang trọng."
+            }
+        ]
+    },
+    {
+        "term": "former",
+        "reading": "/ˈfɔːrmər/",
+        "meaning": "cựu, trước đây",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Former employee.",
+                "translation": "Cựu nhân viên."
+            }
+        ]
+    },
+    {
+        "term": "forward",
+        "reading": "/ˈfɔːrwərd/",
+        "meaning": "chuyển tiếp",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Forward the email.",
+                "translation": "Chuyển tiếp email."
+            }
+        ]
+    },
+    {
+        "term": "foundation",
+        "reading": "/faʊnˈdeɪʃn/",
+        "meaning": "nền tảng, quỹ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Solid foundation.",
+                "translation": "Nền tảng vững chắc."
+            }
+        ]
+    },
+    {
+        "term": "free",
+        "reading": "/friː/",
+        "meaning": "miễn phí, rảnh",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Free trial.",
+                "translation": "Dùng thử miễn phí."
+            }
+        ]
+    },
+    {
+        "term": "frequent",
+        "reading": "/ˈfriːkwənt/",
+        "meaning": "thường xuyên",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Frequent flyer.",
+                "translation": "Khách hàng bay thường xuyên."
+            }
+        ]
+    },
+    {
+        "term": "fresh",
+        "reading": "/freʃ/",
+        "meaning": "tươi, mới",
+        "meta_data": {
+            "topic": "Dining",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Fresh produce.",
+                "translation": "Nông sản tươi."
+            }
+        ]
+    },
+    {
+        "term": "friendly",
+        "reading": "/ˈfrendli/",
+        "meaning": "thân thiện",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Friendly service.",
+                "translation": "Dịch vụ thân thiện."
+            }
+        ]
+    },
+    {
+        "term": "fuel",
+        "reading": "/ˈfjuːəl/",
+        "meaning": "nhiên liệu",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Fuel costs.",
+                "translation": "Chi phí nhiên liệu."
+            }
+        ]
+    },
+    {
+        "term": "fulfill",
+        "reading": "/fʊlˈfɪl/",
+        "meaning": "hoàn thành, đáp ứng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Fulfill orders.",
+                "translation": "Hoàn thành đơn hàng."
+            }
+        ]
+    },
+    {
+        "term": "full",
+        "reading": "/fʊl/",
+        "meaning": "đầy",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Full time.",
+                "translation": "Toàn thời gian."
+            }
+        ]
+    }
+]

@@ -1,0 +1,752 @@
+[
+    {
+        "term": "billing",
+        "reading": "/ˈbɪlɪŋ/",
+        "meaning": "thanh toán",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Billing address.",
+                "translation": "Địa chỉ thanh toán."
+            }
+        ]
+    },
+    {
+        "term": "bind",
+        "reading": "/baɪnd/",
+        "meaning": "ràng buộc",
+        "meta_data": {
+            "topic": "Legal",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Legally binding.",
+                "translation": "Ràng buộc pháp lý."
+            }
+        ]
+    },
+    {
+        "term": "biography",
+        "reading": "/baɪˈɑːɡrəfi/",
+        "meaning": "tiểu sử",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Read a biography.",
+                "translation": "Đọc tiểu sử."
+            }
+        ]
+    },
+    {
+        "term": "board",
+        "reading": "/bɔːrd/",
+        "meaning": "ban quản trị, lên (tàu/xe)",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Board of directors.",
+                "translation": "Ban giám đốc."
+            }
+        ]
+    },
+    {
+        "term": "bonus",
+        "reading": "/ˈboʊnəs/",
+        "meaning": "tiền thưởng",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Annual bonus.",
+                "translation": "Tiền thưởng hàng năm."
+            }
+        ]
+    },
+    {
+        "term": "booking",
+        "reading": "/ˈbʊkɪŋ/",
+        "meaning": "đặt chỗ",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Flight booking.",
+                "translation": "Đặt vé máy bay."
+            }
+        ]
+    },
+    {
+        "term": "borrow",
+        "reading": "/ˈbɑːroʊ/",
+        "meaning": "mượn",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Borrow money.",
+                "translation": "Mượn tiền."
+            }
+        ]
+    },
+    {
+        "term": "bottom",
+        "reading": "/ˈbɑːtəm/",
+        "meaning": "đáy, dưới cùng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Bottom line.",
+                "translation": "Điểm mấu chốt (lợi nhuận ròng)."
+            }
+        ]
+    },
+    {
+        "term": "branch",
+        "reading": "/bræntʃ/",
+        "meaning": "chi nhánh",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Branch office.",
+                "translation": "Văn phòng chi nhánh."
+            }
+        ]
+    },
+    {
+        "term": "brand",
+        "reading": "/brænd/",
+        "meaning": "thương hiệu",
+        "meta_data": {
+            "topic": "Marketing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Brand awareness.",
+                "translation": "Nhận diện thương hiệu."
+            }
+        ]
+    },
+    {
+        "term": "break",
+        "reading": "/breɪk/",
+        "meaning": "nghỉ ngơi",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Take a break.",
+                "translation": "Nghỉ ngơi."
+            }
+        ]
+    },
+    {
+        "term": "breakdown",
+        "reading": "/ˈbreɪkdaʊn/",
+        "meaning": "sự cố, bảng phân tích",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Cost breakdown.",
+                "translation": "Bảng phân tích chi phí."
+            }
+        ]
+    },
+    {
+        "term": "brief",
+        "reading": "/briːf/",
+        "meaning": "ngắn gọn, tóm tắt",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Brief meeting.",
+                "translation": "Cuộc họp ngắn."
+            }
+        ]
+    },
+    {
+        "term": "broadcast",
+        "reading": "/ˈbrɔːdkæst/",
+        "meaning": "phát sóng",
+        "meta_data": {
+            "topic": "Media",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Broadcast live.",
+                "translation": "Phát sóng trực tiếp."
+            }
+        ]
+    },
+    {
+        "term": "broaden",
+        "reading": "/ˈbrɔːdn/",
+        "meaning": "mở rộng (kiến thức)",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Broaden horizons.",
+                "translation": "Mở rộng tầm nhìn."
+            }
+        ]
+    },
+    {
+        "term": "budget",
+        "reading": "/ˈbʌdʒɪt/",
+        "meaning": "ngân sách",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Budget for expenses.",
+                "translation": "Lập ngân sách cho chi phí."
+            }
+        ]
+    },
+    {
+        "term": "bulletin",
+        "reading": "/ˈbʊlətɪn/",
+        "meaning": "bản tin",
+        "meta_data": {
+            "topic": "Media",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "News bulletin.",
+                "translation": "Bản tin tức."
+            }
+        ]
+    },
+    {
+        "term": "calculate",
+        "reading": "/ˈkælkjuleɪt/",
+        "meaning": "tính toán",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Calculate profit.",
+                "translation": "Tính lợi nhuận."
+            }
+        ]
+    },
+    {
+        "term": "campaign",
+        "reading": "/kæmˈpeɪn/",
+        "meaning": "chiến dịch",
+        "meta_data": {
+            "topic": "Marketing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Ad campaign.",
+                "translation": "Chiến dịch quảng cáo."
+            }
+        ]
+    },
+    {
+        "term": "cancel",
+        "reading": "/ˈkænsl/",
+        "meaning": "hủy",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Cancel a flight.",
+                "translation": "Hủy chuyến bay."
+            }
+        ]
+    },
+    {
+        "term": "cancellation",
+        "reading": "/ˌkænsəˈleɪʃn/",
+        "meaning": "sự hủy bỏ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Cancellation fee.",
+                "translation": "Phí hủy bỏ."
+            }
+        ]
+    },
+    {
+        "term": "capital",
+        "reading": "/ˈkæpɪtl/",
+        "meaning": "vốn, thủ đô",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Capital investment.",
+                "translation": "Vốn đầu tư."
+            }
+        ]
+    },
+    {
+        "term": "career",
+        "reading": "/kəˈrɪr/",
+        "meaning": "sự nghiệp",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Career development.",
+                "translation": "Phát triển sự nghiệp."
+            }
+        ]
+    },
+    {
+        "term": "careful",
+        "reading": "/ˈkerfl/",
+        "meaning": "cẩn thận",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Be careful.",
+                "translation": "Hãy cẩn thận."
+            }
+        ]
+    },
+    {
+        "term": "cash",
+        "reading": "/kæʃ/",
+        "meaning": "tiền mặt",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Pay in cash.",
+                "translation": "Trả bằng tiền mặt."
+            }
+        ]
+    },
+    {
+        "term": "catalogue",
+        "reading": "/ˈkætəlɔːɡ/",
+        "meaning": "danh mục",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Product catalogue.",
+                "translation": "Danh mục sản phẩm."
+            }
+        ]
+    },
+    {
+        "term": "category",
+        "reading": "/ˈkætəɡɔːri/",
+        "meaning": "danh mục, loại",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Select a category.",
+                "translation": "Chọn một danh mục."
+            }
+        ]
+    },
+    {
+        "term": "cause",
+        "reading": "/kɔːz/",
+        "meaning": "nguyên nhân",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Cause of delay.",
+                "translation": "Nguyên nhân chậm trễ."
+            }
+        ]
+    },
+    {
+        "term": "caution",
+        "reading": "/ˈkɔːʃn/",
+        "meaning": "sự thận trọng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Proceed with caution.",
+                "translation": "Tiến hành một cách thận trọng."
+            }
+        ]
+    },
+    {
+        "term": "celebrate",
+        "reading": "/ˈselɪbreɪt/",
+        "meaning": "ăn mừng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Celebrate success.",
+                "translation": "Ăn mừng thành công."
+            }
+        ]
+    },
+    {
+        "term": "certain",
+        "reading": "/ˈsɜːrtn/",
+        "meaning": "chắc chắn",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "I am certain.",
+                "translation": "Tôi chắc chắn."
+            }
+        ]
+    },
+    {
+        "term": "chain",
+        "reading": "/tʃeɪn/",
+        "meaning": "chuỗi",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Retail chain.",
+                "translation": "Chuỗi bán lẻ."
+            }
+        ]
+    },
+    {
+        "term": "chair",
+        "reading": "/tʃer/",
+        "meaning": "ghế, chủ trì",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Chair the meeting.",
+                "translation": "Chủ trì cuộc họp."
+            }
+        ]
+    },
+    {
+        "term": "challenge",
+        "reading": "/ˈtʃælɪndʒ/",
+        "meaning": "thách thức",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Face a challenge.",
+                "translation": "Đối mặt thách thức."
+            }
+        ]
+    },
+    {
+        "term": "change",
+        "reading": "/tʃeɪndʒ/",
+        "meaning": "thay đổi, tiền lẻ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Keep the change.",
+                "translation": "Giữ lại tiền lẻ."
+            }
+        ]
+    },
+    {
+        "term": "charge",
+        "reading": "/tʃɑːrdʒ/",
+        "meaning": "tính phí, sạc",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Charge the card.",
+                "translation": "Tính phí thẻ."
+            }
+        ]
+    },
+    {
+        "term": "charity",
+        "reading": "/ˈtʃærəti/",
+        "meaning": "từ thiện",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Donate to charity.",
+                "translation": "Quyên góp từ thiện."
+            }
+        ]
+    },
+    {
+        "term": "cheap",
+        "reading": "/tʃiːp/",
+        "meaning": "rẻ",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Cheap prices.",
+                "translation": "Giá rẻ."
+            }
+        ]
+    },
+    {
+        "term": "check",
+        "reading": "/tʃek/",
+        "meaning": "kiểm tra",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Check the list.",
+                "translation": "Kiểm tra danh sách."
+            }
+        ]
+    },
+    {
+        "term": "chef",
+        "reading": "/ʃef/",
+        "meaning": "đầu bếp",
+        "meta_data": {
+            "topic": "Dining",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Head chef.",
+                "translation": "Bếp trưởng."
+            }
+        ]
+    },
+    {
+        "term": "chemical",
+        "reading": "/ˈkemɪkl/",
+        "meaning": "hóa chất",
+        "meta_data": {
+            "topic": "Science",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Chemical reaction.",
+                "translation": "Phản ứng hóa học."
+            }
+        ]
+    },
+    {
+        "term": "choice",
+        "reading": "/tʃɔɪs/",
+        "meaning": "lựa chọn (danh từ)",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Make a choice.",
+                "translation": "Đưa ra lựa chọn."
+            }
+        ]
+    },
+    {
+        "term": "choose",
+        "reading": "/tʃuːz/",
+        "meaning": "chọn (động từ)",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Choose an item.",
+                "translation": "Chọn một món."
+            }
+        ]
+    },
+    {
+        "term": "circuit",
+        "reading": "/ˈsɜːrkɪt/",
+        "meaning": "mạch",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Circuit board.",
+                "translation": "Bảng mạch."
+            }
+        ]
+    },
+    {
+        "term": "circular",
+        "reading": "/ˈsɜːrkjələr/",
+        "meaning": "thông tư, tròn",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Internal circular.",
+                "translation": "Thông tư nội bộ."
+            }
+        ]
+    },
+    {
+        "term": "circumstance",
+        "reading": "/ˈsɜːrkəmstæns/",
+        "meaning": "hoàn cảnh",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Under no circumstances.",
+                "translation": "Trong bất kỳ hoàn cảnh nào cũng không."
+            }
+        ]
+    },
+    {
+        "term": "claim",
+        "reading": "/kleɪm/",
+        "meaning": "yêu cầu bồi thường, tuyên bố",
+        "meta_data": {
+            "topic": "Legal",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Claim damages.",
+                "translation": "Yêu cầu bồi thường thiệt hại."
+            }
+        ]
+    },
+    {
+        "term": "clarify",
+        "reading": "/ˈklærəfaɪ/",
+        "meaning": "làm rõ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Clarify the point.",
+                "translation": "Làm rõ vấn đề."
+            }
+        ]
+    },
+    {
+        "term": "clerk",
+        "reading": "/klɜːrk/",
+        "meaning": "thư ký",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Office clerk.",
+                "translation": "Thư ký văn phòng."
+            }
+        ]
+    },
+    {
+        "term": "clientele",
+        "reading": "/ˌklaɪənˈtel/",
+        "meaning": "nhóm khách hàng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Upscale clientele.",
+                "translation": "Nhóm khách hàng thượng lưu."
+            }
+        ]
+    }
+]

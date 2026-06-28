@@ -1,0 +1,140 @@
+{
+    "global_top": [
+        {
+            "id": "dashboard",
+            "name": "Dashboard",
+            "icon": "Dashboard",
+            "target": 0
+        }
+    ],
+    "global_bottom": [
+        {
+            "id": "settings",
+            "name": "Cài đặt",
+            "icon": "Settings",
+            "target": "settings"
+        }
+    ],
+    "context_menus": {
+        "en": [
+            {
+                "id": "vocabulary",
+                "name": "Từ vựng",
+                "icon": "Vocabulary",
+                "target": 2
+            },
+            {
+                "id": "grammar",
+                "name": "Ngữ pháp",
+                "icon": "Grammar",
+                "target": 3
+            },
+            {
+                "id": "toeic_dashboard",
+                "name": "TOEIC Dashboard",
+                "icon": "Chart",
+                "target": 10
+            },
+            {
+                "id": "toeic_listening",
+                "name": "TOEIC Listening",
+                "icon": "Listening",
+                "target": 11
+            },
+            {
+                "id": "toeic_reading",
+                "name": "TOEIC Reading",
+                "icon": "Reading",
+                "target": 12
+            },
+            {
+                "id": "full_mock_test",
+                "name": "Full Mock Test",
+                "icon": "Test",
+                "target": 13
+            },
+            {
+                "id": "content_factory",
+                "name": "AI Content Factory",
+                "icon": "Robot",
+                "target": 14
+            }
+        ],
+        "jp": [
+            {
+                "id": "intro",
+                "name": "Giới thiệu",
+                "icon": "Info",
+                "target": 1
+            },
+            {
+                "id": "vocabulary",
+                "name": "Từ vựng",
+                "icon": "Vocabulary",
+                "target": 2
+            },
+            {
+                "id": "grammar",
+                "name": "Ngữ pháp",
+                "icon": "Grammar",
+                "target": 3
+            },
+            {
+                "id": "kanji",
+                "name": "Hán tự",
+                "icon": "Kanji",
+                "target": 4
+            },
+            {
+                "id": "hiragana",
+                "name": "Luyện Đọc (Hiragana)",
+                "icon": "Reading",
+                "target": 5
+            },
+            {
+                "id": "listening",
+                "name": "Luyện Nghe",
+                "icon": "Listening",
+                "target": 6
+            },
+            {
+                "id": "writing",
+                "name": "Luyện Viết",
+                "icon": "Writing",
+                "target": 7
+            },
+            {
+                "id": "speaking",
+                "name": "Luyện Nói",
+                "icon": "Speaking",
+                "target": 8
+            },
+            {
+                "id": "jlpt",
+                "name": "Kiểm tra (JLPT)",
+                "icon": "Test",
+                "target": 9
+            }
+        ]
+    },
+    "tools": [
+        {
+            "id": "youtube",
+            "name": "YouTube",
+            "icon": "YouTube",
+            "target": 15
+        },
+        {
+            "id": "news",
+            "name": "Tin tức",
+            "icon": "News",
+            "target": 16
+        },
+        {
+            "id": "reader",
+            "name": "Đọc/Nghe sách",
+            "icon": "Book",
+            "target": 17
+        }
+    ]
+}

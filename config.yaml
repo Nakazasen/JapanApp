@@ -1,0 +1,25 @@
+# Application Configuration
+
+paths:
+  project_root: D:\Projects\EnglishApp
+  ai_models: D:\AI_Models
+  database: D:\Projects\EnglishApp\db\app.db
+
+backend:
+  host: 127.0.0.1
+  port: 8000
+
+ai:
+  phi3:
+    model_path: null  # Will use default if null
+    context_size: 4096
+  whisper:
+    model_path: "small"  # tiny, base, small, medium, large
+    device: "cuda"  # cuda or cpu
+    compute_type: "float16"  # float16, int8
+
+gpu:
+  enabled: true
+  layers: 35
+  threads: 4
+

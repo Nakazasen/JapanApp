@@ -1,0 +1,752 @@
+[
+    {
+        "term": "proposal",
+        "reading": "/prəˈpoʊzl/",
+        "meaning": "đề xuất",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Submit a proposal.",
+                "translation": "Nộp đề xuất."
+            }
+        ]
+    },
+    {
+        "term": "prospect",
+        "reading": "/ˈprɑːspekt/",
+        "meaning": "khách hàng tiềm năng",
+        "meta_data": {
+            "topic": "Marketing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Contact prospects.",
+                "translation": "Liên hệ khách hàng tiềm năng."
+            }
+        ]
+    },
+    {
+        "term": "provide",
+        "reading": "/prəˈvaɪd/",
+        "meaning": "cung cấp",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Provide information.",
+                "translation": "Cung cấp thông tin."
+            }
+        ]
+    },
+    {
+        "term": "qualify",
+        "reading": "/ˈkwɑːlɪfaɪ/",
+        "meaning": "đủ điều kiện",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "You qualify for the position.",
+                "translation": "Bạn đủ điều kiện cho vị trí."
+            }
+        ]
+    },
+    {
+        "term": "quarter",
+        "reading": "/ˈkwɔːrtər/",
+        "meaning": "quý (3 tháng)",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Q1 results.",
+                "translation": "Kết quả quý 1."
+            }
+        ]
+    },
+    {
+        "term": "quote",
+        "reading": "/kwoʊt/",
+        "meaning": "báo giá",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Request a quote.",
+                "translation": "Yêu cầu báo giá."
+            }
+        ]
+    },
+    {
+        "term": "range",
+        "reading": "/reɪndʒ/",
+        "meaning": "phạm vi, dãy",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Price range.",
+                "translation": "Phạm vi giá."
+            }
+        ]
+    },
+    {
+        "term": "rate",
+        "reading": "/reɪt/",
+        "meaning": "tỷ lệ, mức giá",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Interest rate.",
+                "translation": "Lãi suất."
+            }
+        ]
+    },
+    {
+        "term": "receive",
+        "reading": "/rɪˈsiːv/",
+        "meaning": "nhận",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Receive the package.",
+                "translation": "Nhận gói hàng."
+            }
+        ]
+    },
+    {
+        "term": "recommend",
+        "reading": "/ˌrekəˈmend/",
+        "meaning": "đề xuất, khuyên",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "I recommend this option.",
+                "translation": "Tôi đề xuất lựa chọn này."
+            }
+        ]
+    },
+    {
+        "term": "reduce",
+        "reading": "/rɪˈduːs/",
+        "meaning": "giảm",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Reduce costs.",
+                "translation": "Giảm chi phí."
+            }
+        ]
+    },
+    {
+        "term": "refer",
+        "reading": "/rɪˈfɜːr/",
+        "meaning": "tham khảo, giới thiệu",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Refer to the manual.",
+                "translation": "Tham khảo hướng dẫn."
+            }
+        ]
+    },
+    {
+        "term": "refurbish",
+        "reading": "/riːˈfɜːrbɪʃ/",
+        "meaning": "tân trang",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Refurbish equipment.",
+                "translation": "Tân trang thiết bị."
+            }
+        ]
+    },
+    {
+        "term": "register",
+        "reading": "/ˈredʒɪstər/",
+        "meaning": "đăng ký",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Register online.",
+                "translation": "Đăng ký trực tuyến."
+            }
+        ]
+    },
+    {
+        "term": "reimburse",
+        "reading": "/ˌriːɪmˈbɜːrs/",
+        "meaning": "hoàn trả",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We will reimburse you.",
+                "translation": "Chúng tôi sẽ hoàn trả cho bạn."
+            }
+        ]
+    },
+    {
+        "term": "release",
+        "reading": "/rɪˈliːs/",
+        "meaning": "phát hành",
+        "meta_data": {
+            "topic": "Marketing",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Release a new product.",
+                "translation": "Phát hành sản phẩm mới."
+            }
+        ]
+    },
+    {
+        "term": "reliable",
+        "reading": "/rɪˈlaɪəbl/",
+        "meaning": "đáng tin cậy",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Reliable service.",
+                "translation": "Dịch vụ đáng tin cậy."
+            }
+        ]
+    },
+    {
+        "term": "relocate",
+        "reading": "/ˌriːloʊˈkeɪt/",
+        "meaning": "di chuyển, chuyển đi",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Relocate to a new office.",
+                "translation": "Chuyển đến văn phòng mới."
+            }
+        ]
+    },
+    {
+        "term": "remainder",
+        "reading": "/rɪˈmeɪndər/",
+        "meaning": "phần còn lại",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The remainder of the year.",
+                "translation": "Phần còn lại của năm."
+            }
+        ]
+    },
+    {
+        "term": "remind",
+        "reading": "/rɪˈmaɪnd/",
+        "meaning": "nhắc nhở",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Remind me.",
+                "translation": "Nhắc tôi."
+            }
+        ]
+    },
+    {
+        "term": "remove",
+        "reading": "/rɪˈmuːv/",
+        "meaning": "loại bỏ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Remove the items.",
+                "translation": "Loại bỏ các mục."
+            }
+        ]
+    },
+    {
+        "term": "renew",
+        "reading": "/rɪˈnuː/",
+        "meaning": "gia hạn",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Renew the contract.",
+                "translation": "Gia hạn hợp đồng."
+            }
+        ]
+    },
+    {
+        "term": "repair",
+        "reading": "/rɪˈper/",
+        "meaning": "sửa chữa",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Repair the machine.",
+                "translation": "Sửa máy."
+            }
+        ]
+    },
+    {
+        "term": "replace",
+        "reading": "/rɪˈpleɪs/",
+        "meaning": "thay thế",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Replace the parts.",
+                "translation": "Thay thế linh kiện."
+            }
+        ]
+    },
+    {
+        "term": "report",
+        "reading": "/rɪˈpɔːrt/",
+        "meaning": "báo cáo",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Submit a report.",
+                "translation": "Nộp báo cáo."
+            }
+        ]
+    },
+    {
+        "term": "represent",
+        "reading": "/ˌreprɪˈzent/",
+        "meaning": "đại diện",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Represent the company.",
+                "translation": "Đại diện công ty."
+            }
+        ]
+    },
+    {
+        "term": "request",
+        "reading": "/rɪˈkwest/",
+        "meaning": "yêu cầu",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Submit a request.",
+                "translation": "Gửi yêu cầu."
+            }
+        ]
+    },
+    {
+        "term": "require",
+        "reading": "/rɪˈkwaɪər/",
+        "meaning": "yêu cầu",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "It requires approval.",
+                "translation": "Nó yêu cầu phê duyệt."
+            }
+        ]
+    },
+    {
+        "term": "research",
+        "reading": "/ˈriːsɜːrtʃ/",
+        "meaning": "nghiên cứu",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Conduct research.",
+                "translation": "Tiến hành nghiên cứu."
+            }
+        ]
+    },
+    {
+        "term": "resolve",
+        "reading": "/rɪˈzɑːlv/",
+        "meaning": "giải quyết",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Resolve the issue.",
+                "translation": "Giải quyết vấn đề."
+            }
+        ]
+    },
+    {
+        "term": "resource",
+        "reading": "/ˈriːsɔːrs/",
+        "meaning": "tài nguyên",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Human resources.",
+                "translation": "Nhân sự."
+            }
+        ]
+    },
+    {
+        "term": "respond",
+        "reading": "/rɪˈspɑːnd/",
+        "meaning": "phản hồi",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Respond quickly.",
+                "translation": "Phản hồi nhanh."
+            }
+        ]
+    },
+    {
+        "term": "responsibility",
+        "reading": "/rɪˌspɑːnsəˈbɪləti/",
+        "meaning": "trách nhiệm",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Take responsibility.",
+                "translation": "Nhận trách nhiệm."
+            }
+        ]
+    },
+    {
+        "term": "restore",
+        "reading": "/rɪˈstɔːr/",
+        "meaning": "khôi phục",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Restore the data.",
+                "translation": "Khôi phục dữ liệu."
+            }
+        ]
+    },
+    {
+        "term": "restrict",
+        "reading": "/rɪˈstrɪkt/",
+        "meaning": "hạn chế",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Access is restricted.",
+                "translation": "Truy cập bị hạn chế."
+            }
+        ]
+    },
+    {
+        "term": "result",
+        "reading": "/rɪˈzʌlt/",
+        "meaning": "kết quả",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Analyze the results.",
+                "translation": "Phân tích kết quả."
+            }
+        ]
+    },
+    {
+        "term": "resume",
+        "reading": "/rɪˈzuːm/",
+        "meaning": "tiếp tục, sơ yếu lý lịch",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Resume operations.",
+                "translation": "Tiếp tục hoạt động."
+            }
+        ]
+    },
+    {
+        "term": "retail",
+        "reading": "/ˈriːteɪl/",
+        "meaning": "bán lẻ",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Retail sales.",
+                "translation": "Bán lẻ."
+            }
+        ]
+    },
+    {
+        "term": "retain",
+        "reading": "/rɪˈteɪn/",
+        "meaning": "giữ lại",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Retain customers.",
+                "translation": "Giữ chân khách hàng."
+            }
+        ]
+    },
+    {
+        "term": "retire",
+        "reading": "/rɪˈtaɪər/",
+        "meaning": "nghỉ hưu",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "He will retire next year.",
+                "translation": "Ông ấy sẽ nghỉ hưu năm sau."
+            }
+        ]
+    },
+    {
+        "term": "review",
+        "reading": "/rɪˈvjuː/",
+        "meaning": "đánh giá, xem xét",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Review the document.",
+                "translation": "Xem xét tài liệu."
+            }
+        ]
+    },
+    {
+        "term": "revise",
+        "reading": "/rɪˈvaɪz/",
+        "meaning": "sửa đổi",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Revise the plan.",
+                "translation": "Sửa đổi kế hoạch."
+            }
+        ]
+    },
+    {
+        "term": "sample",
+        "reading": "/ˈsæmpl/",
+        "meaning": "mẫu",
+        "meta_data": {
+            "topic": "Marketing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Free sample.",
+                "translation": "Mẫu miễn phí."
+            }
+        ]
+    },
+    {
+        "term": "satisfy",
+        "reading": "/ˈsætɪsfaɪ/",
+        "meaning": "làm hài lòng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Satisfy customers.",
+                "translation": "Làm hài lòng khách hàng."
+            }
+        ]
+    },
+    {
+        "term": "secure",
+        "reading": "/sɪˈkjʊr/",
+        "meaning": "an toàn, bảo đảm",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Secure the area.",
+                "translation": "Bảo đảm an toàn khu vực."
+            }
+        ]
+    },
+    {
+        "term": "select",
+        "reading": "/sɪˈlekt/",
+        "meaning": "chọn lựa",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Select an option.",
+                "translation": "Chọn một lựa chọn."
+            }
+        ]
+    },
+    {
+        "term": "significant",
+        "reading": "/sɪɡˈnɪfɪkənt/",
+        "meaning": "quan trọng, đáng kể",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Significant growth.",
+                "translation": "Tăng trưởng đáng kể."
+            }
+        ]
+    },
+    {
+        "term": "specify",
+        "reading": "/ˈspesɪfaɪ/",
+        "meaning": "chỉ rõ",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Specify requirements.",
+                "translation": "Chỉ rõ yêu cầu."
+            }
+        ]
+    },
+    {
+        "term": "staff",
+        "reading": "/stæf/",
+        "meaning": "nhân viên",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Train the staff.",
+                "translation": "Đào tạo nhân viên."
+            }
+        ]
+    },
+    {
+        "term": "strategy",
+        "reading": "/ˈstrætədʒi/",
+        "meaning": "chiến lược",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Marketing strategy.",
+                "translation": "Chiến lược marketing."
+            }
+        ]
+    }
+]

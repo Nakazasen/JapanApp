@@ -1,0 +1,767 @@
+[
+    {
+        "term": "negotiate",
+        "reading": "/nɪˈɡoʊʃieɪt/",
+        "meaning": "đàm phán, thương lượng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We need to negotiate the contract terms.",
+                "translation": "Chúng ta cần đàm phán các điều khoản hợp đồng."
+            }
+        ]
+    },
+    {
+        "term": "deadline",
+        "reading": "/ˈdedlaɪn/",
+        "meaning": "hạn chót, thời hạn",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The deadline for the project is next Friday.",
+                "translation": "Thời hạn cho dự án là thứ Sáu tuần tới."
+            }
+        ]
+    },
+    {
+        "term": "approve",
+        "reading": "/əˈpruːv/",
+        "meaning": "phê duyệt, chấp thuận",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "The manager approved the budget.",
+                "translation": "Quản lý đã phê duyệt ngân sách."
+            }
+        ]
+    },
+    {
+        "term": "contract",
+        "reading": "/ˈkɑːntrækt/",
+        "meaning": "hợp đồng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Please sign the contract before Monday.",
+                "translation": "Vui lòng ký hợp đồng trước thứ Hai."
+            }
+        ]
+    },
+    {
+        "term": "schedule",
+        "reading": "/ˈskedʒuːl/",
+        "meaning": "lịch trình, sắp xếp",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Let me check my schedule.",
+                "translation": "Để tôi kiểm tra lịch trình."
+            }
+        ]
+    },
+    {
+        "term": "revenue",
+        "reading": "/ˈrevənuː/",
+        "meaning": "doanh thu",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The company's revenue increased by 20%.",
+                "translation": "Doanh thu công ty tăng 20%."
+            }
+        ]
+    },
+    {
+        "term": "expense",
+        "reading": "/ɪkˈspens/",
+        "meaning": "chi phí",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Travel expenses will be reimbursed.",
+                "translation": "Chi phí đi lại sẽ được hoàn trả."
+            }
+        ]
+    },
+    {
+        "term": "budget",
+        "reading": "/ˈbʌdʒɪt/",
+        "meaning": "ngân sách",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "We need to stay within the budget.",
+                "translation": "Chúng ta cần giữ trong ngân sách."
+            }
+        ]
+    },
+    {
+        "term": "invoice",
+        "reading": "/ˈɪnvɔɪs/",
+        "meaning": "hóa đơn",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Please send the invoice by email.",
+                "translation": "Vui lòng gửi hóa đơn qua email."
+            }
+        ]
+    },
+    {
+        "term": "deposit",
+        "reading": "/dɪˈpɑːzɪt/",
+        "meaning": "tiền đặt cọc, gửi tiền",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "A deposit of $500 is required.",
+                "translation": "Cần đặt cọc $500."
+            }
+        ]
+    },
+    {
+        "term": "recruit",
+        "reading": "/rɪˈkruːt/",
+        "meaning": "tuyển dụng",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We are recruiting new staff.",
+                "translation": "Chúng tôi đang tuyển nhân viên mới."
+            }
+        ]
+    },
+    {
+        "term": "resign",
+        "reading": "/rɪˈzaɪn/",
+        "meaning": "từ chức, nghỉ việc",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "She decided to resign from her position.",
+                "translation": "Cô ấy quyết định từ chức."
+            }
+        ]
+    },
+    {
+        "term": "candidate",
+        "reading": "/ˈkændɪdeɪt/",
+        "meaning": "ứng viên",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "We interviewed 10 candidates.",
+                "translation": "Chúng tôi đã phỏng vấn 10 ứng viên."
+            }
+        ]
+    },
+    {
+        "term": "promotion",
+        "reading": "/prəˈmoʊʃn/",
+        "meaning": "thăng chức",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "He got a promotion last month.",
+                "translation": "Anh ấy được thăng chức tháng trước."
+            }
+        ]
+    },
+    {
+        "term": "salary",
+        "reading": "/ˈsæləri/",
+        "meaning": "lương",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Salary is paid on the 25th.",
+                "translation": "Lương được trả vào ngày 25."
+            }
+        ]
+    },
+    {
+        "term": "reservation",
+        "reading": "/ˌrezərˈveɪʃn/",
+        "meaning": "đặt chỗ, đặt phòng",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "I have a reservation under the name Kim.",
+                "translation": "Tôi có đặt chỗ dưới tên Kim."
+            }
+        ]
+    },
+    {
+        "term": "destination",
+        "reading": "/ˌdestɪˈneɪʃn/",
+        "meaning": "điểm đến",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "What is your final destination?",
+                "translation": "Điểm đến cuối cùng của bạn là gì?"
+            }
+        ]
+    },
+    {
+        "term": "itinerary",
+        "reading": "/aɪˈtɪnəreri/",
+        "meaning": "lịch trình du lịch",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Here is your travel itinerary.",
+                "translation": "Đây là lịch trình du lịch của bạn."
+            }
+        ]
+    },
+    {
+        "term": "boarding",
+        "reading": "/ˈbɔːrdɪŋ/",
+        "meaning": "lên máy bay",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Boarding begins at 10:30.",
+                "translation": "Bắt đầu lên máy bay lúc 10:30."
+            }
+        ]
+    },
+    {
+        "term": "departure",
+        "reading": "/dɪˈpɑːrtʃər/",
+        "meaning": "khởi hành",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The departure gate has changed.",
+                "translation": "Cổng khởi hành đã thay đổi."
+            }
+        ]
+    },
+    {
+        "term": "warranty",
+        "reading": "/ˈwɔːrənti/",
+        "meaning": "bảo hành",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The warranty covers 2 years.",
+                "translation": "Bảo hành trong 2 năm."
+            }
+        ]
+    },
+    {
+        "term": "refund",
+        "reading": "/ˈriːfʌnd/",
+        "meaning": "hoàn tiền",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "You can get a full refund.",
+                "translation": "Bạn có thể được hoàn tiền toàn bộ."
+            }
+        ]
+    },
+    {
+        "term": "purchase",
+        "reading": "/ˈpɜːrtʃəs/",
+        "meaning": "mua, giao dịch mua",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Thank you for your purchase.",
+                "translation": "Cảm ơn bạn đã mua hàng."
+            }
+        ]
+    },
+    {
+        "term": "discount",
+        "reading": "/ˈdɪskaʊnt/",
+        "meaning": "giảm giá",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "We offer a 20% discount.",
+                "translation": "Chúng tôi giảm giá 20%."
+            }
+        ]
+    },
+    {
+        "term": "receipt",
+        "reading": "/rɪˈsiːt/",
+        "meaning": "biên lai, hóa đơn",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Please keep your receipt.",
+                "translation": "Vui lòng giữ lại biên lai."
+            }
+        ]
+    },
+    {
+        "term": "reservation",
+        "reading": "/ˌrezərˈveɪʃn/",
+        "meaning": "đặt bàn",
+        "meta_data": {
+            "topic": "Dining",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Do you have a reservation?",
+                "translation": "Bạn có đặt bàn không?"
+            }
+        ]
+    },
+    {
+        "term": "appetizer",
+        "reading": "/ˈæpɪtaɪzər/",
+        "meaning": "món khai vị",
+        "meta_data": {
+            "topic": "Dining",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Would you like an appetizer?",
+                "translation": "Bạn có muốn món khai vị không?"
+            }
+        ]
+    },
+    {
+        "term": "beverage",
+        "reading": "/ˈbevərɪdʒ/",
+        "meaning": "đồ uống",
+        "meta_data": {
+            "topic": "Dining",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "What beverage would you like?",
+                "translation": "Bạn muốn uống gì?"
+            }
+        ]
+    },
+    {
+        "term": "prescription",
+        "reading": "/prɪˈskrɪpʃn/",
+        "meaning": "đơn thuốc",
+        "meta_data": {
+            "topic": "Health",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "You need a prescription for this medicine.",
+                "translation": "Bạn cần đơn thuốc cho loại thuốc này."
+            }
+        ]
+    },
+    {
+        "term": "symptom",
+        "reading": "/ˈsɪmptəm/",
+        "meaning": "triệu chứng",
+        "meta_data": {
+            "topic": "Health",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "What are your symptoms?",
+                "translation": "Triệu chứng của bạn là gì?"
+            }
+        ]
+    },
+    {
+        "term": "appointment",
+        "reading": "/əˈpɔɪntmənt/",
+        "meaning": "cuộc hẹn",
+        "meta_data": {
+            "topic": "Health",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "I have a doctor's appointment.",
+                "translation": "Tôi có hẹn với bác sĩ."
+            }
+        ]
+    },
+    {
+        "term": "install",
+        "reading": "/ɪnˈstɔːl/",
+        "meaning": "cài đặt",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Please install the software.",
+                "translation": "Vui lòng cài đặt phần mềm."
+            }
+        ]
+    },
+    {
+        "term": "update",
+        "reading": "/ʌpˈdeɪt/",
+        "meaning": "cập nhật",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "You need to update your system.",
+                "translation": "Bạn cần cập nhật hệ thống."
+            }
+        ]
+    },
+    {
+        "term": "equipment",
+        "reading": "/ɪˈkwɪpmənt/",
+        "meaning": "thiết bị",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The equipment is ready.",
+                "translation": "Thiết bị đã sẵn sàng."
+            }
+        ]
+    },
+    {
+        "term": "malfunction",
+        "reading": "/mælˈfʌŋkʃn/",
+        "meaning": "trục trặc, hỏng hóc",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "There was a malfunction in the system.",
+                "translation": "Có sự cố trong hệ thống."
+            }
+        ]
+    },
+    {
+        "term": "warehouse",
+        "reading": "/ˈwerhaʊs/",
+        "meaning": "nhà kho",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The products are in the warehouse.",
+                "translation": "Sản phẩm đang ở trong kho."
+            }
+        ]
+    },
+    {
+        "term": "shipment",
+        "reading": "/ˈʃɪpmənt/",
+        "meaning": "lô hàng, vận chuyển",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The shipment will arrive tomorrow.",
+                "translation": "Lô hàng sẽ đến vào ngày mai."
+            }
+        ]
+    },
+    {
+        "term": "inventory",
+        "reading": "/ˈɪnvəntɔːri/",
+        "meaning": "hàng tồn kho",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "We need to check the inventory.",
+                "translation": "Chúng ta cần kiểm tra hàng tồn kho."
+            }
+        ]
+    },
+    {
+        "term": "delay",
+        "reading": "/dɪˈleɪ/",
+        "meaning": "trì hoãn, chậm trễ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "We apologize for the delay.",
+                "translation": "Chúng tôi xin lỗi vì sự chậm trễ."
+            }
+        ]
+    },
+    {
+        "term": "confirm",
+        "reading": "/kənˈfɜːrm/",
+        "meaning": "xác nhận",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Please confirm your attendance.",
+                "translation": "Vui lòng xác nhận sự tham dự."
+            }
+        ]
+    },
+    {
+        "term": "available",
+        "reading": "/əˈveɪləbl/",
+        "meaning": "có sẵn, rảnh",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Is the room available?",
+                "translation": "Phòng có trống không?"
+            }
+        ]
+    },
+    {
+        "term": "submit",
+        "reading": "/səbˈmɪt/",
+        "meaning": "nộp, gửi",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Please submit your report by Friday.",
+                "translation": "Vui lòng nộp báo cáo trước thứ Sáu."
+            }
+        ]
+    },
+    {
+        "term": "attend",
+        "reading": "/əˈtend/",
+        "meaning": "tham dự",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Will you attend the meeting?",
+                "translation": "Bạn sẽ tham dự cuộc họp chứ?"
+            }
+        ]
+    },
+    {
+        "term": "postpone",
+        "reading": "/poʊstˈpoʊn/",
+        "meaning": "hoãn lại",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We need to postpone the meeting.",
+                "translation": "Chúng ta cần hoãn cuộc họp."
+            }
+        ]
+    },
+    {
+        "term": "representative",
+        "reading": "/ˌreprɪˈzentətɪv/",
+        "meaning": "đại diện",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Our representative will contact you.",
+                "translation": "Đại diện của chúng tôi sẽ liên hệ bạn."
+            }
+        ]
+    },
+    {
+        "term": "colleague",
+        "reading": "/ˈkɑːliːɡ/",
+        "meaning": "đồng nghiệp",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Let me introduce my colleague.",
+                "translation": "Để tôi giới thiệu đồng nghiệp của tôi."
+            }
+        ]
+    },
+    {
+        "term": "conference",
+        "reading": "/ˈkɑːnfərəns/",
+        "meaning": "hội nghị",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The conference starts at 9 AM.",
+                "translation": "Hội nghị bắt đầu lúc 9 giờ sáng."
+            }
+        ]
+    },
+    {
+        "term": "accommodate",
+        "reading": "/əˈkɑːmədeɪt/",
+        "meaning": "đáp ứng, chứa được",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We can accommodate your request.",
+                "translation": "Chúng tôi có thể đáp ứng yêu cầu của bạn."
+            }
+        ]
+    },
+    {
+        "term": "efficient",
+        "reading": "/ɪˈfɪʃnt/",
+        "meaning": "hiệu quả",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "This method is more efficient.",
+                "translation": "Phương pháp này hiệu quả hơn."
+            }
+        ]
+    },
+    {
+        "term": "renovate",
+        "reading": "/ˈrenəveɪt/",
+        "meaning": "cải tạo, tu sửa",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "They plan to renovate the office.",
+                "translation": "Họ dự định cải tạo văn phòng."
+            }
+        ]
+    },
+    {
+        "term": "annual",
+        "reading": "/ˈænjuəl/",
+        "meaning": "hàng năm",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "This is our annual report.",
+                "translation": "Đây là báo cáo hàng năm của chúng tôi."
+            }
+        ]
+    }
+]

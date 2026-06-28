@@ -1,0 +1,34 @@
+[
+    {
+        "set_id": 2,
+        "part": 7,
+        "topic": "Advertisement",
+        "passage": "<h3>Grand Opening Sale!</h3><p>Come visit <b>TechWorld's</b> newest location at the City Center Mall!</p><p>We are offering 20% off all laptops and tablets this weekend only. The first 50 customers will receive a free screen protector.</p><p>Open: Saturday & Sunday, 9 AM - 9 PM.<br>Location: 123 Main St, 2nd Floor.</p>",
+        "questions": [
+            {
+                "question_number": 147,
+                "question_text": "What is being advertised?",
+                "options": [
+                    "A new store opening",
+                    "A job fair",
+                    "A clearance sale",
+                    "A programming class"
+                ],
+                "correct_answer": "A",
+                "explanation": "The title says 'Grand Opening Sale' for a newest location."
+            },
+            {
+                "question_number": 148,
+                "question_text": "Who will get a free gift?",
+                "options": [
+                    "Everyone",
+                    "Customers who verify email",
+                    "The first 50 customers",
+                    "Staff members"
+                ],
+                "correct_answer": "C",
+                "explanation": "The text says: 'The first 50 customers will receive a free screen protector'."
+            }
+        ]
+    }
+]

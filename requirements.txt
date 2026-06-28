@@ -1,0 +1,89 @@
+# =============================================================================
+# EnglishApp Dependencies
+# =============================================================================
+# Updated: 2024-12-14
+# Note: AI features now use Google Gemini API (cloud-based)
+#       Whisper and Phi-3 have been REMOVED to reduce app size (~3GB saved)
+# =============================================================================
+
+# === Core Framework ===
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart>=0.0.6
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# === Database ===
+sqlmodel==0.0.14
+
+# === Desktop UI (PySide6) ===
+pyside6>=6.8.0
+PySide6-WebEngine>=6.8.0  # For YouTube video embedding
+
+# === AI - Google Gemini (Cloud API) ===
+# Replaces: openai-whisper, llama-cpp-python, torch, transformers
+# Benefits: ~3GB smaller, faster startup, no CUDA issues
+google-generativeai>=0.3.0
+
+# === HTTP & Networking ===
+requests==2.31.0
+aiohttp==3.9.1
+
+# === Translation & Language Processing ===
+deep-translator==1.11.4
+langdetect>=1.0.9
+pykakasi>=2.2.0  # Japanese romanization
+
+# === Japanese NLP (For News Tab Furigana) ===
+fugashi>=1.3.0           # MeCab wrapper - accurate morphological analysis
+unidic-lite>=1.0.8       # Dictionary for fugashi
+jaconv>=0.3.4            # Japanese character conversion
+feedparser>=6.0.0        # RSS/Atom feed parsing (for Hatena, etc.)
+
+# === Text-to-Speech ===
+edge-tts==6.1.9
+pyttsx3>=2.90
+gTTS>=2.4.0
+pygame>=2.5.0  # For audio playback
+
+# === Web Scraping ===
+beautifulsoup4==4.12.2
+lxml>=4.9.0
+
+# === YouTube ===
+pytube==15.0.0
+
+# === Reading Feature - Document Parsing ===
+ebooklib>=0.18
+mobi>=0.4.0
+python-docx>=1.1.0
+python-pptx>=0.6.21
+pandas>=2.0.0
+openpyxl>=3.1.0
+markdown>=3.4.0
+html2text>=2020.1.16
+pdfplumber>=0.10.0
+
+# === Image Processing ===
+Pillow>=10.0.0
+
+# === Utilities ===
+pyyaml==6.0.1
+tqdm==4.66.1
+
+# === Audio Recording (Optional - install at least one) ===
+# pyaudio>=0.2.11       # Windows: pip install pipwin && pipwin install pyaudio
+# sounddevice>=0.4.6    # Cross-platform alternative
+# scipy>=1.11.0         # Required for sounddevice WAV file writing
+
+# =============================================================================
+# REMOVED PACKAGES (No longer needed after Gemini migration):
+# =============================================================================
+# openai-whisper        # Replaced by Gemini STT (~1.5GB saved)
+# llama-cpp-python      # Replaced by Gemini (~500MB saved)
+# torch, torchaudio     # No longer needed (~2GB saved)
+# transformers          # No longer needed (~500MB saved)
+# faster-whisper        # Replaced by Gemini
+# speechrecognition     # Replaced by Gemini (was fallback)
+# =============================================================================

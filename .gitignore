@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Models (large files)
+*.gguf
+*.bin
+*.safetensors
+
+# Build
+dist/
+build/
+*.egg-info/
+
+
+# Agent/local state
+.brain/
+
+# E-books / local reading material
+*.azw3
+

@@ -1,0 +1,752 @@
+[
+    {
+        "term": "indicate",
+        "reading": "/ˈɪndɪkeɪt/",
+        "meaning": "chỉ ra, cho thấy",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "The report indicates growth.",
+                "translation": "Báo cáo cho thấy sự tăng trưởng."
+            }
+        ]
+    },
+    {
+        "term": "industry",
+        "reading": "/ˈɪndəstri/",
+        "meaning": "ngành công nghiệp",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The tech industry.",
+                "translation": "Ngành công nghệ."
+            }
+        ]
+    },
+    {
+        "term": "inform",
+        "reading": "/ɪnˈfɔːrm/",
+        "meaning": "thông báo",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Please inform the team.",
+                "translation": "Vui lòng thông báo cho nhóm."
+            }
+        ]
+    },
+    {
+        "term": "inquiry",
+        "reading": "/ɪnˈkwaɪəri/",
+        "meaning": "yêu cầu, thắc mắc",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Customer inquiry.",
+                "translation": "Yêu cầu của khách hàng."
+            }
+        ]
+    },
+    {
+        "term": "inspect",
+        "reading": "/ɪnˈspekt/",
+        "meaning": "kiểm tra",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Inspect the products.",
+                "translation": "Kiểm tra sản phẩm."
+            }
+        ]
+    },
+    {
+        "term": "instruct",
+        "reading": "/ɪnˈstrʌkt/",
+        "meaning": "hướng dẫn",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Instruct the staff.",
+                "translation": "Hướng dẫn nhân viên."
+            }
+        ]
+    },
+    {
+        "term": "insurance",
+        "reading": "/ɪnˈʃʊrəns/",
+        "meaning": "bảo hiểm",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Health insurance.",
+                "translation": "Bảo hiểm y tế."
+            }
+        ]
+    },
+    {
+        "term": "introduce",
+        "reading": "/ˌɪntrəˈduːs/",
+        "meaning": "giới thiệu",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Introduce the product.",
+                "translation": "Giới thiệu sản phẩm."
+            }
+        ]
+    },
+    {
+        "term": "invest",
+        "reading": "/ɪnˈvest/",
+        "meaning": "đầu tư",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Invest in stocks.",
+                "translation": "Đầu tư vào cổ phiếu."
+            }
+        ]
+    },
+    {
+        "term": "invoice",
+        "reading": "/ˈɪnvɔɪs/",
+        "meaning": "hóa đơn",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Send the invoice.",
+                "translation": "Gửi hóa đơn."
+            }
+        ]
+    },
+    {
+        "term": "launch",
+        "reading": "/lɔːntʃ/",
+        "meaning": "ra mắt, tung ra",
+        "meta_data": {
+            "topic": "Marketing",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Launch a new product.",
+                "translation": "Ra mắt sản phẩm mới."
+            }
+        ]
+    },
+    {
+        "term": "lease",
+        "reading": "/liːs/",
+        "meaning": "cho thuê, hợp đồng thuê",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Sign the lease.",
+                "translation": "Ký hợp đồng thuê."
+            }
+        ]
+    },
+    {
+        "term": "liability",
+        "reading": "/ˌlaɪəˈbɪləti/",
+        "meaning": "trách nhiệm pháp lý, nợ",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Reduce liability.",
+                "translation": "Giảm trách nhiệm."
+            }
+        ]
+    },
+    {
+        "term": "locate",
+        "reading": "/ˈloʊkeɪt/",
+        "meaning": "định vị, đặt tại",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "The office is located downtown.",
+                "translation": "Văn phòng nằm ở trung tâm."
+            }
+        ]
+    },
+    {
+        "term": "maintain",
+        "reading": "/meɪnˈteɪn/",
+        "meaning": "duy trì, bảo trì",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Maintain the equipment.",
+                "translation": "Bảo trì thiết bị."
+            }
+        ]
+    },
+    {
+        "term": "manage",
+        "reading": "/ˈmænɪdʒ/",
+        "meaning": "quản lý",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Manage the team.",
+                "translation": "Quản lý nhóm."
+            }
+        ]
+    },
+    {
+        "term": "manufacture",
+        "reading": "/ˌmænjuˈfæktʃər/",
+        "meaning": "sản xuất",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "We manufacture electronics.",
+                "translation": "Chúng tôi sản xuất điện tử."
+            }
+        ]
+    },
+    {
+        "term": "merchandise",
+        "reading": "/ˈmɜːrtʃəndaɪz/",
+        "meaning": "hàng hóa",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Display merchandise.",
+                "translation": "Trưng bày hàng hóa."
+            }
+        ]
+    },
+    {
+        "term": "merge",
+        "reading": "/mɜːrdʒ/",
+        "meaning": "sáp nhập",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "The companies merged.",
+                "translation": "Các công ty đã sáp nhập."
+            }
+        ]
+    },
+    {
+        "term": "modify",
+        "reading": "/ˈmɑːdɪfaɪ/",
+        "meaning": "sửa đổi",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Modify the design.",
+                "translation": "Sửa đổi thiết kế."
+            }
+        ]
+    },
+    {
+        "term": "monitor",
+        "reading": "/ˈmɑːnɪtər/",
+        "meaning": "theo dõi, màn hình",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Monitor progress.",
+                "translation": "Theo dõi tiến độ."
+            }
+        ]
+    },
+    {
+        "term": "notify",
+        "reading": "/ˈnoʊtɪfaɪ/",
+        "meaning": "thông báo",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Notify the customer.",
+                "translation": "Thông báo cho khách hàng."
+            }
+        ]
+    },
+    {
+        "term": "objective",
+        "reading": "/əbˈdʒektɪv/",
+        "meaning": "mục tiêu",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Our main objective.",
+                "translation": "Mục tiêu chính của chúng tôi."
+            }
+        ]
+    },
+    {
+        "term": "obtain",
+        "reading": "/əbˈteɪn/",
+        "meaning": "có được, đạt được",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Obtain approval.",
+                "translation": "Có được sự phê duyệt."
+            }
+        ]
+    },
+    {
+        "term": "occupy",
+        "reading": "/ˈɑːkjupaɪ/",
+        "meaning": "chiếm giữ, ở",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "The office is occupied.",
+                "translation": "Văn phòng đang có người."
+            }
+        ]
+    },
+    {
+        "term": "operate",
+        "reading": "/ˈɑːpəreɪt/",
+        "meaning": "vận hành",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Operate the machine.",
+                "translation": "Vận hành máy."
+            }
+        ]
+    },
+    {
+        "term": "opportunity",
+        "reading": "/ˌɑːpərˈtuːnəti/",
+        "meaning": "cơ hội",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "A great opportunity.",
+                "translation": "Một cơ hội tuyệt vời."
+            }
+        ]
+    },
+    {
+        "term": "order",
+        "reading": "/ˈɔːrdər/",
+        "meaning": "đơn hàng, đặt hàng",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Place an order.",
+                "translation": "Đặt đơn hàng."
+            }
+        ]
+    },
+    {
+        "term": "organize",
+        "reading": "/ˈɔːrɡənaɪz/",
+        "meaning": "tổ chức",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Organize the event.",
+                "translation": "Tổ chức sự kiện."
+            }
+        ]
+    },
+    {
+        "term": "outstanding",
+        "reading": "/aʊtˈstændɪŋ/",
+        "meaning": "xuất sắc, chưa thanh toán",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Outstanding performance.",
+                "translation": "Hiệu suất xuất sắc."
+            }
+        ]
+    },
+    {
+        "term": "participate",
+        "reading": "/pɑːrˈtɪsɪpeɪt/",
+        "meaning": "tham gia",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Participate in the meeting.",
+                "translation": "Tham gia cuộc họp."
+            }
+        ]
+    },
+    {
+        "term": "perform",
+        "reading": "/pərˈfɔːrm/",
+        "meaning": "thực hiện, biểu diễn",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Perform well.",
+                "translation": "Làm tốt."
+            }
+        ]
+    },
+    {
+        "term": "permanent",
+        "reading": "/ˈpɜːrmənənt/",
+        "meaning": "vĩnh viễn, cố định",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Permanent position.",
+                "translation": "Vị trí cố định."
+            }
+        ]
+    },
+    {
+        "term": "permit",
+        "reading": "/pərˈmɪt/",
+        "meaning": "cho phép, giấy phép",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Permit access.",
+                "translation": "Cho phép truy cập."
+            }
+        ]
+    },
+    {
+        "term": "policy",
+        "reading": "/ˈpɑːləsi/",
+        "meaning": "chính sách",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Company policy.",
+                "translation": "Chính sách công ty."
+            }
+        ]
+    },
+    {
+        "term": "potential",
+        "reading": "/pəˈtenʃl/",
+        "meaning": "tiềm năng",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Potential customers.",
+                "translation": "Khách hàng tiềm năng."
+            }
+        ]
+    },
+    {
+        "term": "predict",
+        "reading": "/prɪˈdɪkt/",
+        "meaning": "dự đoán",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Predict sales.",
+                "translation": "Dự đoán doanh số."
+            }
+        ]
+    },
+    {
+        "term": "prefer",
+        "reading": "/prɪˈfɜːr/",
+        "meaning": "thích hơn",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "I prefer email.",
+                "translation": "Tôi thích email hơn."
+            }
+        ]
+    },
+    {
+        "term": "prepare",
+        "reading": "/prɪˈper/",
+        "meaning": "chuẩn bị",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Prepare the report.",
+                "translation": "Chuẩn bị báo cáo."
+            }
+        ]
+    },
+    {
+        "term": "present",
+        "reading": "/prɪˈzent/",
+        "meaning": "trình bày, hiện tại",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Present the plan.",
+                "translation": "Trình bày kế hoạch."
+            }
+        ]
+    },
+    {
+        "term": "previous",
+        "reading": "/ˈpriːviəs/",
+        "meaning": "trước đó",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "The previous meeting.",
+                "translation": "Cuộc họp trước."
+            }
+        ]
+    },
+    {
+        "term": "priority",
+        "reading": "/praɪˈɔːrəti/",
+        "meaning": "ưu tiên",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Top priority.",
+                "translation": "Ưu tiên hàng đầu."
+            }
+        ]
+    },
+    {
+        "term": "proceed",
+        "reading": "/prəˈsiːd/",
+        "meaning": "tiến hành",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Proceed with the plan.",
+                "translation": "Tiến hành kế hoạch."
+            }
+        ]
+    },
+    {
+        "term": "process",
+        "reading": "/ˈprɑːses/",
+        "meaning": "quy trình, xử lý",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The hiring process.",
+                "translation": "Quy trình tuyển dụng."
+            }
+        ]
+    },
+    {
+        "term": "produce",
+        "reading": "/prəˈduːs/",
+        "meaning": "sản xuất",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Produce goods.",
+                "translation": "Sản xuất hàng hóa."
+            }
+        ]
+    },
+    {
+        "term": "profit",
+        "reading": "/ˈprɑːfɪt/",
+        "meaning": "lợi nhuận",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Increase profit.",
+                "translation": "Tăng lợi nhuận."
+            }
+        ]
+    },
+    {
+        "term": "progress",
+        "reading": "/ˈprɑːɡres/",
+        "meaning": "tiến độ",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Track progress.",
+                "translation": "Theo dõi tiến độ."
+            }
+        ]
+    },
+    {
+        "term": "project",
+        "reading": "/ˈprɑːdʒekt/",
+        "meaning": "dự án",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Start the project.",
+                "translation": "Bắt đầu dự án."
+            }
+        ]
+    },
+    {
+        "term": "promote",
+        "reading": "/prəˈmoʊt/",
+        "meaning": "thăng chức, quảng bá",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Promote the brand.",
+                "translation": "Quảng bá thương hiệu."
+            }
+        ]
+    },
+    {
+        "term": "prompt",
+        "reading": "/prɑːmpt/",
+        "meaning": "nhanh chóng, nhắc nhở",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Prompt response.",
+                "translation": "Phản hồi nhanh chóng."
+            }
+        ]
+    }
+]

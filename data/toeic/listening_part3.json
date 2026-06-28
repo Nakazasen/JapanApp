@@ -1,0 +1,47 @@
+[
+    {
+        "set_id": 1,
+        "part": 3,
+        "audio_path": "data/toeic/audio/part3_set1.mp3",
+        "topic": "Office Interaction",
+        "transcript": "M: I'm calling to order some office supplies.\nW: Certainly. What do you need?\nM: We need paper, pens, and printer ink.",
+        "questions": [
+            {
+                "question_number": 32,
+                "question_text": "Why is the man calling?",
+                "options": [
+                    "To order supplies",
+                    "To apply for a job",
+                    "To complain about a product",
+                    "To ask for directions"
+                ],
+                "correct_answer": "A",
+                "explanation": "The man says 'I'm calling to order some office supplies.'"
+            },
+            {
+                "question_number": 33,
+                "question_text": "Who is the man speaking to?",
+                "options": [
+                    "A supplier",
+                    "A doctor",
+                    "A mechanic",
+                    "A teacher"
+                ],
+                "correct_answer": "A",
+                "explanation": "He is ordering supplies, so he is likely speaking to a supplier."
+            },
+            {
+                "question_number": 34,
+                "question_text": "What is NOT mentioned?",
+                "options": [
+                    "Computers",
+                    "Paper",
+                    "Pens",
+                    "Printer ink"
+                ],
+                "correct_answer": "A",
+                "explanation": "He asks for paper, pens, and printer ink. Computers are not mentioned."
+            }
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+# Basic dependencies (without packages requiring Rust compilation)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlmodel==0.0.14
+pydantic==2.5.0
+pydantic-settings==2.1.0
+pyside6>=6.8.0
+deep-translator==1.11.4
+edge-tts==6.1.9
+requests==2.31.0
+beautifulsoup4==4.12.2
+pytube==15.0.0
+python-dotenv==1.0.0
+aiohttp==3.9.1
+pyyaml==6.0.1
+tqdm==4.66.1
+
+# Note: These packages require Rust or pre-built wheels:
+# - llama-cpp-python (for Phi-3)
+# - faster-whisper (for Whisper)
+# Install them separately or use pre-built wheels
+

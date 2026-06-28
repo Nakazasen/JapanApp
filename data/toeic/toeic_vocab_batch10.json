@@ -1,0 +1,752 @@
+[
+    {
+        "term": "closure",
+        "reading": "/ˈkloʊʒər/",
+        "meaning": "sự đóng cửa",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Road closure.",
+                "translation": "Việc đóng đường."
+            }
+        ]
+    },
+    {
+        "term": "clothing",
+        "reading": "/ˈkloʊðɪŋ/",
+        "meaning": "quần áo",
+        "meta_data": {
+            "topic": "Shopping",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Work clothing.",
+                "translation": "Quần áo làm việc."
+            }
+        ]
+    },
+    {
+        "term": "coach",
+        "reading": "/koʊtʃ/",
+        "meaning": "huấn luyện viên, xe khách",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Take a coach.",
+                "translation": "Đi xe khách."
+            }
+        ]
+    },
+    {
+        "term": "code",
+        "reading": "/koʊd/",
+        "meaning": "mã",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Enter the code.",
+                "translation": "Nhập mã."
+            }
+        ]
+    },
+    {
+        "term": "coincidence",
+        "reading": "/koʊˈɪnsɪdəns/",
+        "meaning": "sự trùng hợp",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "What a coincidence!",
+                "translation": "Thật là một sự trùng hợp!"
+            }
+        ]
+    },
+    {
+        "term": "collect",
+        "reading": "/kəˈlekt/",
+        "meaning": "thu thập",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Collect data.",
+                "translation": "Thu thập dữ liệu."
+            }
+        ]
+    },
+    {
+        "term": "combine",
+        "reading": "/kəmˈbaɪn/",
+        "meaning": "kết hợp",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Combine efforts.",
+                "translation": "Kết hợp nỗ lực."
+            }
+        ]
+    },
+    {
+        "term": "comfort",
+        "reading": "/ˈkʌmfərt/",
+        "meaning": "sự thoải mái",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Comfort zone.",
+                "translation": "Vùng an toàn (thoải mái)."
+            }
+        ]
+    },
+    {
+        "term": "comfortable",
+        "reading": "/ˈkʌmftəbl/",
+        "meaning": "thoải mái",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Comfortable chair.",
+                "translation": "Ghế thoải mái."
+            }
+        ]
+    },
+    {
+        "term": "commercial",
+        "reading": "/kəˈmɜːrʃl/",
+        "meaning": "thương mại",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Commercial use.",
+                "translation": "Sử dụng mục đích thương mại."
+            }
+        ]
+    },
+    {
+        "term": "commit",
+        "reading": "/kəˈmɪt/",
+        "meaning": "cam kết",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Commit to a plan.",
+                "translation": "Cam kết với kế hoạch."
+            }
+        ]
+    },
+    {
+        "term": "common",
+        "reading": "/ˈkɑːmən/",
+        "meaning": "chung, phổ biến",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Common goal.",
+                "translation": "Mục tiêu chung."
+            }
+        ]
+    },
+    {
+        "term": "compare",
+        "reading": "/kəmˈper/",
+        "meaning": "so sánh",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Compare prices.",
+                "translation": "So sánh giá cả."
+            }
+        ]
+    },
+    {
+        "term": "compatible",
+        "reading": "/kəmˈpætəbl/",
+        "meaning": "tương thích",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Compatible software.",
+                "translation": "Phần mềm tương thích."
+            }
+        ]
+    },
+    {
+        "term": "compete",
+        "reading": "/kəmˈpiːt/",
+        "meaning": "cạnh tranh",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Compete globally.",
+                "translation": "Cạnh tranh toàn cầu."
+            }
+        ]
+    },
+    {
+        "term": "competitive",
+        "reading": "/kəmˈpetətɪv/",
+        "meaning": "có tính cạnh tranh",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Competitive market.",
+                "translation": "Thị trường cạnh tranh."
+            }
+        ]
+    },
+    {
+        "term": "complain",
+        "reading": "/kəmˈpleɪn/",
+        "meaning": "phàn nàn",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Complain about service.",
+                "translation": "Phàn nàn về dịch vụ."
+            }
+        ]
+    },
+    {
+        "term": "complaint",
+        "reading": "/kəmˈpleɪnt/",
+        "meaning": "lời phàn nàn",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Customer complaint.",
+                "translation": "Lời phàn nàn của khách hàng."
+            }
+        ]
+    },
+    {
+        "term": "complete",
+        "reading": "/kəmˈpliːt/",
+        "meaning": "hoàn thành",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Complete the form.",
+                "translation": "Hoàn thành mẫu đơn."
+            }
+        ]
+    },
+    {
+        "term": "complex",
+        "reading": "/kəmˈpleks/",
+        "meaning": "phức tạp",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Complex issue.",
+                "translation": "Vấn đề phức tạp."
+            }
+        ]
+    },
+    {
+        "term": "compliant",
+        "reading": "/kəmˈplaɪənt/",
+        "meaning": "tuân thủ",
+        "meta_data": {
+            "topic": "Legal",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Compliant with laws.",
+                "translation": "Tuân thủ luật pháp."
+            }
+        ]
+    },
+    {
+        "term": "compliment",
+        "reading": "/ˈkɑːmplɪmənt/",
+        "meaning": "lời khen",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Give a compliment.",
+                "translation": "Đưa ra lời khen."
+            }
+        ]
+    },
+    {
+        "term": "comply",
+        "reading": "/kəmˈplaɪ/",
+        "meaning": "tuân thủ",
+        "meta_data": {
+            "topic": "Legal",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Comply with rules.",
+                "translation": "Tuân thủ quy tắc."
+            }
+        ]
+    },
+    {
+        "term": "component",
+        "reading": "/kəmˈpoʊnənt/",
+        "meaning": "thành phần",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Electronic component.",
+                "translation": "Linh kiện điện tử."
+            }
+        ]
+    },
+    {
+        "term": "comprehensive",
+        "reading": "/ˌkɑːmprɪˈhensɪv/",
+        "meaning": "toàn diện",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Comprehensive review.",
+                "translation": "Đánh giá toàn diện."
+            }
+        ]
+    },
+    {
+        "term": "concern",
+        "reading": "/kənˈsɜːrn/",
+        "meaning": "mối quan tâm, lo ngại",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Raise a concern.",
+                "translation": "Nêu lên mối lo ngại."
+            }
+        ]
+    },
+    {
+        "term": "conclude",
+        "reading": "/kənˈkluːd/",
+        "meaning": "kết luận",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Conclude the meeting.",
+                "translation": "Kết thúc cuộc họp."
+            }
+        ]
+    },
+    {
+        "term": "condition",
+        "reading": "/kənˈdɪʃn/",
+        "meaning": "điều kiện",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Working conditions.",
+                "translation": "Điều kiện làm việc."
+            }
+        ]
+    },
+    {
+        "term": "conduct",
+        "reading": "/kənˈdʌkt/",
+        "meaning": "tiến hành",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Conduct an survey.",
+                "translation": "Tiến hành khảo sát."
+            }
+        ]
+    },
+    {
+        "term": "confident",
+        "reading": "/ˈkɑːnfɪdənt/",
+        "meaning": "tự tin",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Be confident.",
+                "translation": "Hãy tự tin."
+            }
+        ]
+    },
+    {
+        "term": "confidential",
+        "reading": "/ˌkɑːnfɪˈdenʃl/",
+        "meaning": "bảo mật",
+        "meta_data": {
+            "topic": "Security",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Confidential data.",
+                "translation": "Dữ liệu bảo mật."
+            }
+        ]
+    },
+    {
+        "term": "conflict",
+        "reading": "/ˈkɑːnflɪkt/",
+        "meaning": "xung đột",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Conflict resolution.",
+                "translation": "Giải quyết xung đột."
+            }
+        ]
+    },
+    {
+        "term": "connect",
+        "reading": "/kəˈnekt/",
+        "meaning": "kết nối",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Connect to Wi-Fi.",
+                "translation": "Kết nối Wi-Fi."
+            }
+        ]
+    },
+    {
+        "term": "consider",
+        "reading": "/kənˈsɪdər/",
+        "meaning": "cân nhắc",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Consider the options.",
+                "translation": "Cân nhắc các lựa chọn."
+            }
+        ]
+    },
+    {
+        "term": "considerable",
+        "reading": "/kənˈsɪdərəbl/",
+        "meaning": "đáng kể",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Considerable amount.",
+                "translation": "Số lượng đáng kể."
+            }
+        ]
+    },
+    {
+        "term": "constant",
+        "reading": "/ˈkɑːnstənt/",
+        "meaning": "liên tục",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Constant updates.",
+                "translation": "Cập nhật liên tục."
+            }
+        ]
+    },
+    {
+        "term": "consult",
+        "reading": "/kənˈsʌlt/",
+        "meaning": "tham khảo ý kiến",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Consult an expert.",
+                "translation": "Tham khảo ý kiến chuyên gia."
+            }
+        ]
+    },
+    {
+        "term": "consultant",
+        "reading": "/kənˈsʌltənt/",
+        "meaning": "cố vấn",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Hire a consultant.",
+                "translation": "Thuê cố vấn."
+            }
+        ]
+    },
+    {
+        "term": "consume",
+        "reading": "/kənˈsuːm/",
+        "meaning": "tiêu thụ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Consume energy.",
+                "translation": "Tiêu thụ năng lượng."
+            }
+        ]
+    },
+    {
+        "term": "consumer",
+        "reading": "/kənˈsuːmər/",
+        "meaning": "người tiêu dùng",
+        "meta_data": {
+            "topic": "Marketing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Consumer rights.",
+                "translation": "Quyền lợi người tiêu dùng."
+            }
+        ]
+    },
+    {
+        "term": "contact",
+        "reading": "/ˈkɑːntækt/",
+        "meaning": "liên hệ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Contact support.",
+                "translation": "Liên hệ hỗ trợ."
+            }
+        ]
+    },
+    {
+        "term": "contain",
+        "reading": "/kənˈteɪn/",
+        "meaning": "chứa",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Contain information.",
+                "translation": "Chứa thông tin."
+            }
+        ]
+    },
+    {
+        "term": "container",
+        "reading": "/kənˈteɪnər/",
+        "meaning": "thùng chứa, công-ten-nơ",
+        "meta_data": {
+            "topic": "Logistics",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Shipping container.",
+                "translation": "Thùng hàng vận chuyển."
+            }
+        ]
+    },
+    {
+        "term": "content",
+        "reading": "/ˈkɑːntent/",
+        "meaning": "nội dung",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Web content.",
+                "translation": "Nội dung web."
+            }
+        ]
+    },
+    {
+        "term": "contractor",
+        "reading": "/ˈkɑːntræktər/",
+        "meaning": "nhà thầu",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Hire a contractor.",
+                "translation": "Thuê nhà thầu."
+            }
+        ]
+    },
+    {
+        "term": "contrary",
+        "reading": "/ˈkɑːntreri/",
+        "meaning": "ngược lại",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "On the contrary.",
+                "translation": "Ngược lại."
+            }
+        ]
+    },
+    {
+        "term": "contribute",
+        "reading": "/kənˈtrɪbjuːt/",
+        "meaning": "đóng góp",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Contribute ideas.",
+                "translation": "Đóng góp ý tưởng."
+            }
+        ]
+    },
+    {
+        "term": "contribution",
+        "reading": "/ˌkɑːntrɪˈbjuːʃn/",
+        "meaning": "sự đóng góp",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Make a contribution.",
+                "translation": "Thực hiện đóng góp."
+            }
+        ]
+    },
+    {
+        "term": "control",
+        "reading": "/kənˈtroʊl/",
+        "meaning": "kiểm soát",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Control costs.",
+                "translation": "Kiểm soát chi phí."
+            }
+        ]
+    },
+    {
+        "term": "convenient",
+        "reading": "/kənˈviːniənt/",
+        "meaning": "tiện lợi",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Convenient location.",
+                "translation": "Vị trí tiện lợi."
+            }
+        ]
+    }
+]

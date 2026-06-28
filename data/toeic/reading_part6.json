@@ -1,0 +1,46 @@
+[
+    {
+        "set_id": 1,
+        "part": 6,
+        "topic": "Email",
+        "passage": "<p>To: All Staff<br>From: IT Department<br>Date: Oct 25<br>Subject: Server Maintenance</p><p>Please be advised that the main server will be down for maintenance on Saturday, October 27th, from 10:00 PM to 2:00 AM. During this time, you will not be able to access your email or the company intranet.</p><p>We apologize for any [131]______ this may cause. We recommend saving all work locally before the maintenance begins.</p><p>If you have any urgent issues, please contact the Help Desk at ext. 5555.</p>",
+        "questions": [
+            {
+                "question_number": 131,
+                "question_text": "",
+                "options": [
+                    "convenience",
+                    "inconvenience",
+                    "convenient",
+                    "inconveniently"
+                ],
+                "correct_answer": "B",
+                "explanation": "We apologize for the 'inconvenience' (noun) caused by the downtime."
+            },
+            {
+                "question_number": 132,
+                "question_text": "What should employees do?",
+                "options": [
+                    "Go home early",
+                    "Save work locally",
+                    "Call the CEO",
+                    "Work on Sunday"
+                ],
+                "correct_answer": "B",
+                "explanation": "The text states: 'We recommend saving all work locally'."
+            },
+            {
+                "question_number": 133,
+                "question_text": "Who is the email from?",
+                "options": [
+                    "HR",
+                    "Sales",
+                    "IT Department",
+                    "Finance"
+                ],
+                "correct_answer": "C",
+                "explanation": "The 'From' line says 'IT Department'."
+            }
+        ]
+    }
+]

@@ -1,0 +1,686 @@
+{
+    "seion": [
+        {
+            "char": "あ",
+            "romaji": "a",
+            "mnemonic": "Chữ A với cái An-ten trên đầu.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%82.gif"
+        },
+        {
+            "char": "い",
+            "romaji": "i",
+            "mnemonic": "Hai nét song song như hai số 1 (i).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%84.gif"
+        },
+        {
+            "char": "う",
+            "romaji": "u",
+            "mnemonic": "Uốn éo như người đang tập cơ bụng.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%86.gif"
+        },
+        {
+            "char": "え",
+            "romaji": "e",
+            "mnemonic": "Con Êch đang nhảy qua rào.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%88.gif"
+        },
+        {
+            "char": "お",
+            "romaji": "o",
+            "mnemonic": "Ông cụ đang ngồi câu cá bên hồ.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%8A.gif"
+        },
+        {
+            "char": "か",
+            "romaji": "ka",
+            "mnemonic": "Vung tay múa võ Ka-ra-te.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%8B.gif"
+        },
+        {
+            "char": "き",
+            "romaji": "ki",
+            "mnemonic": "Cái chìa khóa (Key) để mở cửa.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%8D.gif"
+        },
+        {
+            "char": "く",
+            "romaji": "ku",
+            "mnemonic": "Cái mỏ chim Cúc-ku đang mở.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%8F.gif"
+        },
+        {
+            "char": "け",
+            "romaji": "ke",
+            "mnemonic": "Thùng gỗ đựng rượu Sa-ke.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%91.gif"
+        },
+        {
+            "char": "こ",
+            "romaji": "ko",
+            "mnemonic": "Hai cái rổ (Ko) úp vào nhau.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%93.gif"
+        },
+        {
+            "char": "さ",
+            "romaji": "sa",
+            "mnemonic": "Quai của cái túi xách (Sack).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%95.gif"
+        },
+        {
+            "char": "し",
+            "romaji": "shi",
+            "mnemonic": "Cái móc câu cá (Shinh).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%97.gif"
+        },
+        {
+            "char": "す",
+            "romaji": "su",
+            "mnemonic": "Gương mặt đang cười (Smile) hạnh phúc.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%99.gif"
+        },
+        {
+            "char": "せ",
+            "romaji": "se",
+            "mnemonic": "Dòng sông Sen chảy hiền hòa.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%9B.gif"
+        },
+        {
+            "char": "そ",
+            "romaji": "so",
+            "mnemonic": "Con Sóc đang leo trên cành cây.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%9D.gif"
+        },
+        {
+            "char": "た",
+            "romaji": "ta",
+            "mnemonic": "Chữ T và chữ A ghép lại thành Ta.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%9F.gif"
+        },
+        {
+            "char": "ち",
+            "romaji": "chi",
+            "mnemonic": "Số 5 bị viết ngược hoặc người Chị gái.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%A1.gif"
+        },
+        {
+            "char": "つ",
+            "romaji": "tsu",
+            "mnemonic": "Ngọn sóng thần (Tsu-na-mi) đang dâng cao.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%A4.gif"
+        },
+        {
+            "char": "て",
+            "romaji": "te",
+            "mnemonic": "Cái Tai (Te) để lắng nghe.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%A6.gif"
+        },
+        {
+            "char": "と",
+            "romaji": "to",
+            "mnemonic": "Ngón chân (Toe) bị vấp vào cạnh bàn.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%A8.gif"
+        },
+        {
+            "char": "な",
+            "romaji": "na",
+            "mnemonic": "Người đang Quỳ (Nan) xin lỗi.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%AA.gif"
+        },
+        {
+            "char": "に",
+            "romaji": "ni",
+            "mnemonic": "Hai (Ni) nét gạch ngang.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%AB.gif"
+        },
+        {
+            "char": "ぬ",
+            "romaji": "nu",
+            "mnemonic": "Sợi mì Nu-dle xoắn vào nhau.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%AC.gif"
+        },
+        {
+            "char": "ね",
+            "romaji": "ne",
+            "mnemonic": "Con Mèo (Neko) đang cuộn tròn đuôi.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%AD.gif"
+        },
+        {
+            "char": "の",
+            "romaji": "no",
+            "mnemonic": "Biển báo cấm (No) hình tròn.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%AE.gif"
+        },
+        {
+            "char": "は",
+            "romaji": "ha",
+            "mnemonic": "Cái thang (Ha-tta) dựng cạnh tường.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%AF.gif"
+        },
+        {
+            "char": "ひ",
+            "romaji": "hi",
+            "mnemonic": "Cái Miệng đang cười tươi (Hi-hi).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B2.gif"
+        },
+        {
+            "char": "ふ",
+            "romaji": "fu",
+            "mnemonic": "Ngọn núi Phú (Fu) Sĩ hùng vĩ.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B5.gif"
+        },
+        {
+            "char": "へ",
+            "romaji": "he",
+            "mnemonic": "Đỉnh núi cao (Hay) chót vót.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B8.gif"
+        },
+        {
+            "char": "ほ",
+            "romaji": "ho",
+            "mnemonic": "Người cầm gậy đang đứng Ho.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%BB.gif"
+        },
+        {
+            "char": "ま",
+            "romaji": "ma",
+            "mnemonic": "Gương mặt con Ma (Ma) đáng sợ.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%BE.gif"
+        },
+        {
+            "char": "み",
+            "romaji": "mi",
+            "mnemonic": "Số 21 (Mi) viết cách điệu.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%BF.gif"
+        },
+        {
+            "char": "む",
+            "romaji": "mu",
+            "mnemonic": "Con bò kêu Moo Moo (Mu).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%80.gif"
+        },
+        {
+            "char": "め",
+            "romaji": "me",
+            "mnemonic": "Con Mắt (Me) có tròng tròn.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%81.gif"
+        },
+        {
+            "char": "も",
+            "romaji": "mo",
+            "mnemonic": "Lưỡi câu (Mo) móc dưới nước.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%82.gif"
+        },
+        {
+            "char": "や",
+            "romaji": "ya",
+            "mnemonic": "Con thuyền Yak (Ya) trên sông.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%84.gif"
+        },
+        {
+            "char": "",
+            "romaji": "",
+            "mnemonic": "",
+            "gif": ""
+        },
+        {
+            "char": "ゆ",
+            "romaji": "yu",
+            "mnemonic": "Con cá (Yu) đang tung tăng bơi.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%86.gif"
+        },
+        {
+            "char": "",
+            "romaji": "",
+            "mnemonic": "",
+            "gif": ""
+        },
+        {
+            "char": "よ",
+            "romaji": "yo",
+            "mnemonic": "Người đang ngồi tập Yoga (Yo).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%88.gif"
+        },
+        {
+            "char": "ら",
+            "romaji": "ra",
+            "mnemonic": "Con thỏ (Ra-bbit) có đôi tai dài.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%89.gif"
+        },
+        {
+            "char": "り",
+            "romaji": "ri",
+            "mnemonic": "Cánh hoa (Ri) rơi nhẹ nhàng.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%8A.gif"
+        },
+        {
+            "char": "る",
+            "romaji": "ru",
+            "mnemonic": "Con đường (Route) có vòng xoay.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%8B.gif"
+        },
+        {
+            "char": "れ",
+            "romaji": "re",
+            "mnemonic": "Người đang chạy (Re) rất nhanh.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%8C.gif"
+        },
+        {
+            "char": "ろ",
+            "romaji": "ro",
+            "mnemonic": "Số 3 (Ro) nhưng không có vòng xoáy.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%8D.gif"
+        },
+        {
+            "char": "わ",
+            "romaji": "wa",
+            "mnemonic": "Con thiên nga (Wa) duyên dáng.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%8F.gif"
+        },
+        {
+            "char": "",
+            "romaji": "",
+            "mnemonic": "",
+            "gif": ""
+        },
+        {
+            "char": "",
+            "romaji": "",
+            "mnemonic": "",
+            "gif": ""
+        },
+        {
+            "char": "",
+            "romaji": "",
+            "mnemonic": "",
+            "gif": ""
+        },
+        {
+            "char": "を",
+            "romaji": "wo",
+            "mnemonic": "Người nhảy qua (Wo) vũng nước.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%92.gif"
+        },
+        {
+            "char": "ん",
+            "romaji": "n",
+            "mnemonic": "Chữ n (N) viết thảo.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%93.gif"
+        },
+        {
+            "char": "",
+            "romaji": "",
+            "mnemonic": "",
+            "gif": ""
+        },
+        {
+            "char": "",
+            "romaji": "",
+            "mnemonic": "",
+            "gif": ""
+        },
+        {
+            "char": "",
+            "romaji": "",
+            "mnemonic": "",
+            "gif": ""
+        },
+        {
+            "char": "",
+            "romaji": "",
+            "mnemonic": "",
+            "gif": ""
+        }
+    ],
+    "dakuon": [
+        {
+            "char": "が",
+            "romaji": "ga",
+            "mnemonic": "Múa Karate mạnh mẽ (Ga).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%8C.gif"
+        },
+        {
+            "char": "ぎ",
+            "romaji": "gi",
+            "mnemonic": "Chìa khóa bạc (Gi).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%8E.gif"
+        },
+        {
+            "char": "ぐ",
+            "romaji": "gu",
+            "mnemonic": "Mỏ chim lớn (Gu).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%90.gif"
+        },
+        {
+            "char": "げ",
+            "romaji": "ge",
+            "mnemonic": "Thùng rượu to (Ge).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%92.gif"
+        },
+        {
+            "char": "ご",
+            "romaji": "go",
+            "mnemonic": "Lõi táo to (Go).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%94.gif"
+        },
+        {
+            "char": "ざ",
+            "romaji": "za",
+            "mnemonic": "Túi xách nặng (Za).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%96.gif"
+        },
+        {
+            "char": "じ",
+            "romaji": "ji",
+            "mnemonic": "Móc câu lớn (Ji).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%98.gif"
+        },
+        {
+            "char": "ず",
+            "romaji": "zu",
+            "mnemonic": "Cười lớn (Zu).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%9A.gif"
+        },
+        {
+            "char": "ぜ",
+            "romaji": "ze",
+            "mnemonic": "Sông Sen rộng (Ze).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%9C.gif"
+        },
+        {
+            "char": "ぞ",
+            "romaji": "zo",
+            "mnemonic": "Sóc lớn (Zo).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%9E.gif"
+        },
+        {
+            "char": "だ",
+            "romaji": "da",
+            "mnemonic": "Ta biến thành Da nặng nề.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%A0.gif"
+        },
+        {
+            "char": "ぢ",
+            "romaji": "ji",
+            "mnemonic": "Chị (Chi) biến âm thành Di.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%A2.gif"
+        },
+        {
+            "char": "づ",
+            "romaji": "zu",
+            "mnemonic": "Sóng lớn Dzu.",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%A5.gif"
+        },
+        {
+            "char": "で",
+            "romaji": "de",
+            "mnemonic": "Cái tai to (De).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%A7.gif"
+        },
+        {
+            "char": "ど",
+            "romaji": "do",
+            "mnemonic": "Ngón chân đau (Do).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%A9.gif"
+        },
+        {
+            "char": "ば",
+            "romaji": "ba",
+            "mnemonic": "Cái thang gỗ (Ba).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B0.gif"
+        },
+        {
+            "char": "び",
+            "romaji": "bi",
+            "mnemonic": "Cười hi hi (Bi).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B3.gif"
+        },
+        {
+            "char": "ぶ",
+            "romaji": "bu",
+            "mnemonic": "Núi Phú Sĩ mờ (Bu).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B6.gif"
+        },
+        {
+            "char": "べ",
+            "romaji": "be",
+            "mnemonic": "Đỉnh núi dốc (Be).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B9.gif"
+        },
+        {
+            "char": "ぼ",
+            "romaji": "bo",
+            "mnemonic": "Ông già ho (Bo).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%BC.gif"
+        },
+        {
+            "char": "ぱ",
+            "romaji": "pa",
+            "mnemonic": "Cái thang nổ (Pa).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B1.gif"
+        },
+        {
+            "char": "ぴ",
+            "romaji": "pi",
+            "mnemonic": "Cười giòn tan (Pi).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B4.gif"
+        },
+        {
+            "char": "ぷ",
+            "romaji": "pu",
+            "mnemonic": "Phun bong bóng (Pu).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B7.gif"
+        },
+        {
+            "char": "ぺ",
+            "romaji": "pe",
+            "mnemonic": "Đỉnh núi phẳng (Pe).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%BA.gif"
+        },
+        {
+            "char": "ぽ",
+            "romaji": "po",
+            "mnemonic": "Ông già thổi sáo (Po).",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%BD.gif"
+        }
+    ],
+    "yoon": [
+        {
+            "char": "きゃ",
+            "romaji": "kya",
+            "mnemonic": "Kết hợp của: Cái chìa khóa (Key) để mở cửa. và ゃ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%8D%E3%82%83.gif"
+        },
+        {
+            "char": "きゅ",
+            "romaji": "kyu",
+            "mnemonic": "Kết hợp của: Cái chìa khóa (Key) để mở cửa. và ゅ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%8D%E3%82%85.gif"
+        },
+        {
+            "char": "きょ",
+            "romaji": "kyo",
+            "mnemonic": "Kết hợp của: Cái chìa khóa (Key) để mở cửa. và ょ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%8D%E3%82%87.gif"
+        },
+        {
+            "char": "しゃ",
+            "romaji": "sha",
+            "mnemonic": "Kết hợp của: Cái móc câu cá (Shinh). và ゃ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%97%E3%82%83.gif"
+        },
+        {
+            "char": "しゅ",
+            "romaji": "shu",
+            "mnemonic": "Kết hợp của: Cái móc câu cá (Shinh). và ゅ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%97%E3%82%85.gif"
+        },
+        {
+            "char": "しょ",
+            "romaji": "sho",
+            "mnemonic": "Kết hợp của: Cái móc câu cá (Shinh). và ょ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%97%E3%82%87.gif"
+        },
+        {
+            "char": "ちゃ",
+            "romaji": "cha",
+            "mnemonic": "Kết hợp của: Số 5 bị viết ngược hoặc người Chị gái. và ゃ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%A1%E3%82%83.gif"
+        },
+        {
+            "char": "ちゅ",
+            "romaji": "chu",
+            "mnemonic": "Kết hợp của: Số 5 bị viết ngược hoặc người Chị gái. và ゅ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%A1%E3%82%85.gif"
+        },
+        {
+            "char": "ちょ",
+            "romaji": "cho",
+            "mnemonic": "Kết hợp của: Số 5 bị viết ngược hoặc người Chị gái. và ょ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%A1%E3%82%87.gif"
+        },
+        {
+            "char": "にゃ",
+            "romaji": "nya",
+            "mnemonic": "Kết hợp của: Hai (Ni) nét gạch ngang. và ゃ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%AB%E3%82%83.gif"
+        },
+        {
+            "char": "にゅ",
+            "romaji": "nyu",
+            "mnemonic": "Kết hợp của: Hai (Ni) nét gạch ngang. và ゅ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%AB%E3%82%85.gif"
+        },
+        {
+            "char": "にょ",
+            "romaji": "nyo",
+            "mnemonic": "Kết hợp của: Hai (Ni) nét gạch ngang. và ょ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%AB%E3%82%87.gif"
+        },
+        {
+            "char": "ひゃ",
+            "romaji": "hya",
+            "mnemonic": "Kết hợp của: Cái Miệng đang cười tươi (Hi-hi). và ゃ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B2%E3%82%83.gif"
+        },
+        {
+            "char": "ひゅ",
+            "romaji": "hyu",
+            "mnemonic": "Kết hợp của: Cái Miệng đang cười tươi (Hi-hi). và ゅ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B2%E3%82%85.gif"
+        },
+        {
+            "char": "ひょ",
+            "romaji": "hyo",
+            "mnemonic": "Kết hợp của: Cái Miệng đang cười tươi (Hi-hi). và ょ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B2%E3%82%87.gif"
+        },
+        {
+            "char": "みゃ",
+            "romaji": "mya",
+            "mnemonic": "Kết hợp của: Số 21 (Mi) viết cách điệu. và ゃ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%BF%E3%82%83.gif"
+        },
+        {
+            "char": "みゅ",
+            "romaji": "myu",
+            "mnemonic": "Kết hợp của: Số 21 (Mi) viết cách điệu. và ゅ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%BF%E3%82%85.gif"
+        },
+        {
+            "char": "みょ",
+            "romaji": "myo",
+            "mnemonic": "Kết hợp của: Số 21 (Mi) viết cách điệu. và ょ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%BF%E3%82%87.gif"
+        },
+        {
+            "char": "りゃ",
+            "romaji": "rya",
+            "mnemonic": "Kết hợp của: Cánh hoa (Ri) rơi nhẹ nhàng. và ゃ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%8A%E3%82%83.gif"
+        },
+        {
+            "char": "りゅ",
+            "romaji": "ryu",
+            "mnemonic": "Kết hợp của: Cánh hoa (Ri) rơi nhẹ nhàng. và ゅ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%8A%E3%82%85.gif"
+        },
+        {
+            "char": "りょ",
+            "romaji": "ryo",
+            "mnemonic": "Kết hợp của: Cánh hoa (Ri) rơi nhẹ nhàng. và ょ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%82%8A%E3%82%87.gif"
+        },
+        {
+            "char": "ぎゃ",
+            "romaji": "gya",
+            "mnemonic": "Kết hợp của: Chìa khóa bạc (Gi). và ゃ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%8E%E3%82%83.gif"
+        },
+        {
+            "char": "ぎゅ",
+            "romaji": "gyu",
+            "mnemonic": "Kết hợp của: Chìa khóa bạc (Gi). và ゅ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%8E%E3%82%85.gif"
+        },
+        {
+            "char": "ぎょ",
+            "romaji": "gyo",
+            "mnemonic": "Kết hợp của: Chìa khóa bạc (Gi). và ょ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%8E%E3%82%87.gif"
+        },
+        {
+            "char": "じゃ",
+            "romaji": "ja",
+            "mnemonic": "Kết hợp của: Móc câu lớn (Ji). và ゃ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%98%E3%82%83.gif"
+        },
+        {
+            "char": "じゅ",
+            "romaji": "ju",
+            "mnemonic": "Kết hợp của: Móc câu lớn (Ji). và ゅ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%98%E3%82%85.gif"
+        },
+        {
+            "char": "じょ",
+            "romaji": "jo",
+            "mnemonic": "Kết hợp của: Móc câu lớn (Ji). và ょ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%98%E3%82%87.gif"
+        },
+        {
+            "char": "びゃ",
+            "romaji": "bya",
+            "mnemonic": "Kết hợp của: Cười hi hi (Bi). và ゃ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B3%E3%82%83.gif"
+        },
+        {
+            "char": "びゅ",
+            "romaji": "byu",
+            "mnemonic": "Kết hợp của: Cười hi hi (Bi). và ゅ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B3%E3%82%85.gif"
+        },
+        {
+            "char": "びょ",
+            "romaji": "byo",
+            "mnemonic": "Kết hợp của: Cười hi hi (Bi). và ょ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B3%E3%82%87.gif"
+        },
+        {
+            "char": "ぴゃ",
+            "romaji": "pya",
+            "mnemonic": "Kết hợp của: Cười giòn tan (Pi). và ゃ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B4%E3%82%83.gif"
+        },
+        {
+            "char": "ぴゅ",
+            "romaji": "pyu",
+            "mnemonic": "Kết hợp của: Cười giòn tan (Pi). và ゅ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B4%E3%82%85.gif"
+        },
+        {
+            "char": "ぴょ",
+            "romaji": "pyo",
+            "mnemonic": "Kết hợp của: Cười giòn tan (Pi). và ょ",
+            "gif": "https://raw.githubusercontent.com/jcsirot/kanji.gif/master/hiragana/gif/150x150/%E3%81%B4%E3%82%87.gif"
+        }
+    ]
+}

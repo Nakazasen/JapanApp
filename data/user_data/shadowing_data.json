@@ -1,0 +1,263 @@
+{
+  "lessons": [
+    {
+      "id": "8f316bbf-6e0e-49a7-8735-ffb669fa9fa4",
+      "topic": "Về việc sửa chữa máy in (Kyocera)",
+      "level": "N1",
+      "created_at": "2026-01-03T19:13:40.629849",
+      "script_content": {
+        "sentences": [
+          {
+            "japanese": "京セラ製複合機の頻発する紙詰まりに対し、保守契約に即した早急な現状復帰をお願いしたく存じます。",
+            "meaning": "Liên quan đến tình trạng kẹt giấy thường xuyên của máy in đa năng Kyocera, tôi mong muốn phía bên bạn nhanh chóng khôi phục hiện trạng theo đúng hợp đồng bảo trì.",
+            "reading": "きょうせらせいふくごうきのひんぱつするかみづまりにたいし、ほしゅけいやくにそくしたさっきゅうなげんじょうふっきをおねがいしたくぞんじます。"
+          },
+          {
+            "japanese": "業務の遅滞を余儀なくされており、プロジェクトの進捗に支障をきたす懸念が拭いきれません。",
+            "meaning": "Chúng tôi đang rơi vào tình cảnh công việc bị trì trệ, và tôi không thể xua tan nỗi lo ngại rằng điều này sẽ gây trở ngại cho tiến độ của dự án.",
+            "reading": "ぎょうむのちたいをよぎなくされており、ぷろじぇくとのしんちょくにししょうをきたすけねんがぬぐいきれません。"
+          },
+          {
+            "japanese": "つきましては、単なる応急処置に留まらず、根本的な原因究明と部品の刷新を含めた抜本的な対策を講じていただけますか。",
+            "meaning": "Vì vậy, thay vì chỉ dừng lại ở các biện pháp ứng phó tạm thời, các bạn có thể thực hiện những đối sách triệt để, bao gồm việc điều tra nguyên nhân gốc rễ và đổi mới linh kiện hay không?",
+            "reading": "つきましては、たんなるおうきゅうしょちにとどまらず、こんぽんてきなげんいんきゅうめいとぶひんのさっしんをふくめたばっぽんてきなたいさくをこうじていただけますか。"
+          },
+          {
+            "japanese": "再発防止に向けた具体的な改善案をご提示いただき、今後の安定稼働に万全を期していただきたいと考えております。",
+            "meaning": "Tôi hy vọng các bạn sẽ đưa ra phương án cải thiện cụ thể nhằm ngăn ngừa tái phát, đồng thời đảm bảo vận hành ổn định và hoàn hảo trong thời gian tới.",
+            "reading": "さいはつぼうしにむけたぐたいてきなかいぜんあんをごていじいただき、こんごのあんていかどうにばんぜんをきしていただきたいとかんがえております。"
+          },
+          {
+            "japanese": "お忙しいところ恐縮ですが、ダウンタイムを最小限に抑えるべく、迅速なご対応を平にお願い申し上げます。",
+            "meaning": "Biết rằng bạn đang bận rộn nhưng tôi xin chân thành khẩn thiết yêu cầu một sự hỗ trợ nhanh chóng nhất để có thể giảm thiểu thời gian hệ thống ngừng hoạt động.",
+            "reading": "おいそがしいところきょうしゅくですが、だうんたいむをさいしょうげんにおさえるべく、じんそくなごたいおうをひらにおねがいもうしあげます。"
+          }
+        ],
+        "title": "Kỹ thuật sửa chữa máy in Kyocera (Cấp độ N1)"
+      },
+      "audio_filename": "8f316bbf-6e0e-49a7-8735-ffb669fa9fa4.mp3"
+    },
+    {
+      "id": "347d6b0e-7f30-4f11-ae1a-de7df7b7b8d3",
+      "topic": "Gọi món ở nhà hàng",
+      "level": "N2",
+      "created_at": "2026-01-03T19:24:14.881784",
+      "script_content": {
+        "sentences": [
+          {
+            "japanese": "19時に2名で予約していた者ですが、差し支えなければ、予約時にお願いしていた窓際の席をご案内いただけますか。",
+            "meaning": "Tôi là người đã đặt bàn cho 2 người vào lúc 19 giờ, nếu không có gì bất tiện, phiền anh/chị dẫn chúng tôi đến chỗ ngồi cạnh cửa sổ như đã yêu cầu lúc đặt bàn được không ạ?",
+            "reading": "じゅうくじににめいでよやくしていたものですが、さしつかえなければ、よやくじにおねがいしていたまどぎわのせきをごあんないいただけますか。"
+          },
+          {
+            "japanese": "連れの一人が甲殻類に対して重度のアレルギーを持っておりまして、こちらのお勧めコースの中にエビやカニが含まれていないか、念のためご確認いただけますでしょうか。",
+            "meaning": "Một người đi cùng tôi bị dị ứng nghiêm trọng với các loại giáp xác, nên để cho chắc chắn, phiền anh/chị kiểm tra giúp xem trong set menu gợi ý này có bao gồm tôm hay cua không ạ?",
+            "reading": "つれのひとりがこうかくるいにたいしてじゅうどのアレルギーをもっておりまして、こちらのおすすめコースのなかにエビやカニがふくまれていないか、ねんのためごかくにんいただけますでしょうか。"
+          },
+          {
+            "japanese": "さっぱりした味付けのものを好んでいるのですが、こちらの二種類の季節の前菜のうち、どちらがよりお勧めか伺ってもよろしいですか。",
+            "meaning": "Vì chúng tôi thích những món có hương vị thanh đạm, anh/chị có thể cho tôi biết trong hai loại khai vị theo mùa này thì loại nào được gợi ý nhiều hơn không?",
+            "reading": "さっぱりしたあじつけのものをこのんでいるのですが、こちらのにしゅるいのきせつのぜんさいのうち、どちらがよりおすすめかうかがってもよろしいですか。"
+          },
+          {
+            "japanese": "ワインに関しては、白身魚の料理に合うものを一本選びたいので、予算の範囲内でソムリエの方にいくつか提案していただくことは可能でしょうか。",
+            "meaning": "Về rượu vang, vì tôi muốn chọn một chai phù hợp với các món cá thịt trắng, nên liệu có thể nhờ chuyên gia tư vấn rượu đề xuất cho tôi vài loại trong phạm vi ngân sách được không ạ?",
+            "reading": "ワインにかんしては、しろみざかなのりょうりにあうものをいっぽんえらびたいので、よさんのはんいないでソムリエのかたにいくつかていあんしていただくことはかのうでしょうか。"
+          },
+          {
+            "japanese": "とりあえず注文は以上で、あとは食後の様子を見てデザートやコーヒーを追加するかもしれませんので、その際はまたお声がけしますね。",
+            "meaning": "Trước mắt tôi xin đặt bấy nhiêu đó thôi, sau đó tùy tình hình sau bữa ăn mà chúng tôi có thể sẽ gọi thêm tráng miệng hoặc cà phê, khi đó tôi sẽ gọi anh/chị sau nhé.",
+            "reading": "とりあえずちゅうもんはいじょうで、あとはしょくごのようすをみてデザートやコーヒーをついかするかもしれませんので、そのさいはまたおこえがけしますね。"
+          }
+        ],
+        "title": "高級レストランでの注文と相談"
+      },
+      "audio_filename": "347d6b0e-7f30-4f11-ae1a-de7df7b7b8d3.mp3"
+    },
+    {
+      "id": "d8e465c6-e71c-43c2-b581-1556d225a13e",
+      "topic": "Báo cáo tiến độ công việc hàng ngày (進捗報告)",
+      "level": "N1",
+      "created_at": "2026-01-04T15:34:28.939668",
+      "script_content": {
+        "sentences": [
+          {
+            "japanese": "本日の進捗状況についてですが、Aプロジェクトの設計フェーズは概ね予定通り推移しております。",
+            "meaning": "Về tình hình tiến độ ngày hôm nay, giai đoạn thiết kế của dự án A về cơ bản đang diễn ra đúng như kế hoạch.",
+            "reading": "ほんじつのしんちょくじょうきょうについてですが、エープロジェクトのせっけいフェーズはおおむねよていどおりすいいしております。"
+          },
+          {
+            "japanese": "基本設計の主要な項目に関しては、本日中にすべて網羅できる見込みで、週明けからは詳細設計に着手いたします。",
+            "meaning": "Đối với các hạng mục chính của thiết kế cơ bản, dự kiến sẽ bao quát được toàn bộ trong ngày hôm nay, và chúng tôi sẽ bắt tay vào thiết kế chi tiết từ đầu tuần sau.",
+            "reading": "きほんせっけいのしゅようなこうもくにかんしては、ほんじつじゅうにすべてもうらできるみこみで、しゅうあけからはしょうさいせっけいにちゃくしゅいたします。"
+          },
+          {
+            "japanese": "一部、外部ベンダーとの調整に時間を要しておりますが、現時点では全体のスケジュールに支障をきたすほどではございません。",
+            "meaning": "Có một số phần đang mất thời gian để điều chỉnh với nhà thầu bên ngoài, nhưng tại thời điểm hiện tại thì chưa đến mức gây trở ngại cho toàn bộ lịch trình.",
+            "reading": "いちぶ、がいぶベンダーとのちょうせいにじかんをようしておりますが、げんじてんではぜんたいのスケジュールにししょうをきたすほどではございません。"
+          },
+          {
+            "japanese": "万が一の遅延を未然に防ぐべく、バックアッププランの策定を並行して進めており、明日までにはご報告できるかと存じます。",
+            "meaning": "Để ngăn chặn rủi ro chậm trễ có thể xảy ra, chúng tôi đang song song xây dựng kế hoạch dự phòng và tôi nghĩ có thể báo cáo cho sếp vào ngày mai.",
+            "reading": "まんがいちのちえんをみぜんにふせぐべく、バックアッププランのさくていをへいこうしてすすめており、あしたまでにはごほうこくできるかとぞんじます。"
+          },
+          {
+            "japanese": "今後とも、遺漏のないよう細心の注意を払って進めてまいりますので、何卒ご指導のほどよろしくお願い申し上げます。",
+            "meaning": "Từ nay về sau, chúng tôi sẽ tiếp tục tiến hành với sự chú ý tỉ mỉ để không xảy ra bất kỳ sai sót nào, rất mong nhận được sự chỉ đạo của sếp.",
+            "reading": "こんごとも、いろうのないようさいしんのちゅういをはらってすすめてまいりますので、なにとぞごしどうのほどよろしくおねがいもうしあげます。"
+          }
+        ],
+        "title": "N1レベル：業務進捗報告のシャドーイング"
+      },
+      "audio_filename": "d8e465c6-e71c-43c2-b581-1556d225a13e.mp3"
+    },
+    {
+      "id": "a716ca5f-1657-4559-b179-ed8724a571a4",
+      "topic": "Báo cáo hoàn thành công việc (完了報告)",
+      "level": "N1",
+      "created_at": "2026-01-04T15:37:56.413766",
+      "script_content": {
+        "sentences": [
+          {
+            "japanese": "かねてより懸案事項となっておりました新プロジェクトですが、お陰様で特筆すべき遅滞もなく、無事完遂の運びとなりました。",
+            "meaning": "Về dự án mới vốn là vấn đề tồn đọng bấy lâu nay, nhờ có sự giúp đỡ của ngài mà chúng tôi đã hoàn thành tốt đẹp mà không có sự chậm trễ đáng kể nào.",
+            "reading": "かねてよりけんあんじこうとなっておりましたしんぷろじぇくとですが、おかげさまでとくひつすべきちたいもなく、ぶじかんすいのはこびとなりました。"
+          },
+          {
+            "japanese": "過程においては不測の事態も散見されましたが、関係各署との緊密な連携を図ることで、何とか当初の計画通りに収めることができました。",
+            "meaning": "Dù trong quá trình thực hiện đã phát sinh một vài tình huống bất ngờ, nhưng nhờ phối hợp chặt chẽ với các bộ phận liên quan, chúng tôi đã có thể giải quyết ổn thỏa theo đúng kế hoạch ban đầu.",
+            "reading": "かていにおいてはふそくのじたいもさんけんされましたが、かんけいかくしょとのきんみつなれんけいをはかることで、なんとかとうしょのけいかくどおりにおさめることができました。"
+          },
+          {
+            "japanese": "最終的な成果物に関しましては、細部に至るまで厳格な精査を行い、万全の品質を期した次第でございます。",
+            "meaning": "Đối với thành quả cuối cùng, chúng tôi đã tiến hành kiểm tra nghiêm ngặt đến từng chi tiết nhỏ nhất để đảm bảo chất lượng hoàn hảo nhất.",
+            "reading": "さいしゅうてきなせいかぶつにかんしましては、さいぶにいたるまでげんかくなせいさをおこない、ばんぜんのひんしつをきしたしだいでございます。"
+          },
+          {
+            "japanese": "今後は運用フェーズへと移行いたしますが、不測の事態に即応できるよう、然るべきフォローアップ体制を整えております。",
+            "meaning": "Sắp tới chúng tôi sẽ chuyển sang giai đoạn vận hành, nhưng để có thể ứng phó tức thì với những sự cố bất ngờ, chúng tôi đã thiết lập một hệ thống hậu cần và hỗ trợ phù hợp.",
+            "reading": "こんごはうんようふぇーずへといこういたしますが、ふそくのじたいにそくおうできるよう、しかるべきふぉろーあっぷたいせいをととのえております。"
+          },
+          {
+            "japanese": "多大なるご指導を賜りましたこと、厚く御礼申し上げますとともに、まずは取り急ぎ完了のご報告とさせていただきます。",
+            "meaning": "Tôi xin bày tỏ lòng biết ơn sâu sắc đối với sự chỉ đạo tận tình của ngài, và trước hết, tôi xin phép được báo cáo nhanh về việc hoàn thành dự án.",
+            "reading": "ただいなるごしどうをたまわりましたこと、あつくおんれいもうしあげますとともに、まずはとりいそぎかんりょうのごほうこくとさせていただきます。"
+          }
+        ],
+        "title": "N1レベル：業務完了の報告と謝辞"
+      },
+      "audio_filename": "a716ca5f-1657-4559-b179-ed8724a571a4.mp3"
+    },
+    {
+      "id": "4f3eac0b-0864-415c-8ece-03cae6323c06",
+      "topic": "Báo cáo khi gặp sự cố/lỗi (トラブル報告)",
+      "level": "N1",
+      "created_at": "2026-01-06T06:32:35.427916",
+      "script_content": {
+        "sentences": [
+          {
+            "japanese": "お忙しいところ恐縮ですが、現在進行中のプロジェクトに関しまして、早急にご報告申し上げたい点がございます。",
+            "meaning": "Xin lỗi vì đã làm phiền lúc anh/chị đang bận, nhưng có một điểm liên quan đến dự án đang tiến hành tôi cần phải báo cáo gấp.",
+            "reading": "おいそがしいところきょうしゅくですが、げんざいしんこうちゅうのプロジェクトにかんしまして、さっきゅうにごほうこくもうしあげたいてんがございます。"
+          },
+          {
+            "japanese": "先方との認識の齟齬により、システム要件の定義に重大な不備が生じていることが判明いたしました。",
+            "meaning": "Do sự bất đồng về nhận thức với phía đối tác, chúng tôi phát hiện ra rằng đã có sai sót nghiêm trọng phát sinh trong việc định nghĩa yêu cầu hệ thống.",
+            "reading": "せんぽうとのにんしきのそごにより、システムようけんのていぎにじゅうだいなふびがしょうじていることがはんめいいたしました。"
+          },
+          {
+            "japanese": "このまま進行いたしますと、来月予定しておりますリリースに大幅な遅延をきたす可能性が極めて高い状況です。",
+            "meaning": "Nếu cứ tiếp tục như thế này, khả năng cực kỳ cao là sẽ gây ra sự chậm trễ lớn cho việc phát hành đã dự kiến vào tháng sau.",
+            "reading": "このまましんこういたしますと、らいげつよていしておりますリリースにおおはばなちえんをきたすかのうせいきわめてたかいじょうきょうです。"
+          },
+          {
+            "japanese": "現在、被害を最小限に食い止めるべく、開発チームと連携してあらゆるリカバリー策を模索している最中でございます。",
+            "meaning": "Hiện tại, để hạn chế tối đa thiệt hại, chúng tôi đang trong quá trình phối hợp với đội ngũ phát triển để tìm kiếm mọi biện pháp khắc phục.",
+            "reading": "げんざい、ひがいをさいしょうげんにくいとめるべく、かいはつチームとれんけいしてあらゆるリカバリーさくをもさくしているさいちゅうでございます。"
+          },
+          {
+            "japanese": "詳細と代替案をまとめた資料を作成いたしましたので、今後の対応についてご指示を仰ぎたく、お時間をいただけないでしょうか。",
+            "meaning": "Tôi đã chuẩn bị tài liệu tóm tắt chi tiết và các phương án thay thế, vì vậy tôi muốn xin ý kiến chỉ đạo về cách ứng phó sắp tới, mong anh/chị có thể dành cho tôi chút thời gian được không ạ?",
+            "reading": "しょうさいとだいたいあんをまとめたしりょうをさくせいいたしましたので、こんごのたいおうについてごしじをあおぎたく、おじかんをいただけないでしょうか。"
+          }
+        ],
+        "title": "業務上の重大なトラブルに関する報告"
+      },
+      "audio_filename": "4f3eac0b-0864-415c-8ece-03cae6323c06.mp3"
+    },
+    {
+      "id": "226a9a94-8b34-4b41-91a9-1af7c105394b",
+      "topic": "Xin ý kiến chỉ đạo của cấp trên (指示を仰ぐ)",
+      "level": "N1",
+      "created_at": "2026-01-06T06:46:37.378902",
+      "script_content": {
+        "sentences": [
+          {
+            "japanese": "課長、お手すきの際で構いませんので、現在進行中のプロジェクトの件で、少々お知恵を拝借したく存じます。",
+            "meaning": "Thưa Trưởng phòng, khi nào anh thong thả, em xin phép được thỉnh giáo ý kiến của anh về dự án đang tiến hành ạ.",
+            "reading": "かちょう、おてすきのさいでかまいませんので、げんざいしんこうちゅうのぷろじぇくとのけんで、しょうしょうおちえをはいしゃくしたくぞんじます。"
+          },
+          {
+            "japanese": "先方から仕様変更の打診があり、当初の計画との整合性をどう図るべきか、判断に苦慮しております。",
+            "meaning": "Phía đối tác có dạm hỏi về việc thay đổi thông số kỹ thuật, nên em đang gặp khó khăn trong việc quyết định làm thế nào để đảm bảo tính thống nhất với kế hoạch ban đầu.",
+            "reading": "せんぽうからしようへんこうのだしんがあり、とうしょのけいかくとのせいごうせいをどうはかるべきか、はんだんにくりょしております。"
+          },
+          {
+            "japanese": "私案としましては二通りの対応策を検討したのですが、いずれも一長一短があり、決め手を欠いている状況です。",
+            "meaning": "Về phương án cá nhân, em đã cân nhắc hai hướng giải quyết, nhưng cả hai đều có ưu nhược điểm riêng và hiện tại vẫn chưa có yếu tố quyết định.",
+            "reading": "しあんとしてしましてはふたとおりのたいおうさくをけんとうしたのですが、いずれもいっちょういったんがあり、きめてをかいているじょうきょうです。"
+          },
+          {
+            "japanese": "つきましては、部長のご経験に照らして、現状どの選択肢が最も妥当か、ご示唆をいただけないでしょうか。",
+            "meaning": "Do đó, dựa trên kinh nghiệm của Trưởng phòng, xin anh cho em lời khuyên xem trong tình hình này thì lựa chọn nào là thỏa đáng nhất.",
+            "reading": "つきましては、ぶちょうのごけいけんにてらして、げんじょうどのせんたくしがもっともだとうか、ごしさをいただけないでしょうか。"
+          },
+          {
+            "japanese": "今後の進め方について、大所高所からのご指導を仰げれば、速やかに実務に反映させていく所存です。",
+            "meaning": "Nếu nhận được sự chỉ đạo từ góc nhìn bao quát của anh về cách tiến hành sắp tới, em dự định sẽ nhanh chóng triển khai vào thực tế ạ.",
+            "reading": "こんごのすすめかたについて、たいしょこうしょからのごしどうをあおげれば、すみやかにじつむにはんえいさせていくしょぜんです。"
+          }
+        ],
+        "title": "上司にプロジェクトの方向性を仰ぐ"
+      },
+      "audio_filename": "226a9a94-8b34-4b41-91a9-1af7c105394b.mp3"
+    },
+    {
+      "id": "245995b9-101e-4fd6-83bb-348d5ec70ded",
+      "topic": "Thảo luận về phương án giải quyết (相談する)",
+      "level": "N1",
+      "created_at": "2026-01-06T06:47:02.444287",
+      "script_content": {
+        "sentences": [
+          {
+            "japanese": "今回の不祥事を受け、我々は抜本的な解決策を講じることを余儀なくされています。",
+            "meaning": "Sau sự cố lần này, chúng ta buộc phải thực hiện các biện pháp giải quyết triệt để.",
+            "reading": "こんかいのふしょうじをうけ、われわれはばっぽんてきなかいけつさくをこうじることをよぎなくされています。"
+          },
+          {
+            "japanese": "現状の予算規模を踏まえた上で、現実的な妥協案を模索していく必要があります。",
+            "meaning": "Dựa trên quy mô ngân sách hiện tại, chúng ta cần tìm kiếm một phương án thỏa hiệp thực tế.",
+            "reading": "げんじょうのよさんきぼをふまえたうえで、げんじつてきなだきょうあんをもさくしていくひつようがあります。"
+          },
+          {
+            "japanese": "苦肉の策とはいえ、このまま後手に回れば、市場での優位性を失いかねません。",
+            "meaning": "Dù là kế sách cuối cùng trong bước đường cùng, nhưng nếu cứ tiếp tục ở thế bị động, chúng ta có nguy cơ đánh mất lợi thế trên thị trường.",
+            "reading": "くにくのさくとはいえ、このままごてにまわれば、しじょうでのゆういせいをうしないかねません。"
+          },
+          {
+            "japanese": "実行に移す前に、まずは関係各所との折り合いをどうつけるかが、成否を分ける鍵となります。",
+            "meaning": "Trước khi đưa vào thực hiện, việc làm thế nào để đạt được sự thỏa thuận với các bên liên quan chính là chìa khóa quyết định sự thành bại.",
+            "reading": "じっこうにうつすまえに、まずはかんけいかくしょとのおりあいをどうつけるかが、せいひをわけるかぎとなります。"
+          },
+          {
+            "japanese": "現場の窮状を念頭に置きつつ、多角的な視点から最善の道を見出していこうではありませんか。",
+            "meaning": "Vừa lưu tâm đến tình cảnh khó khăn tại hiện trường, chúng ta hãy cùng nhau tìm ra con đường tối ưu từ những góc nhìn đa chiều.",
+            "reading": "げんばのきゅうじょうをねんとうにおきつつ、たかくてきなしてんからさいぜんのみちをみいだしていこうではありませんか。"
+          }
+        ],
+        "title": "喫緊の課題に対する抜本的対策の検討"
+      },
+      "audio_filename": "245995b9-101e-4fd6-83bb-348d5ec70ded.mp3"
+    }
+  ]
+}

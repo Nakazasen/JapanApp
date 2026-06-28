@@ -1,0 +1,752 @@
+[
+    {
+        "term": "schedule",
+        "reading": "/ˈskedʒuːl/",
+        "meaning": "lịch trình",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Check the schedule.",
+                "translation": "Kiểm tra lịch trình."
+            }
+        ]
+    },
+    {
+        "term": "scrutinize",
+        "reading": "/ˈskruːtənaɪz/",
+        "meaning": "xem xét kỹ lưỡng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Scrutinize the details.",
+                "translation": "Xem xét kỹ các chi tiết."
+            }
+        ]
+    },
+    {
+        "term": "session",
+        "reading": "/ˈseʃn/",
+        "meaning": "phiên, buổi",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Training session.",
+                "translation": "Buổi đào tạo."
+            }
+        ]
+    },
+    {
+        "term": "shift",
+        "reading": "/ʃɪft/",
+        "meaning": "ca làm việc, thay đổi",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Night shift.",
+                "translation": "Ca đêm."
+            }
+        ]
+    },
+    {
+        "term": "shortage",
+        "reading": "/ˈʃɔːrtɪdʒ/",
+        "meaning": "sự thiếu hụt",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Staff shortage.",
+                "translation": "Thiếu hụt nhân sự."
+            }
+        ]
+    },
+    {
+        "term": "skill",
+        "reading": "/skɪl/",
+        "meaning": "kỹ năng",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Improve your skills.",
+                "translation": "Cải thiện kỹ năng của bạn."
+            }
+        ]
+    },
+    {
+        "term": "solution",
+        "reading": "/səˈluːʃn/",
+        "meaning": "giải pháp",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Find a solution.",
+                "translation": "Tìm giải pháp."
+            }
+        ]
+    },
+    {
+        "term": "solve",
+        "reading": "/sɑːlv/",
+        "meaning": "giải quyết",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Solve the problem.",
+                "translation": "Giải quyết vấn đề."
+            }
+        ]
+    },
+    {
+        "term": "specific",
+        "reading": "/spəˈsɪfɪk/",
+        "meaning": "cụ thể",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Be specific.",
+                "translation": "Hãy cụ thể."
+            }
+        ]
+    },
+    {
+        "term": "statistic",
+        "reading": "/stəˈtɪstɪk/",
+        "meaning": "thống kê",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Review statistics.",
+                "translation": "Xem xét thống kê."
+            }
+        ]
+    },
+    {
+        "term": "strategy",
+        "reading": "/ˈstrætədʒi/",
+        "meaning": "chiến lược",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Develop a strategy.",
+                "translation": "Phát triển chiến lược."
+            }
+        ]
+    },
+    {
+        "term": "strict",
+        "reading": "/strɪkt/",
+        "meaning": "nghiêm ngặt",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Strict rules.",
+                "translation": "Quy tắc nghiêm ngặt."
+            }
+        ]
+    },
+    {
+        "term": "structure",
+        "reading": "/ˈstrʌktʃər/",
+        "meaning": "cấu trúc",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Company structure.",
+                "translation": "Cấu trúc công ty."
+            }
+        ]
+    },
+    {
+        "term": "subject",
+        "reading": "/ˈsʌbdʒɪkt/",
+        "meaning": "chủ đề, đối tượng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Subject of the meeting.",
+                "translation": "Chủ đề cuộc họp."
+            }
+        ]
+    },
+    {
+        "term": "submit",
+        "reading": "/səbˈmɪt/",
+        "meaning": "nộp",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Submit the form.",
+                "translation": "Nộp đơn."
+            }
+        ]
+    },
+    {
+        "term": "subscribe",
+        "reading": "/səbˈskraɪb/",
+        "meaning": "đăng ký",
+        "meta_data": {
+            "topic": "Marketing",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Subscribe to the newsletter.",
+                "translation": "Đăng ký bản tin."
+            }
+        ]
+    },
+    {
+        "term": "substitute",
+        "reading": "/ˈsʌbstɪtuːt/",
+        "meaning": "thay thế",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Substitute products.",
+                "translation": "Sản phẩm thay thế."
+            }
+        ]
+    },
+    {
+        "term": "success",
+        "reading": "/səkˈses/",
+        "meaning": "thành công",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Achieve success.",
+                "translation": "Đạt được thành công."
+            }
+        ]
+    },
+    {
+        "term": "suggest",
+        "reading": "/səɡˈdʒest/",
+        "meaning": "gợi ý",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Suggest an idea.",
+                "translation": "Gợi ý một ý tưởng."
+            }
+        ]
+    },
+    {
+        "term": "supervise",
+        "reading": "/ˈsuːpərvaɪz/",
+        "meaning": "giám sát",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Supervise the team.",
+                "translation": "Giám sát nhóm."
+            }
+        ]
+    },
+    {
+        "term": "supply",
+        "reading": "/səˈplaɪ/",
+        "meaning": "cung cấp, nguồn cung",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Supply chain.",
+                "translation": "Chuỗi cung ứng."
+            }
+        ]
+    },
+    {
+        "term": "support",
+        "reading": "/səˈpɔːrt/",
+        "meaning": "hỗ trợ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Tech support.",
+                "translation": "Hỗ trợ kỹ thuật."
+            }
+        ]
+    },
+    {
+        "term": "surplus",
+        "reading": "/ˈsɜːrplʌs/",
+        "meaning": "dư thừa, thặng dư",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Budget surplus.",
+                "translation": "Thặng dư ngân sách."
+            }
+        ]
+    },
+    {
+        "term": "survey",
+        "reading": "/ˈsɜːrveɪ/",
+        "meaning": "khảo sát",
+        "meta_data": {
+            "topic": "Marketing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Customer survey.",
+                "translation": "Khảo sát khách hàng."
+            }
+        ]
+    },
+    {
+        "term": "system",
+        "reading": "/ˈsɪstəm/",
+        "meaning": "hệ thống",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "System error.",
+                "translation": "Lỗi hệ thống."
+            }
+        ]
+    },
+    {
+        "term": "target",
+        "reading": "/ˈtɑːrɡɪt/",
+        "meaning": "mục tiêu",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Sales target.",
+                "translation": "Mục tiêu doanh số."
+            }
+        ]
+    },
+    {
+        "term": "tax",
+        "reading": "/tæks/",
+        "meaning": "thuế",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Income tax.",
+                "translation": "Thuế thu nhập."
+            }
+        ]
+    },
+    {
+        "term": "technical",
+        "reading": "/ˈteknɪkl/",
+        "meaning": "kỹ thuật",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Technical difficulties.",
+                "translation": "Khó khăn kỹ thuật."
+            }
+        ]
+    },
+    {
+        "term": "technique",
+        "reading": "/tekˈniːk/",
+        "meaning": "kỹ thuật, phương pháp",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "New technique.",
+                "translation": "Kỹ thuật mới."
+            }
+        ]
+    },
+    {
+        "term": "tenant",
+        "reading": "/ˈtenənt/",
+        "meaning": "người thuê nhà",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "The tenant paid rent.",
+                "translation": "Người thuê đã trả tiền thuê."
+            }
+        ]
+    },
+    {
+        "term": "term",
+        "reading": "/tɜːrm/",
+        "meaning": "thuật ngữ, điều khoản",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Contract terms.",
+                "translation": "Điều khoản hợp đồng."
+            }
+        ]
+    },
+    {
+        "term": "terminate",
+        "reading": "/ˈtɜːrmɪneɪt/",
+        "meaning": "chấm dứt",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Terminate the contract.",
+                "translation": "Chấm dứt hợp đồng."
+            }
+        ]
+    },
+    {
+        "term": "ticket",
+        "reading": "/ˈtɪkɪt/",
+        "meaning": "vé",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Book a ticket.",
+                "translation": "Đặt vé."
+            }
+        ]
+    },
+    {
+        "term": "timeline",
+        "reading": "/ˈtaɪmlaɪn/",
+        "meaning": "mốc thời gian",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Project timeline.",
+                "translation": "Mốc thời gian dự án."
+            }
+        ]
+    },
+    {
+        "term": "track",
+        "reading": "/træk/",
+        "meaning": "theo dõi",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Track the shipment.",
+                "translation": "Theo dõi lô hàng."
+            }
+        ]
+    },
+    {
+        "term": "trade",
+        "reading": "/treɪd/",
+        "meaning": "thương mại",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "International trade.",
+                "translation": "Thương mại quốc tế."
+            }
+        ]
+    },
+    {
+        "term": "tradition",
+        "reading": "/trəˈdɪʃn/",
+        "meaning": "truyền thống",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "A long tradition.",
+                "translation": "Một truyền thống lâu đời."
+            }
+        ]
+    },
+    {
+        "term": "traffic",
+        "reading": "/ˈtræfɪk/",
+        "meaning": "giao thông, lưu lượng",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Heavy traffic.",
+                "translation": "Giao thông đông đúc."
+            }
+        ]
+    },
+    {
+        "term": "transaction",
+        "reading": "/trænˈzækʃn/",
+        "meaning": "giao dịch",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Process a transaction.",
+                "translation": "Xử lý giao dịch."
+            }
+        ]
+    },
+    {
+        "term": "transfer",
+        "reading": "/trænsˈfɜːr/",
+        "meaning": "chuyển",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Transfer money.",
+                "translation": "Chuyển tiền."
+            }
+        ]
+    },
+    {
+        "term": "transport",
+        "reading": "/ˈtrænspɔːrt/",
+        "meaning": "vận chuyển",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Public transport.",
+                "translation": "Giao thông công cộng."
+            }
+        ]
+    },
+    {
+        "term": "trend",
+        "reading": "/trend/",
+        "meaning": "xu hướng",
+        "meta_data": {
+            "topic": "Marketing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Market trends.",
+                "translation": "Xu hướng thị trường."
+            }
+        ]
+    },
+    {
+        "term": "trip",
+        "reading": "/trɪp/",
+        "meaning": "chuyến đi",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Business trip.",
+                "translation": "Chuyến công tác."
+            }
+        ]
+    },
+    {
+        "term": "turnover",
+        "reading": "/ˈtɜːrnoʊvər/",
+        "meaning": "doanh số, tỉ lệ thay nhân viên",
+        "meta_data": {
+            "topic": "HR",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "High turnover.",
+                "translation": "Tỉ lệ thay nhân viên cao."
+            }
+        ]
+    },
+    {
+        "term": "typical",
+        "reading": "/ˈtɪpɪkl/",
+        "meaning": "điển hình",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Typical behavior.",
+                "translation": "Hành vi điển hình."
+            }
+        ]
+    },
+    {
+        "term": "unable",
+        "reading": "/ʌnˈeɪbl/",
+        "meaning": "không thể",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Unable to attend.",
+                "translation": "Không thể tham dự."
+            }
+        ]
+    },
+    {
+        "term": "unanimous",
+        "reading": "/juˈnænɪməs/",
+        "meaning": "nhất trí",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Unanimous decision.",
+                "translation": "Quyết định nhất trí."
+            }
+        ]
+    },
+    {
+        "term": "undergo",
+        "reading": "/ˌʌndərˈɡoʊ/",
+        "meaning": "trải qua",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Undergo training.",
+                "translation": "Trải qua đào tạo."
+            }
+        ]
+    },
+    {
+        "term": "update",
+        "reading": "/ʌpˈdeɪt/",
+        "meaning": "cập nhật",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Update the software.",
+                "translation": "Cập nhật phần mềm."
+            }
+        ]
+    },
+    {
+        "term": "upgrade",
+        "reading": "/ˈʌpɡreɪd/",
+        "meaning": "nâng cấp",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Upgrade the system.",
+                "translation": "Nâng cấp hệ thống."
+            }
+        ]
+    }
+]

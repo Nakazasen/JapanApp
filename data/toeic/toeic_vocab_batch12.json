@@ -1,0 +1,752 @@
+[
+    {
+        "term": "deck",
+        "reading": "/dek/",
+        "meaning": "boong tàu",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "On deck.",
+                "translation": "Trên boong tàu."
+            }
+        ]
+    },
+    {
+        "term": "declare",
+        "reading": "/dɪˈkler/",
+        "meaning": "tuyên bố, khai báo",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Declare goods.",
+                "translation": "Khai báo hàng hóa."
+            }
+        ]
+    },
+    {
+        "term": "decline",
+        "reading": "/dɪˈklaɪn/",
+        "meaning": "từ chối, giảm",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Decline an offer.",
+                "translation": "Từ chối lời đề nghị."
+            }
+        ]
+    },
+    {
+        "term": "decrease",
+        "reading": "/dɪˈkriːs/",
+        "meaning": "giảm",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Decrease costs.",
+                "translation": "Giảm chi phí."
+            }
+        ]
+    },
+    {
+        "term": "deduct",
+        "reading": "/dɪˈdʌkt/",
+        "meaning": "khấu trừ",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Deduct tax.",
+                "translation": "Khấu trừ thuế."
+            }
+        ]
+    },
+    {
+        "term": "deem",
+        "reading": "/diːm/",
+        "meaning": "coi là",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Deem necessary.",
+                "translation": "Coi là cần thiết."
+            }
+        ]
+    },
+    {
+        "term": "default",
+        "reading": "/dɪˈfɔːlt/",
+        "meaning": "mặc định, vỡ nợ",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Default settings.",
+                "translation": "Cài đặt mặc định."
+            }
+        ]
+    },
+    {
+        "term": "defect",
+        "reading": "/ˈdiːfekt/",
+        "meaning": "lỗi",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Manufacturing defect.",
+                "translation": "Lỗi sản xuất."
+            }
+        ]
+    },
+    {
+        "term": "defective",
+        "reading": "/dɪˈfektɪv/",
+        "meaning": "bị lỗi",
+        "meta_data": {
+            "topic": "Manufacturing",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Defective product.",
+                "translation": "Sản phẩm bị lỗi."
+            }
+        ]
+    },
+    {
+        "term": "defend",
+        "reading": "/dɪˈfend/",
+        "meaning": "bảo vệ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Defend a position.",
+                "translation": "Bảo vệ quan điểm."
+            }
+        ]
+    },
+    {
+        "term": "defer",
+        "reading": "/dɪˈfɜːr/",
+        "meaning": "hoãn lại",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Defer payment.",
+                "translation": "Hoãn thanh toán."
+            }
+        ]
+    },
+    {
+        "term": "deficit",
+        "reading": "/ˈdefɪsɪt/",
+        "meaning": "thâm hụt",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Budget deficit.",
+                "translation": "Thâm hụt ngân sách."
+            }
+        ]
+    },
+    {
+        "term": "define",
+        "reading": "/dɪˈfaɪn/",
+        "meaning": "định nghĩa",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Define the scope.",
+                "translation": "Xác định phạm vi."
+            }
+        ]
+    },
+    {
+        "term": "definite",
+        "reading": "/ˈdefɪnət/",
+        "meaning": "xác định, rõ ràng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Definite answer.",
+                "translation": "Câu trả lời dứt khoát."
+            }
+        ]
+    },
+    {
+        "term": "degree",
+        "reading": "/dɪˈɡriː/",
+        "meaning": "bằng cấp, độ",
+        "meta_data": {
+            "topic": "Education",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Master's degree.",
+                "translation": "Bằng thạc sĩ."
+            }
+        ]
+    },
+    {
+        "term": "delay",
+        "reading": "/dɪˈleɪ/",
+        "meaning": "trì hoãn",
+        "meta_data": {
+            "topic": "Travel",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Flight delay.",
+                "translation": "Chuyến bay bị hoãn."
+            }
+        ]
+    },
+    {
+        "term": "delegate",
+        "reading": "/ˈdelɪɡət/",
+        "meaning": "đại biểu",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Conference delegate.",
+                "translation": "Đại biểu hội nghị."
+            }
+        ]
+    },
+    {
+        "term": "delete",
+        "reading": "/dɪˈliːt/",
+        "meaning": "xóa",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Delete a file.",
+                "translation": "Xóa tệp."
+            }
+        ]
+    },
+    {
+        "term": "deliberate",
+        "reading": "/dɪˈlɪbərət/",
+        "meaning": "cố ý, thận trọng",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Deliberate action.",
+                "translation": "Hành động cố ý."
+            }
+        ]
+    },
+    {
+        "term": "delicate",
+        "reading": "/ˈdelɪkət/",
+        "meaning": "tinh tế, dễ vỡ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Delicate situation.",
+                "translation": "Tình huống tế nhị."
+            }
+        ]
+    },
+    {
+        "term": "delicious",
+        "reading": "/dɪˈlɪʃəs/",
+        "meaning": "ngon",
+        "meta_data": {
+            "topic": "Dining",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Delicious food.",
+                "translation": "Thức ăn ngon."
+            }
+        ]
+    },
+    {
+        "term": "deliver",
+        "reading": "/dɪˈlɪvər/",
+        "meaning": "giao",
+        "meta_data": {
+            "topic": "Logistics",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Deliver a package.",
+                "translation": "Giao gói hàng."
+            }
+        ]
+    },
+    {
+        "term": "demand",
+        "reading": "/dɪˈmænd/",
+        "meaning": "nhu cầu",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "High demand.",
+                "translation": "Nhu cầu cao."
+            }
+        ]
+    },
+    {
+        "term": "demonstrate",
+        "reading": "/ˈdemənstreɪt/",
+        "meaning": "minh họa",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Demonstrate how it works.",
+                "translation": "Minh họa cách nó hoạt động."
+            }
+        ]
+    },
+    {
+        "term": "deny",
+        "reading": "/dɪˈnaɪ/",
+        "meaning": "phủ nhận, từ chối",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Deny access.",
+                "translation": "Từ chối truy cập."
+            }
+        ]
+    },
+    {
+        "term": "department",
+        "reading": "/dɪˈpɑːrtmənt/",
+        "meaning": "bộ phận",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Sales department.",
+                "translation": "Bộ phận bán hàng."
+            }
+        ]
+    },
+    {
+        "term": "depend",
+        "reading": "/dɪˈpend/",
+        "meaning": "phụ thuộc",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Depend on factors.",
+                "translation": "Phụ thuộc vào các yếu tố."
+            }
+        ]
+    },
+    {
+        "term": "deposit",
+        "reading": "/dɪˈpɑːzɪt/",
+        "meaning": "tiền gửi, đặt cọc",
+        "meta_data": {
+            "topic": "Finance",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Make a deposit.",
+                "translation": "Gửi tiền."
+            }
+        ]
+    },
+    {
+        "term": "depress",
+        "reading": "/dɪˈpres/",
+        "meaning": "làm chán nản, ấn xuống",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Depressed market.",
+                "translation": "Thị trường suy thoái."
+            }
+        ]
+    },
+    {
+        "term": "description",
+        "reading": "/dɪˈskrɪpʃn/",
+        "meaning": "mô tả (danh từ)",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Job description.",
+                "translation": "Mô tả công việc."
+            }
+        ]
+    },
+    {
+        "term": "design",
+        "reading": "/dɪˈzaɪn/",
+        "meaning": "thiết kế",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Design a website.",
+                "translation": "Thiết kế trang web."
+            }
+        ]
+    },
+    {
+        "term": "designate",
+        "reading": "/ˈdezɪɡneɪt/",
+        "meaning": "chỉ định",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Designated area.",
+                "translation": "Khu vực được chỉ định."
+            }
+        ]
+    },
+    {
+        "term": "desire",
+        "reading": "/dɪˈzaɪər/",
+        "meaning": "mong muốn",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Desire to learn.",
+                "translation": "Mong muốn học hỏi."
+            }
+        ]
+    },
+    {
+        "term": "desk",
+        "reading": "/desk/",
+        "meaning": "bàn làm việc",
+        "meta_data": {
+            "topic": "Office",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Front desk.",
+                "translation": "Quầy lễ tân."
+            }
+        ]
+    },
+    {
+        "term": "detail",
+        "reading": "/ˈdiːteɪl/",
+        "meaning": "chi tiết",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "In detail.",
+                "translation": "Chi tiết."
+            }
+        ]
+    },
+    {
+        "term": "detect",
+        "reading": "/dɪˈtekt/",
+        "meaning": "phát hiện",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Detect a virus.",
+                "translation": "Phát hiện virus."
+            }
+        ]
+    },
+    {
+        "term": "determine",
+        "reading": "/dɪˈtɜːrmɪn/",
+        "meaning": "quyết định, xác định",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Determine the cause.",
+                "translation": "Xác định nguyên nhân."
+            }
+        ]
+    },
+    {
+        "term": "develop",
+        "reading": "/dɪˈveləp/",
+        "meaning": "phát triển",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Develop skills.",
+                "translation": "Phát triển kỹ năng."
+            }
+        ]
+    },
+    {
+        "term": "device",
+        "reading": "/dɪˈvaɪs/",
+        "meaning": "thiết bị",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Electronic device.",
+                "translation": "Thiết bị điện tử."
+            }
+        ]
+    },
+    {
+        "term": "devise",
+        "reading": "/dɪˈvaɪz/",
+        "meaning": "nghĩ ra, đặt kế hoạch",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Devise a plan.",
+                "translation": "Lên kế hoạch."
+            }
+        ]
+    },
+    {
+        "term": "diagnose",
+        "reading": "/ˌdaɪəɡˈnoʊs/",
+        "meaning": "chẩn đoán",
+        "meta_data": {
+            "topic": "Health",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Diagnose a problem.",
+                "translation": "Chẩn đoán vấn đề."
+            }
+        ]
+    },
+    {
+        "term": "diagram",
+        "reading": "/ˈdaɪəɡræm/",
+        "meaning": "biểu đồ",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Draw a diagram.",
+                "translation": "Vẽ biểu đồ."
+            }
+        ]
+    },
+    {
+        "term": "dial",
+        "reading": "/ˈdaɪəl/",
+        "meaning": "quay số",
+        "meta_data": {
+            "topic": "Technology",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Dial a number.",
+                "translation": "Quay số."
+            }
+        ]
+    },
+    {
+        "term": "diet",
+        "reading": "/ˈdaɪət/",
+        "meaning": "chế độ ăn uống",
+        "meta_data": {
+            "topic": "Health",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Healthy diet.",
+                "translation": "Chế độ ăn uống lành mạnh."
+            }
+        ]
+    },
+    {
+        "term": "differ",
+        "reading": "/ˈdɪfər/",
+        "meaning": "khác nhau",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Opinions differ.",
+                "translation": "Ý kiến khác nhau."
+            }
+        ]
+    },
+    {
+        "term": "difference",
+        "reading": "/ˈdɪfrəns/",
+        "meaning": "sự khác biệt",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Make a difference.",
+                "translation": "Tạo sự khác biệt."
+            }
+        ]
+    },
+    {
+        "term": "difficult",
+        "reading": "/ˈdɪfɪkəlt/",
+        "meaning": "khó khăn",
+        "meta_data": {
+            "topic": "General",
+            "pos": "adj"
+        },
+        "examples": [
+            {
+                "sentence": "Difficult task.",
+                "translation": "Nhiệm vụ khó khăn."
+            }
+        ]
+    },
+    {
+        "term": "direct",
+        "reading": "/dəˈrekt/",
+        "meaning": "trực tiếp, chỉ đạo",
+        "meta_data": {
+            "topic": "General",
+            "pos": "verb"
+        },
+        "examples": [
+            {
+                "sentence": "Direct flight.",
+                "translation": "Chuyến bay trực tiếp."
+            }
+        ]
+    },
+    {
+        "term": "direction",
+        "reading": "/dəˈrekʃn/",
+        "meaning": "phương hướng, chỉ dẫn",
+        "meta_data": {
+            "topic": "General",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Follow directions.",
+                "translation": "Làm theo chỉ dẫn."
+            }
+        ]
+    },
+    {
+        "term": "director",
+        "reading": "/dəˈrektər/",
+        "meaning": "giám đốc",
+        "meta_data": {
+            "topic": "Business",
+            "pos": "noun"
+        },
+        "examples": [
+            {
+                "sentence": "Managing director.",
+                "translation": "Giám đốc điều hành."
+            }
+        ]
+    }
+]

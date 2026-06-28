@@ -1,0 +1,82 @@
+[
+    {
+        "part": 5,
+        "question_type": "grammar",
+        "difficulty": 2,
+        "topic": "Office",
+        "question_text": "All employees are required to _____ their time sheets by Friday afternoon.",
+        "options": [
+            "submission",
+            "submit",
+            "submitting",
+            "submitted"
+        ],
+        "correct_answer": "B",
+        "explanation": "The structure 'required to + verb (base form)' is needed here. 'Submit' is the base form.",
+        "source": "Sample"
+    },
+    {
+        "part": 5,
+        "question_type": "vocabulary",
+        "difficulty": 3,
+        "topic": "Business",
+        "question_text": "The company decided to _____ its operations to include three new countries in Asia.",
+        "options": [
+            "expand",
+            "expend",
+            "expect",
+            "exceed"
+        ],
+        "correct_answer": "A",
+        "explanation": "'Expand' means to make larger or more extensive. 'Expend' means to spend. 'Expect' means to anticipate. 'Exceed' means to go beyond. 'Expand' fits the context of growing operations.",
+        "source": "Sample"
+    },
+    {
+        "part": 5,
+        "question_type": "grammar",
+        "difficulty": 3,
+        "topic": "Finance",
+        "question_text": "Despite _____ heavily in the project, the investors did not excessive profits immediately.",
+        "options": [
+            "invest",
+            "invested",
+            "investing",
+            "investment"
+        ],
+        "correct_answer": "C",
+        "explanation": "'Despite' is a preposition and should be followed by a noun or gerund (-ing form). 'Investing' is the gerund form.",
+        "source": "Sample"
+    },
+    {
+        "part": 5,
+        "question_type": "vocabulary",
+        "difficulty": 4,
+        "topic": "Events",
+        "question_text": "Ms. Johnson has kindly agreed to _____ the keynote address at the upcoming conference.",
+        "options": [
+            "speak",
+            "deliver",
+            "talk",
+            "tell"
+        ],
+        "correct_answer": "B",
+        "explanation": "The collocation is 'deliver an address' or 'deliver a speech'. 'Speak', 'talk', and 'tell' do not naturally collocate with 'address' in this specific formal context.",
+        "source": "Sample"
+    },
+    {
+        "part": 5,
+        "question_type": "grammar",
+        "difficulty": 3,
+        "topic": "Personnel",
+        "question_text": "The manager praised the team for their _____ performance during the crisis.",
+        "options": [
+            "except",
+            "exception",
+            "exceptional",
+            "exceptionally"
+        ],
+        "correct_answer": "C",
+        "explanation": "An adjective is required to modify the noun 'performance'. 'Exceptional' is the adjective meaning unusually good.",
+        "source": "Sample"
+    }
+]

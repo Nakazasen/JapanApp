@@ -1,0 +1,182 @@
+[
+    {
+        "part": 1,
+        "question_type": "photo",
+        "difficulty": 2,
+        "topic": "Office",
+        "question_text": "Look at the photograph and listen to the four statements.",
+        "options": [
+            "A man is reading a newspaper.",
+            "A man is typing on a keyboard.",
+            "A man is writing in a notebook.",
+            "A man is talking on the phone."
+        ],
+        "correct_answer": "B",
+        "explanation": "The photograph shows a man sitting at his desk typing on a computer keyboard.",
+        "audio_path": "data/toeic/audio/part1_001.mp3",
+        "image_path": "data/toeic/images/part1_001.jpg",
+        "source": "Sample"
+    },
+    {
+        "part": 1,
+        "question_type": "photo",
+        "difficulty": 2,
+        "topic": "Travel",
+        "question_text": "Look at the photograph and listen to the four statements.",
+        "options": [
+            "People are boarding the train.",
+            "People are waiting on the platform.",
+            "The train is leaving the station.",
+            "The platform is empty."
+        ],
+        "correct_answer": "B",
+        "explanation": "The photograph shows several people standing on a train platform, waiting for a train.",
+        "audio_path": "data/toeic/audio/part1_002.mp3",
+        "image_path": "data/toeic/images/part1_002.jpg",
+        "source": "Sample"
+    },
+    {
+        "part": 1,
+        "question_type": "photo",
+        "difficulty": 2,
+        "topic": "Office",
+        "question_text": "Look at the photograph and listen to the four statements.",
+        "options": [
+            "The woman is attending a meeting.",
+            "The woman is photocopying documents.",
+            "The woman is organizing files.",
+            "The woman is answering the phone."
+        ],
+        "correct_answer": "C",
+        "explanation": "The photograph shows a woman in an office organizing files in a cabinet.",
+        "audio_path": "data/toeic/audio/part1_003.mp3",
+        "image_path": "data/toeic/images/part1_003.jpg",
+        "source": "Sample"
+    },
+    {
+        "part": 1,
+        "question_type": "photo",
+        "difficulty": 3,
+        "topic": "Dining",
+        "question_text": "Look at the photograph and listen to the four statements.",
+        "options": [
+            "The waiter is taking an order.",
+            "The customers are paying the bill.",
+            "The restaurant is closed.",
+            "Tables are being set up."
+        ],
+        "correct_answer": "A",
+        "explanation": "The photograph shows a waiter standing at a table, writing down an order from customers.",
+        "audio_path": "data/toeic/audio/part1_004.mp3",
+        "image_path": "data/toeic/images/part1_004.jpg",
+        "source": "Sample"
+    },
+    {
+        "part": 1,
+        "question_type": "photo",
+        "difficulty": 2,
+        "topic": "Shopping",
+        "question_text": "Look at the photograph and listen to the four statements.",
+        "options": [
+            "A customer is trying on clothes.",
+            "A clerk is arranging merchandise.",
+            "The store is having a sale.",
+            "Customers are waiting in line."
+        ],
+        "correct_answer": "B",
+        "explanation": "The photograph shows a store clerk arranging items on a display shelf.",
+        "audio_path": "data/toeic/audio/part1_005.mp3",
+        "image_path": "data/toeic/images/part1_005.jpg",
+        "source": "Sample"
+    },
+    {
+        "part": 1,
+        "question_type": "photo",
+        "difficulty": 3,
+        "topic": "Manufacturing",
+        "question_text": "Look at the photograph and listen to the four statements.",
+        "options": [
+            "Workers are operating machinery.",
+            "The factory is being renovated.",
+            "Products are being loaded onto trucks.",
+            "The warehouse is empty."
+        ],
+        "correct_answer": "A",
+        "explanation": "The photograph shows factory workers operating industrial machinery.",
+        "audio_path": "data/toeic/audio/part1_006.mp3",
+        "image_path": "data/toeic/images/part1_006.jpg",
+        "source": "Sample"
+    },
+    {
+        "part": 1,
+        "question_type": "photo",
+        "difficulty": 2,
+        "topic": "Office",
+        "question_text": "Look at the photograph and listen to the four statements.",
+        "options": [
+            "A presentation is being given.",
+            "The meeting room is empty.",
+            "Documents are being distributed.",
+            "People are leaving the building."
+        ],
+        "correct_answer": "A",
+        "explanation": "The photograph shows a person standing in front of a screen giving a presentation to an audience.",
+        "audio_path": "data/toeic/audio/part1_007.mp3",
+        "image_path": "data/toeic/images/part1_007.jpg",
+        "source": "Sample"
+    },
+    {
+        "part": 1,
+        "question_type": "photo",
+        "difficulty": 2,
+        "topic": "Travel",
+        "question_text": "Look at the photograph and listen to the four statements.",
+        "options": [
+            "Passengers are checking in at the counter.",
+            "The airport is closed for maintenance.",
+            "Luggage is being loaded onto a plane.",
+            "The departure lounge is crowded."
+        ],
+        "correct_answer": "A",
+        "explanation": "The photograph shows passengers at an airline check-in counter with an agent.",
+        "audio_path": "data/toeic/audio/part1_008.mp3",
+        "image_path": "data/toeic/images/part1_008.jpg",
+        "source": "Sample"
+    },
+    {
+        "part": 1,
+        "question_type": "photo",
+        "difficulty": 3,
+        "topic": "Construction",
+        "question_text": "Look at the photograph and listen to the four statements.",
+        "options": [
+            "A building is under construction.",
+            "The road is being repaired.",
+            "Workers are taking a break.",
+            "Heavy equipment is parked."
+        ],
+        "correct_answer": "A",
+        "explanation": "The photograph shows a building under construction with scaffolding and workers.",
+        "audio_path": "data/toeic/audio/part1_009.mp3",
+        "image_path": "data/toeic/images/part1_009.jpg",
+        "source": "Sample"
+    },
+    {
+        "part": 1,
+        "question_type": "photo",
+        "difficulty": 2,
+        "topic": "Office",
+        "question_text": "Look at the photograph and listen to the four statements.",
+        "options": [
+            "Colleagues are discussing a project.",
+            "The office is being cleaned.",
+            "A job interview is taking place.",
+            "Employees are on a lunch break."
+        ],
+        "correct_answer": "A",
+        "explanation": "The photograph shows several colleagues gathered around a desk, looking at documents and discussing.",
+        "audio_path": "data/toeic/audio/part1_010.mp3",
+        "image_path": "data/toeic/images/part1_010.jpg",
+        "source": "Sample"
+    }
+]
