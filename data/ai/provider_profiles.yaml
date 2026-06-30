@@ -1,0 +1,29 @@
+providers:
+  offline_demo:
+    display_name: Offline Demo Provider
+    enabled: true
+    default_model: synthetic-jp-business-v1
+    priority: 1
+    max_tier: 3
+    cost_class: local
+    privacy_modes: [redacted, synthetic, local_only]
+    capabilities: [scenario_generation, drill_variation, rubric_grading, japanese_nuance_review, keigo_correction, business_mail_rewrite, meeting_roleplay, final_boss_judge]
+  gemini:
+    display_name: Gemini
+    enabled: true
+    env_key: GEMINI_API_KEY
+    default_model: gemini-2.5-flash
+    priority: 30
+    max_tier: 4
+    cost_class: paid_or_quota
+    privacy_modes: [redacted]
+    capabilities: [scenario_generation, drill_variation, rubric_grading, japanese_nuance_review, keigo_correction, business_mail_rewrite, meeting_roleplay, final_boss_judge, code_generation, architecture_review]
+  groq: {display_name: Groq, enabled: true, env_key: GROQ_API_KEY, default_model: llama-3.1-70b-versatile, priority: 10, max_tier: 2, cost_class: free_low_cost, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, rubric_grading]}
+  cerebras: {display_name: Cerebras, enabled: true, env_key: CEREBRAS_API_KEY, default_model: llama3.1-70b, priority: 11, max_tier: 2, cost_class: free_low_cost, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, rubric_grading]}
+  openrouter: {display_name: OpenRouter, enabled: true, env_key: OPENROUTER_API_KEY, default_model: meta-llama/llama-3.1-70b-instruct, priority: 12, max_tier: 3, cost_class: mixed, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, rubric_grading, japanese_nuance_review, final_boss_judge]}
+  mistral: {display_name: Mistral, enabled: true, env_key: MISTRAL_API_KEY, default_model: mistral-small-latest, priority: 13, max_tier: 2, cost_class: free_low_cost, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, rubric_grading, business_mail_rewrite]}
+  sambanova: {display_name: SambaNova, enabled: true, env_key: SAMBANOVA_API_KEY, default_model: Meta-Llama-3.1-70B-Instruct, priority: 14, max_tier: 2, cost_class: free_low_cost, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, rubric_grading]}
+  cloudflare: {display_name: Cloudflare Workers AI, enabled: true, env_key: CLOUDFLARE_API_TOKEN, default_model: '@cf/meta/llama-3.1-8b-instruct', priority: 15, max_tier: 1, cost_class: low_cost, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation]}
+  huggingface: {display_name: HuggingFace, enabled: true, env_key: HUGGINGFACE_API_KEY, default_model: mistralai/Mistral-7B-Instruct-v0.3, priority: 16, max_tier: 1, cost_class: free_low_cost, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, vocabulary_examples]}
+  github_models: {display_name: GitHub Models, enabled: true, env_key: GITHUB_TOKEN, default_model: gpt-4o-mini, priority: 17, max_tier: 2, cost_class: quota, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, rubric_grading]}
+  ai21: {display_name: AI21, enabled: true, env_key: AI21_API_KEY, default_model: jamba-mini, priority: 18, max_tier: 2, cost_class: low_cost, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, rubric_grading, business_mail_rewrite]}

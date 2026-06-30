@@ -9,7 +9,7 @@ from frontend.services.toeic_listening_service import get_toeic_listening_servic
 from frontend.core.database import get_session
 from frontend.models.toeic import ToeicQuestion
 
-def test_enhancements():
+def main():
     print("Testing TOEIC Listening Enhancements...")
     
     # 1. Check Model Field
@@ -53,11 +53,12 @@ def test_enhancements():
         # Cleanup
         with get_session() as session:
             q = session.get(ToeicQuestion, dummy_id)
-            session.delete(q)
-            session.commit()
+            if q:
+                session.delete(q)
+                session.commit()
             
     except Exception as e:
         print(f"❌ Service check failed: {e}")
 
 if __name__ == "__main__":
-    test_enhancements()
+    main()

@@ -1,0 +1,32 @@
+tiers:
+  0:
+    name: deterministic/local
+    tasks: [schema_validation, json_repair, srs_scheduling, static_rubric_checks, secret_scan, config_scan, hardcoded_path_scan]
+  1:
+    name: cheap/free model pool
+    tasks: [scenario_generation, drill_variation, summarize_simple_documents, generate_distractors, vocabulary_examples, first_pass_feedback]
+  2:
+    name: strong language model
+    tasks: [japanese_nuance_review, keigo_correction, business_mail_rewrite, meeting_roleplay, difficult_mail_correction, vietnamese_cultural_explanation]
+  3:
+    name: judge/consensus
+    tasks: [final_boss_judge, compare_outputs, reject_unsafe_japanese, verify_rubric_consistency, japanese_expert_reviewer]
+  4:
+    name: development/audit
+    tasks: [code_generation, architecture_review, audit_review, security_review]
+routing:
+  scenario_generation: {tier: 1, providers: [offline_demo, groq, cerebras, mistral, sambanova, cloudflare, huggingface, github_models, ai21, gemini], escalate_to: [japanese_nuance_review]}
+  drill_variation: {tier: 1, providers: [offline_demo, groq, cerebras, mistral, huggingface, gemini]}
+  rubric_grading: {tier: 1, providers: [offline_demo, groq, cerebras, mistral, openrouter, gemini], escalate_on_invalid_json: true}
+  japanese_nuance_review: {tier: 2, providers: [offline_demo, openrouter, gemini, mistral]}
+  keigo_correction: {tier: 2, providers: [offline_demo, openrouter, gemini, mistral]}
+  business_mail_rewrite: {tier: 2, providers: [offline_demo, openrouter, gemini, mistral, ai21]}
+  meeting_roleplay: {tier: 2, providers: [offline_demo, openrouter, gemini]}
+  final_boss_judge: {tier: 3, providers: [offline_demo, openrouter, gemini], require_different_judge: true}
+  code_generation: {tier: 4, providers: [gemini], language_drill_allowed: false}
+  architecture_review: {tier: 4, providers: [gemini, openrouter], language_drill_allowed: false}
+  audit_review: {tier: 4, providers: [openrouter, gemini], language_drill_allowed: false}
+guards:
+  forbid_tier4_for: [scenario_generation, drill_variation, rubric_grading]
+  language_drill_tasks: [scenario_generation, drill_variation, rubric_grading, japanese_nuance_review, keigo_correction, business_mail_rewrite, meeting_roleplay, final_boss_judge]
+  development_tasks: [code_generation, architecture_review, audit_review]

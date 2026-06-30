@@ -1,0 +1,10 @@
+cases:
+  - task: scenario_generation
+    expected_max_tier: 1
+    expected_providers_include: [offline_demo, groq, gemini]
+  - task: final_boss_judge
+    expected_tier: 3
+    require_different_judge: true
+  - task: code_generation
+    expected_tier: 4
+    language_drill_allowed: false

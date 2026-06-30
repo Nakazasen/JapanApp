@@ -1,0 +1,7 @@
+cases:
+  - name: fenced_json
+    input: "```json {\"score_total\": 80} ```"
+    expected: repair_or_parse
+  - name: plain_invalid
+    input: "not json"
+    expected: escalate_or_cooldown

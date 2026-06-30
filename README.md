@@ -5,10 +5,12 @@ This is a comprehensive desktop application designed to help users master multip
 ## 🌟 Core Features
 
 - **Multi-language Support (New)**: Unified database architecture for English, Japanese, and any future languages (KR, CN, etc).
-- **AI Integration**: Powered by Google Gemini API for grammar analysis, vocabulary enrichment, and natural language explanations.
+- **AI Resource Layer**: Uses a provider router instead of a Gemini-only path, so tasks can choose offline/demo, free/low-cost, strong language, judge/consensus, or development/audit models by cost, privacy, quota, and quality.
+  - **Địa ngục tiếng Nhật**: Business Japanese training factory with scenario generation, keigo/nuance grading, boss-fight judging, SRS weakness loops, and local-first learning memory.
   - **Luyện viết**: Chấm điểm, sửa lỗi ngữ pháp và gợi ý cách diễn đạt tự nhiên.
-  - **Luyện nói**: Phân tích phát âm, độ trôi chảy và ngữ điệu (Multimodal AI).
+  - **Luyện nói**: Phân tích phát âm, độ trôi chảy và ngữ điệu (Multimodal AI when configured).
   - **Tra cứu thông minh**: Giải thích từ vựng, ngữ pháp theo ngữ cảnh.
+  - See `docs/AI_RESOURCE_LAYER.md` and `docs/JP_BUSINESS_HELL_AI_STRATEGY.md` for provider routing and model-tier policy.
 - **Hệ thống học tập toàn diện**:
   - **Từ vựng**: Flashcards, SRS (Spaced Repetition System).
   - **Ngữ pháp**: Kho dữ liệu ngữ pháp phong phú.
@@ -44,10 +46,12 @@ This is a comprehensive desktop application designed to help users master multip
    pip install -r requirements.txt
    ```
 
-4. **Cấu hình Gemini API**:
-   - Mở file `.env` (copy từ `.env.example` nếu chưa có).
-   - Thêm API Key: `GEMINI_API_KEY=your_api_key_here`.
-   - Hoặc cấu hình trực tiếp trong giao diện ứng dụng (Tab Cài đặt).
+4. **Cấu hình AI Resource Layer / Các Provider (Tùy chọn)**:
+   - JapanApp sử dụng AI Resource Layer cho phép cấu hình đa dạng các mô hình.
+   - Ứng dụng có thể chạy với chế độ Offline Demo không cần API Key cho một số tính năng giả lập (synthetic).
+   - **Gemini (Legacy & AI Resource Layer)**: Mở file `.env` (copy từ `.env.example` nếu chưa có) và thêm `GEMINI_API_KEY=your_api_key_here` nếu bạn muốn dùng Gemini.
+   - **Phi-3 / Whisper (Local Models)**: Sử dụng mô hình cục bộ không cần API Key, xem `QUICK_START.md`.
+   - Các API Key khác có thể cấu hình trực tiếp trong giao diện ứng dụng (Tab Cài đặt) ở Phase 2.
 
 5. **Khởi tạo cơ sở dữ liệu**:
 

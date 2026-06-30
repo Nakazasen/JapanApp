@@ -1,0 +1,8 @@
+cases:
+  - name: quota_429
+    first_provider_error: quota_exhausted
+    expected_state: cooldown
+    expected_next_provider: offline_demo
+  - name: auth_403
+    first_provider_error: auth_failure
+    expected_state: disabled

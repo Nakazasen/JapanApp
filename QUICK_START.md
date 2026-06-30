@@ -138,8 +138,17 @@ python scripts/init_db.py
    python scripts/download_phi3.py
    ```
 
-2. Hoặc cập nhật đường dẫn trong `.env`:
+2. Hoặc cập nhật đường dẫn trong `.env` thành đường dẫn tuyệt đối nơi chứa file tải về (ví dụ):
    ```
-   PHI3_MODEL_PATH=D:\AI_Models\phi-3-mini-4k-instruct-q4_K_M.gguf
+   PHI3_MODEL_PATH=C:\path\to\your\models\phi-3-mini-4k-instruct-q4_K_M.gguf
    ```
+
+### AI Resource Layer & API Keys
+
+- JapanApp sử dụng **AI Resource Layer** với tính năng Offline Demo mặc định (không yêu cầu API Key).
+- Để bật các tính năng AI nâng cao bằng Gemini, bạn có thể thiết lập:
+  ```
+  GEMINI_API_KEY=your_gemini_api_key_here
+  ```
+- Các thiết lập nâng cao khác xem trong `data/ai/provider_profiles.yaml`.
 

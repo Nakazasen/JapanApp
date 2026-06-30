@@ -1,0 +1,72 @@
+{
+  "mode": "redacted",
+  "attempts": [
+    {
+      "ts": 1782802988,
+      "business_context": "deadline_report",
+      "answer_sample": "ちょっと遅れます",
+      "weakness_tags": [
+        "deadline_report",
+        "keigo_apology",
+        "next_action_clarity"
+      ],
+      "score_total": 78,
+      "next_drill": "deadline_recovery_mail",
+      "mode": "redacted"
+    },
+    {
+      "ts": 1782803490,
+      "business_context": "deadline_report",
+      "answer_sample": "ちょっと遅れます",
+      "weakness_tags": [
+        "deadline_report",
+        "keigo_apology",
+        "next_action_clarity"
+      ],
+      "score_total": 78,
+      "next_drill": "deadline_recovery_mail",
+      "mode": "redacted"
+    },
+    {
+      "ts": 1782803764,
+      "business_context": "deadline_report",
+      "answer_sample": "ちょっと遅れます",
+      "weakness_tags": [
+        "deadline_report",
+        "keigo_apology",
+        "next_action_clarity"
+      ],
+      "score_total": 78,
+      "next_drill": "deadline_recovery_mail",
+      "mode": "redacted"
+    },
+    {
+      "ts": 1782805210,
+      "business_context": "deadline_report",
+      "answer_sample": "ちょっと遅れます",
+      "weakness_tags": [
+        "deadline_report",
+        "keigo_apology",
+        "next_action_clarity"
+      ],
+      "score_total": 78,
+      "next_drill": "deadline_recovery_mail",
+      "mode": "redacted"
+    }
+  ],
+  "weakness_counts": {
+    "deadline_report": 4,
+    "keigo_apology": 4,
+    "next_action_clarity": 4
+  },
+  "confidence_by_context": {
+    "deadline_report": 76.2
+  },
+  "email_patterns_corrected": [],
+  "next_drill_recommendations": [
+    "deadline_recovery_mail",
+    "deadline_recovery_mail",
+    "deadline_recovery_mail",
+    "deadline_recovery_mail"
+  ]
+}

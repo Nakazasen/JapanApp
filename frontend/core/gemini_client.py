@@ -61,7 +61,7 @@ class GeminiClient:
             genai.configure(api_key=current_key)
             self._api_key = current_key
             self._configured = True
-            print(f"[GeminiClient] Configured with key: {current_key[:5]}...{current_key[-5:]}")
+            print("[GeminiClient] Configured with key: ***MASKED***")
 
     @property
     def models(self) -> List[str]:

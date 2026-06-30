@@ -137,7 +137,7 @@ class AIConfigManager:
         self._config["api_key"] = keys[0]
         
         self.save_config()
-        logger.info(f"🔄 Rotated to next API key: {keys[0][:8]}...")
+        logger.info("🔄 Rotated to next configured API key: ***MASKED***")
         return True
 
     @property
@@ -240,7 +240,7 @@ class WaterfallGeminiService:
         
         try:
             import google.generativeai as genai
-            logger.info(f"🔧 Configuring Gemini with key: {self.api_key[:8]}...")
+            logger.info("🔧 Configuring Gemini with key: ***MASKED***")
             genai.configure(api_key=self.api_key)
             self._genai = genai
             self._configured = True
