@@ -51,3 +51,4 @@ build/
 # AI provider runtime state
 data/ai/provider_health.json
 quarantine_reports/
+data/ai/test_japanese_work_learning_memory.json

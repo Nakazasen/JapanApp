@@ -93,8 +93,10 @@ Every grading result includes AI routing metadata:
 | architecture_review | 4 |
 | audit_review | 4 |
 
-## Phase 2B provider routing update
+## Phase 2C Deep Training Loop Update
 
-Địa ngục tiếng Nhật continues to work in offline/demo mode with no API keys. When providers are configured, the AI Resource Layer can route non-local tasks to Gemini plus the 9-provider pool. `local_only` mode is reserved for local/offline behavior and must not call external providers.
-
-Phase 2B does not add the Deep Training Loop and does not change the Phase 2A seed data or UI scope.
+Địa ngục tiếng Nhật implements a full Deep Training Loop in Phase 2C:
+- Renders custom input fields per gate to collect structured answers.
+- Implements a 3-step nested wizard for the Final Boss gate.
+- Generates detailed, Vietnamese-first After Action Reports containing criteria points, critical errors, unnatural phrases, better alternatives, and cultural/linguistic explanations.
+- Employs test-memory isolation (`data/ai/test_japanese_work_learning_memory.json`) for safe verification without polluting real product memory.

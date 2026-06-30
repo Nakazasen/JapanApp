@@ -1,13 +1,17 @@
-﻿"""
+"""
 Harness script to evaluate the Business Japanese Hell (Địa ngục tiếng Nhật) MVP.
 """
 import collections
 import sys
 from pathlib import Path
 
+import os
 project_root = Path(__file__).parent.parent
 if str(project_root) not in sys.path:
     sys.path.insert(0, str(project_root))
+
+os.environ["JAPANAPP_USE_TEST_MEMORY"] = "1"
+os.environ["JAPANAPP_USE_TEST_MEMORY_PATH"] = str(project_root / "data" / "ai" / "test_japanese_work_learning_memory.json")
 
 import yaml
 from PySide6.QtWidgets import QApplication
@@ -57,6 +61,14 @@ def run_eval():
         action = case["action"]
         print(f"Evaluating {case_id}...")
 
+        # Clean up test memory before each case to avoid state contamination
+        test_mem_path = Path(os.environ["JAPANAPP_USE_TEST_MEMORY_PATH"])
+        if test_mem_path.exists():
+            try:
+                test_mem_path.unlink()
+            except Exception:
+                pass
+
         tab = JpBusinessHellTab()
         passed = False
         error_msg = ""
@@ -76,23 +88,53 @@ def run_eval():
                     error_msg = f"Expected locked={case.get('expected_locked')}, but was {is_locked}."
 
             elif action == "simulate_drill":
-                tab._start_drill("meeting_listening")
-                tab.answer_edit.setPlainText("Nguyên nhân là cảm biến phát hiện bất thường. Đội bảo trì đang xử lý.")
-                tab._submit_answer()
-                if tab.stacked_widget.currentIndex() == 2 and tab.ai_service.attempts:
+                passed = True
+                for gate_id, _ in tab.GATES:
+                    if gate_id == "final_boss":
+                        # Unlock final boss first
+                        tab.scores_by_gate["meeting_listening"] = [80, 80, 80, 80, 80]
+                        tab._refresh_dashboard()
+                    
+                    tab._start_drill(gate_id)
+                    
+                    if gate_id == "final_boss":
+                        # Simulate the 3-step boss interaction
+                        tab.boss_notes.setPlainText("Step 1 pre-material notes text")
+                        tab.boss_next_btn1.click()
+                        tab.boss_speech.setPlainText("Step 2 speaking question response")
+                        tab.boss_next_btn2.click()
+                        tab.boss_email.setPlainText("Step 3 follow-up email response")
+                    else:
+                        tab.answer_edit.setPlainText(f"Offline response for {gate_id}")
+                        
+                    tab._submit_answer()
+                    
+                    if tab.stacked_widget.currentIndex() != 2 or not tab.ai_service.attempts:
+                        passed = False
+                        error_msg = f"Gate {gate_id} did not transition to report screen or no attempt was recorded."
+                        break
+                        
                     feedback = tab.ai_service.attempts[-1]["feedback"]
                     missing = [f for f in case["expected_feedback_fields"] if f not in feedback]
                     metadata_missing = [f for f in ["provider_used", "provider_tier", "fallback_used"] if f not in feedback]
+                    report_text = tab.report_content.text()
+                    
                     if missing:
-                        error_msg = f"Missing fields in feedback: {missing}"
+                        passed = False
+                        error_msg = f"Gate {gate_id} feedback missing fields: {missing}"
+                        break
                     elif metadata_missing:
-                        error_msg = f"Missing router metadata: {metadata_missing}"
+                        passed = False
+                        error_msg = f"Gate {gate_id} missing router metadata: {metadata_missing}"
+                        break
                     elif not feedback.get("provider_used") or not feedback.get("provider_tier"):
-                        error_msg = "Router metadata values are empty."
-                    else:
-                        passed = True
-                else:
-                    error_msg = "Did not transition to report screen or no attempt was recorded."
+                        passed = False
+                        error_msg = f"Gate {gate_id} router metadata values are empty."
+                        break
+                    elif "Điểm theo tiêu chí" not in report_text or "Lỗi chí mạng" not in report_text or "Câu chưa tự nhiên" not in report_text or "Bản tiếng Nhật tốt hơn" not in report_text or "Giải thích chi tiết" not in report_text or "Thẻ điểm yếu" not in report_text or "Mục cần ôn lại bằng SRS" not in report_text:
+                        passed = False
+                        error_msg = f"Gate {gate_id} report is missing required Vietnamese labels/fields."
+                        break
             else:
                 error_msg = f"Unknown action: {action}"
 

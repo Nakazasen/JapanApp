@@ -13,7 +13,15 @@ DEFAULT_MEMORY_PATH = ROOT / "data" / "ai" / "japanese_work_learning_memory.json
 class JapaneseWorkLearningMemory:
     def __init__(self, path: Path | str = DEFAULT_MEMORY_PATH, mode: str = "redacted"):
         if mode not in {"redacted", "synthetic", "local_only"}: raise ValueError("invalid memory mode")
-        self.path=Path(path); self.mode=mode; self.path.parent.mkdir(parents=True, exist_ok=True)
+        import os
+        env_path = os.getenv("JAPANAPP_TEST_MEMORY_PATH")
+        if env_path:
+            self.path = Path(env_path)
+        elif os.getenv("JAPANAPP_USE_TEST_MEMORY"):
+            self.path = ROOT / "data" / "ai" / "test_japanese_work_learning_memory.json"
+        else:
+            self.path = Path(path)
+        self.mode=mode; self.path.parent.mkdir(parents=True, exist_ok=True)
         self.data=self._load()
 
     def _load(self) -> dict[str, Any]:
@@ -29,7 +37,7 @@ class JapaneseWorkLearningMemory:
         text = re.sub(r"\b\d{2,}\b", "[number]", text)
         return text[:240]
 
-    def update_from_feedback(self, business_context: str, user_answer: str, feedback: dict[str, Any]) -> dict[str, Any]:
+    def update_from_feedback(self, business_context: str, user_answer: str, feedback: dict[str, Any], gate: str | None = None) -> dict[str, Any]:
         tags=list(feedback.get('weakness_tags') or [])
         for tag in tags: self.data['weakness_counts'][tag]=self.data['weakness_counts'].get(tag,0)+1
         score=int(feedback.get('score_total',0)); old=self.data['confidence_by_context'].get(business_context, 50)
@@ -38,6 +46,9 @@ class JapaneseWorkLearningMemory:
         self.data['next_drill_recommendations'].append(rec)
         if 'mail' in business_context or 'email' in business_context:
             self.data['email_patterns_corrected'].append(self._redact(feedback.get('better_version','')))
-        self.data['attempts'].append({"ts": int(time.time()), "business_context": business_context, "answer_sample": self._redact(user_answer), "weakness_tags": tags, "score_total": score, "next_drill": rec, "mode": self.mode})
+        attempt = {"ts": int(time.time()), "business_context": business_context, "answer_sample": self._redact(user_answer), "weakness_tags": tags, "score_total": score, "next_drill": rec, "mode": self.mode}
+        if gate:
+            attempt["gate"] = gate
+        self.data['attempts'].append(attempt)
         self.path.write_text(json.dumps(self.data, ensure_ascii=False, indent=2), encoding='utf-8')
         return self.data

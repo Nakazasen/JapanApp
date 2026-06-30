@@ -46,7 +46,7 @@ class JPBusinessHellAI:
         feedback["provider_tier"] = grade.provider_tier
         feedback["fallback_used"] = grade.fallback_used
         self.attempts.append({"scenario_id": scenario.get('scenario_id'), "score_total": feedback['score_total'], "weakness_tags": feedback['weakness_tags'], "feedback": feedback})
-        self.memory.update_from_feedback(scenario.get('business_context','unknown'), user_answer, feedback)
+        self.memory.update_from_feedback(scenario.get('business_context','unknown'), user_answer, feedback, gate=scenario.get('gate'))
         feedback["srs_items"] = self.generate_srs_items(feedback["weakness_tags"])
         return feedback
 

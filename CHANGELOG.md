@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 ### Added
+- **Phase 2C - Địa ngục tiếng Nhật (日本語地獄) Deep Training Loop**:
+  - Upgraded the drill page to support gate-specific custom input forms for all 6 gates, including a 3-step nested wizard (Pre-material Notes -> Meeting Question Speech -> Follow-up Email Response) for the Final Boss gate.
+  - Implemented an interactive dashboard panel featuring current level, total completed drills, overall average score, gate averages, weakest gate, top 3 repeated weakness tags, and daily recommended task.
+  - Enhanced the After Action Report to display detailed, styled HTML feedback in Vietnamese (Overall Score, Criteria Breakdown, Critical Errors in red, Unnatural Phrases in warning orange, Better Japanese version, detailed Vietnamese explanations, Weakness Tags, and Spaced Repetition (SRS) items list).
+  - Integrated full test-memory isolation redirecting pytest and evaluation runs to `test_japanese_work_learning_memory.json` to prevent mutating real user progress data.
+  - Added a comprehensive test suite covering all gates, dashboard metrics, weakness analysis, boss locks, and report layouts.
 - **AI Resource Layer Provider Parity & Safe Key Loading**:
   - Implemented safe local key loader at `frontend/services/ai_providers/local_key_loader.py` supporting JSON, `.env` format, and alternating Label-Key lines.
   - Ported provider naming, defaults, and routing fallback logic from `translation_app`.
@@ -9,7 +15,7 @@
   - Implemented `JAPANAPP_AI_MODE=offline|auto|live` configuration policy in `frontend/services/ai_router.py`.
   - Added key loader evaluation harness `harness/provider_key_loader_eval.py` validating safety checks, boolean presence metrics, and router policy tests.
   - Added comprehensive test suite `tests/test_ai_key_loader.py` covering all loader parser paths and routing modes.
-- **ﾄ雪ｻ蟻 ng盻･c ti蘯ｿng Nh蘯ｭt (Business Japanese Dojo) MVP**: 
+- **Địa ngục tiếng Nhật (Business Japanese Dojo) MVP**: 
   - UI Dashboard with 6 training gates (Meeting Listening, Meeting Speaking, Business Mail, Document Reading, Keigo & Nuance, Final Boss).
   - Drill interface with AI router integration.
   - After Action Report UI showing AI feedback and routing metadata.
