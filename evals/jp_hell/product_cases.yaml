@@ -1,0 +1,50 @@
+﻿name: "JP Business Hell Product MVP Eval"
+description: "Evaluates the Business Japanese Dojo feature end-to-end"
+required_seed_counts:
+  meeting_listening: 6
+  meeting_speaking: 6
+  business_mail: 6
+  document_reading: 6
+  keigo_nuance: 6
+  final_boss: 3
+required_scenario_fields:
+  - "scenario_id"
+  - "gate"
+  - "title"
+  - "business_context"
+  - "prompt_vi"
+  - "rubric"
+  - "difficulty"
+cases:
+  - id: "demo_drill_execution"
+    description: "Verify that the demo drill works end-to-end without API keys using offline_demo."
+    action: "simulate_drill"
+    expected_feedback_fields:
+      - "score_total"
+      - "scores"
+      - "critical_errors"
+      - "unnatural_phrases"
+      - "better_version"
+      - "vietnamese_explanation"
+      - "next_drill"
+      - "weakness_tags"
+      - "srs_items"
+      - "provider_used"
+      - "provider_tier"
+      - "fallback_used"
+      - "judge_provider"
+  - id: "boss_unlock_locked"
+    description: "Verify Final Boss is locked when requirements are not met."
+    action: "check_boss_lock"
+    simulate_scores: [50, 60, 40]
+    expected_locked: true
+  - id: "boss_unlock_unlocked"
+    description: "Verify Final Boss is unlocked when requirements are met (avg >= 70, drills >= 5)."
+    action: "check_boss_lock"
+    simulate_scores: [70, 80, 90, 75, 80]
+    expected_locked: false
+  - id: "seed_data_validation"
+    description: "Verify seed data has all required gates, counts, total scenarios, and required fields."
+    action: "check_seed_data"
+    expected_gates: 6
+    expected_total_min: 33

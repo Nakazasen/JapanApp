@@ -98,6 +98,12 @@
                 "target": 6
             },
             {
+                "id": "jp_business_hell",
+                "name": "Địa ngục tiếng Nhật",
+                "icon": "Fire",
+                "target": "jp_business_hell"
+            },
+            {
                 "id": "writing",
                 "name": "Luyện Viết",
                 "icon": "Writing",

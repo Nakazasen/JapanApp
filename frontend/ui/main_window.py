@@ -25,6 +25,7 @@ from frontend.ui.tabs.toeic_reading_tab import ToeicReadingTab
 from frontend.ui.tabs.toeic_exam_tab import ToeicExamTab
 from frontend.ui.tabs.content_generator_tab import ContentGeneratorTab  # NEW # NEW
 from frontend.ui.tabs.toeic_dashboard_tab import ToeicDashboardTab # NEW
+from frontend.ui.tabs.jp_business_hell_tab import JpBusinessHellTab
 from frontend.ui.tabs.settings_tab import SettingsTab
 from frontend.ui.widgets.pomodoro_widget import PomodoroWidget
 from frontend.ui.tabs.dashboard_tab import DashboardTab
@@ -81,6 +82,7 @@ class MainWindow(QMainWindow):
         self.youtube_tab = YouTubeTab()
         self.news_tab = NewsTab()
         self.reading_tab = ReadingTab()
+        self.jp_business_hell_tab = JpBusinessHellTab()
         self.settings_tab = SettingsTab()
         
         # Add pages to Stacked Widget in EXACT order of Sidebar items
@@ -121,6 +123,8 @@ class MainWindow(QMainWindow):
         self.stacked_widget.addWidget(self.reading_tab)
         # 14: Settings
         self.stacked_widget.addWidget(self.settings_tab)
+        # 15: JpBusinessHell
+        self.stacked_widget.addWidget(self.jp_business_hell_tab)
         
         # Connect Sidebar to Stacked Widget
         # Connect Sidebar to Stacked Widget
@@ -247,6 +251,8 @@ class MainWindow(QMainWindow):
         elif isinstance(target, str):
             if target == "settings":
                 self.stacked_widget.setCurrentWidget(self.settings_tab)
+            elif target == "jp_business_hell":
+                self.stacked_widget.setCurrentWidget(self.jp_business_hell_tab)
             # Add other string targets here if needed
         
         # Refresh logic

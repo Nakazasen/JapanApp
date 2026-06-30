@@ -5,6 +5,8 @@ This is a comprehensive desktop application designed to help users master multip
 ## 🌟 Core Features
 
 - **Multi-language Support (New)**: Unified database architecture for English, Japanese, and any future languages (KR, CN, etc).
+- **TOEIC Integration:** AI-guided listening and reading drills with granular difficulty progression.
+- **Business Japanese Dojo (Địa ngục tiếng Nhật):** Hardcore roleplay and drill system for real-world Japanese business scenarios, including meeting escalation, nuance, and Keigo.
 - **AI Resource Layer**: Uses a provider router instead of a Gemini-only path, so tasks can choose offline/demo, free/low-cost, strong language, judge/consensus, or development/audit models by cost, privacy, quota, and quality.
   - **Địa ngục tiếng Nhật**: Business Japanese training factory with scenario generation, keigo/nuance grading, boss-fight judging, SRS weakness loops, and local-first learning memory.
   - **Luyện viết**: Chấm điểm, sửa lỗi ngữ pháp và gợi ý cách diễn đạt tự nhiên.

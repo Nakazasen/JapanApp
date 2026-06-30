@@ -1,0 +1,317 @@
+[
+  {
+    "scenario_id": "meet_listen_1",
+    "gate": "meeting_listening",
+    "title": "Production Issue Report",
+    "business_context": "Listening to a factory manager reporting a sudden production line stop.",
+    "prompt_vi": "Bạn đang nghe báo cáo từ trưởng chuyền sản xuất về việc dây chuyền bị dừng đột ngột. Hãy lắng nghe và chọn phương án xử lý đúng.",
+    "rubric": "User must identify the root cause (machine fault) and the immediate action taken.",
+    "japanese_input": "先程、第3ラインが急遽停止しました。原因はセンサーの異常検知です。現在は保守チームが対応中ですが、復旧まであと30分ほどかかる見込みです。取り急ぎご報告まで。",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "meet_listen_2",
+    "gate": "meeting_listening",
+    "title": "Quality Defect Discovery",
+    "business_context": "Listening to QA manager explaining a newly found defect pattern.",
+    "prompt_vi": "Quản lý chất lượng đang giải thích về lỗi sản phẩm mới phát hiện. Bạn cần tóm tắt vấn đề.",
+    "rubric": "User must mention the defect type and affected batch.",
+    "japanese_input": "ロットAの製品において、外装の傷が複数報告されています。出荷前の全数検査に切り替える必要があります。",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "meet_listen_3",
+    "gate": "meeting_listening",
+    "title": "Schedule Delay Warning",
+    "business_context": "Project manager warning about potential delay due to vendor.",
+    "prompt_vi": "Quản lý dự án cảnh báo về khả năng trễ tiến độ. Nguyên nhân là gì?",
+    "rubric": "Identify the vendor delay as the cause.",
+    "japanese_input": "外注先から納品遅延の連絡がありました。このままだと、最終納期に間に合わない恐れがあります。至急、代替案を検討しましょう。",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "meet_listen_4",
+    "gate": "meeting_listening",
+    "title": "New Client Requirement",
+    "business_context": "Sales explaining a sudden specification change requested by a major client.",
+    "prompt_vi": "Khách hàng lớn vừa yêu cầu thay đổi thông số. Yêu cầu đó là gì?",
+    "rubric": "Identify the specification change request.",
+    "japanese_input": "A社から、昨日提出した仕様書に対して大幅な変更依頼が来ました。特に耐久性の基準を引き上げたいとのことです。",
+    "difficulty": "N1-business"
+  },
+  {
+    "scenario_id": "meet_listen_5",
+    "gate": "meeting_listening",
+    "title": "Budget Cut Announcement",
+    "business_context": "Department head announcing a 10% budget cut for the next quarter.",
+    "prompt_vi": "Trưởng phòng thông báo cắt giảm ngân sách. Cụ thể là cắt giảm bao nhiêu và vào lúc nào?",
+    "rubric": "Identify 10% cut next quarter.",
+    "japanese_input": "来期の予算についてですが、全社的なコスト削減に伴い、当部門も10%の削減が決定しました。各チームで見直しをお願いします。",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "meet_listen_6",
+    "gate": "meeting_listening",
+    "title": "IT System Outage",
+    "business_context": "IT support announcing an unexpected server downtime.",
+    "prompt_vi": "Bộ phận IT thông báo hệ thống bị sập. Tình trạng hiện tại ra sao?",
+    "rubric": "Identify server downtime.",
+    "japanese_input": "社内サーバーに障害が発生しており、現在アクセスできない状態です。復旧作業を進めておりますので、今しばらくお待ちください。",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "meet_speak_1",
+    "gate": "meeting_speaking",
+    "title": "Proposing a Countermeasure",
+    "business_context": "You need to propose a temporary fix for the production line issue.",
+    "prompt_vi": "Hãy đề xuất giải pháp tạm thời: 'Chúng ta nên sử dụng dây chuyền dự phòng trong lúc chờ sửa chữa.'",
+    "rubric": "Must use natural proposal phrasing like ～するのはいかがでしょうか or ～すべきかと思います.",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "meet_speak_2",
+    "gate": "meeting_speaking",
+    "title": "Reporting a Delay",
+    "business_context": "You must inform your boss that the IT development will be 2 days late.",
+    "prompt_vi": "Báo cáo với sếp rằng dự án IT sẽ bị trễ 2 ngày do lỗi phát sinh.",
+    "rubric": "Must apologize and clearly state the delay length and reason.",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "meet_speak_3",
+    "gate": "meeting_speaking",
+    "title": "Requesting Help from Expert",
+    "business_context": "You need an engineering expert to review a difficult technical issue.",
+    "prompt_vi": "Yêu cầu chuyên gia kỹ thuật hỗ trợ xem xét một vấn đề kỹ thuật khó.",
+    "rubric": "Must use polite request keigo.",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "meet_speak_4",
+    "gate": "meeting_speaking",
+    "title": "Disagreeing Politely",
+    "business_context": "You think the sales team's deadline is impossible.",
+    "prompt_vi": "Phản đối lịch trình của đội sales một cách lịch sự, nói rằng 'Lịch trình này có vẻ hơi quá sức đối với team dev.'",
+    "rubric": "Must use cushioning words (クッション言葉) like 恐れ入りますが or 申し上げにくいのですが.",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "meet_speak_5",
+    "gate": "meeting_speaking",
+    "title": "Clarifying Instructions",
+    "business_context": "The client's email is ambiguous. You ask your manager what to do.",
+    "prompt_vi": "Hỏi sếp xem nên xử lý email không rõ ràng của khách hàng thế nào.",
+    "rubric": "Must use natural questioning to superiors.",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "meet_speak_6",
+    "gate": "meeting_speaking",
+    "title": "Closing a Meeting",
+    "business_context": "You are chairing the meeting and need to summarize and wrap up.",
+    "prompt_vi": "Tóm tắt các hành động tiếp theo và kết thúc cuộc họp.",
+    "rubric": "Must summarize next actions clearly and use standard meeting closing phrases.",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "biz_mail_1",
+    "gate": "business_mail",
+    "title": "Apology for Late Reply",
+    "business_context": "You are replying to a client 2 days late.",
+    "prompt_vi": "Viết email xin lỗi khách hàng vì đã phản hồi trễ 2 ngày.",
+    "rubric": "Must include 返信が遅くなり申し訳ございません or similar standard apology.",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "biz_mail_2",
+    "gate": "business_mail",
+    "title": "Sending Quotation",
+    "business_context": "Sending the revised quotation requested by the client.",
+    "prompt_vi": "Gửi báo giá đã chỉnh sửa theo yêu cầu của khách hàng đính kèm trong email.",
+    "rubric": "Must mention the attachment (添付ファイル) and request confirmation.",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "biz_mail_3",
+    "gate": "business_mail",
+    "title": "Requesting a Meeting Time",
+    "business_context": "Asking a vendor to provide available time slots for a meeting next week.",
+    "prompt_vi": "Viết mail yêu cầu đối tác cung cấp các khung giờ rảnh để họp vào tuần sau.",
+    "rubric": "Must ask for schedule politely.",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "biz_mail_4",
+    "gate": "business_mail",
+    "title": "Declining an Offer",
+    "business_context": "Politely declining a service proposal from a vendor.",
+    "prompt_vi": "Viết mail từ chối lời chào hàng của một nhà cung cấp một cách lịch sự.",
+    "rubric": "Must decline without being too direct, using 見送らせていただきます or similar.",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "biz_mail_5",
+    "gate": "business_mail",
+    "title": "Internal Approval Request",
+    "business_context": "Asking your department head to approve a budget request.",
+    "prompt_vi": "Viết email xin sếp phê duyệt yêu cầu ngân sách đính kèm.",
+    "rubric": "Must use ご承認 or 稟議 appropriately.",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "biz_mail_6",
+    "gate": "business_mail",
+    "title": "Following up on No Reply",
+    "business_context": "Following up with a client who hasn't replied for a week.",
+    "prompt_vi": "Nhắc khéo khách hàng vì đã 1 tuần chưa thấy phản hồi về bản hợp đồng.",
+    "rubric": "Must be polite and avoid sounding accusatory.",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "doc_read_1",
+    "gate": "document_reading",
+    "title": "Quality Incident Report",
+    "business_context": "Reading an incident report about a defective part.",
+    "prompt_vi": "Đọc báo cáo sự cố và chỉ ra biện pháp phòng ngừa (再発防止策).",
+    "rubric": "Must extract the specific countermeasure from the text.",
+    "japanese_input": "事象：部品Xに亀裂。\n原因：温度管理の不備。\n再発防止策：センサーを増設し、30分に1回の自動アラートを設定する。",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "doc_read_2",
+    "gate": "document_reading",
+    "title": "Meeting Minutes",
+    "business_context": "Reading meeting minutes to find your assigned task.",
+    "prompt_vi": "Đọc biên bản cuộc họp và xác định công việc bạn (Tanaka) phải làm trước thứ 6.",
+    "rubric": "Extract Tanaka's action item.",
+    "japanese_input": "決定事項：\n・デザイン案はA案を採用。\nToDo：\n・田中：金曜までにA案の詳細モックアップを作成\n・鈴木：クライアントへスケジュールの共有",
+    "difficulty": "N3-business"
+  },
+  {
+    "scenario_id": "doc_read_3",
+    "gate": "document_reading",
+    "title": "Company Policy Update",
+    "business_context": "Reading a notice about changes in remote work policy.",
+    "prompt_vi": "Đọc thông báo và cho biết số ngày làm việc từ xa tối đa một tuần là bao nhiêu.",
+    "rubric": "Extract max remote work days.",
+    "japanese_input": "【重要】リモートワーク規定の改定について\n来月より、週のリモートワーク上限を3日から2日へ変更いたします。",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "doc_read_4",
+    "gate": "document_reading",
+    "title": "System Maintenance Notice",
+    "business_context": "IT department sending a notice about server maintenance.",
+    "prompt_vi": "Đọc thông báo bảo trì hệ thống và cho biết khi nào hệ thống sẽ không sử dụng được.",
+    "rubric": "Extract the exact downtime window.",
+    "japanese_input": "社内システムメンテナンスのお知らせ\n日時：10月15日（土）22:00 ～ 16日（日）05:00\n影響：上記時間帯は経費精算システムにアクセスできません。",
+    "difficulty": "N3-business"
+  },
+  {
+    "scenario_id": "doc_read_5",
+    "gate": "document_reading",
+    "title": "Client Requirement Document",
+    "business_context": "Reading a PRD from a client.",
+    "prompt_vi": "Đọc yêu cầu của khách hàng và chỉ ra tính năng nào là ưu tiên cao nhất.",
+    "rubric": "Extract the highest priority feature.",
+    "japanese_input": "要件定義書サマリー：\n1. ログイン機能のセキュリティ強化（必須・最優先）\n2. ダッシュボードのUI改善（できれば）\n3. データエクスポート機能（次フェーズ）",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "doc_read_6",
+    "gate": "document_reading",
+    "title": "Vendor Contract Snippet",
+    "business_context": "Reading the cancellation clause in a vendor contract.",
+    "prompt_vi": "Đọc điều khoản hủy hợp đồng và cho biết phải báo trước bao nhiêu ngày để không bị phạt.",
+    "rubric": "Extract notice period for cancellation.",
+    "japanese_input": "第10条（中途解約）\n乙は、契約期間中であっても、30日以上の予告期間をもって書面で通知することにより、本契約を解約することができる。",
+    "difficulty": "N1-business"
+  },
+  {
+    "scenario_id": "keigo_1",
+    "gate": "keigo_nuance",
+    "title": "Sonkeigo vs Kenjougo",
+    "business_context": "You need to tell the client that you have seen their email.",
+    "prompt_vi": "Viết lại câu sau sử dụng khiêm nhường ngữ (Kenjougo): 'Email của bạn tôi đã xem rồi.'",
+    "rubric": "Must use 拝見しました.",
+    "japanese_input": "メールを見ました。",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "keigo_2",
+    "gate": "keigo_nuance",
+    "title": "Softening a Refusal",
+    "business_context": "Refusing a client's unreasonable demand.",
+    "prompt_vi": "Sửa câu này cho mềm mỏng hơn bằng cách dùng từ đệm (cushion words): 'Tôi không thể làm được.'",
+    "rubric": "Must use cushioning phrasing like 誠に申し訳ございませんが、対応いたしかねます.",
+    "japanese_input": "できません。",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "keigo_3",
+    "gate": "keigo_nuance",
+    "title": "Respectful Question",
+    "business_context": "Asking the client if they know about a specific software.",
+    "prompt_vi": "Viết lại câu sau sử dụng tôn kính ngữ (Sonkeigo): 'Bạn có biết phần mềm này không?'",
+    "rubric": "Must use ご存知でしょうか.",
+    "japanese_input": "このソフトウェアを知っていますか？",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "keigo_4",
+    "gate": "keigo_nuance",
+    "title": "Humble Action",
+    "business_context": "Telling a client you will go to their office tomorrow.",
+    "prompt_vi": "Viết lại câu sau sử dụng khiêm nhường ngữ: 'Ngày mai tôi sẽ đi đến văn phòng của bạn.'",
+    "rubric": "Must use 伺います or 参ります.",
+    "japanese_input": "明日、そちらのオフィスに行きます。",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "keigo_5",
+    "gate": "keigo_nuance",
+    "title": "Boss vs Client",
+    "business_context": "Talking to a client about your own boss, Tanaka.",
+    "prompt_vi": "Nói với khách hàng rằng 'Trưởng phòng Tanaka hiện không có ở đây'.",
+    "rubric": "Must NOT use titles for internal staff when talking to outsiders (e.g., just 田中).",
+    "japanese_input": "田中部長は現在不在です。",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "keigo_6",
+    "gate": "keigo_nuance",
+    "title": "Requesting Confirmation",
+    "business_context": "Asking your boss to check a document.",
+    "prompt_vi": "Yêu cầu sếp kiểm tra tài liệu một cách lịch sự.",
+    "rubric": "Must use ご確認お願いいたします.",
+    "japanese_input": "資料をチェックしてください。",
+    "difficulty": "N2-business"
+  },
+  {
+    "scenario_id": "boss_1",
+    "gate": "final_boss",
+    "title": "Escalation to Japanese HQ",
+    "business_context": "A critical server crashed. You must explain the situation, the root cause, the current fix, and ask for HQ assistance in Japanese.",
+    "prompt_vi": "Báo cáo sự cố sập server nghiêm trọng với trụ sở Nhật Bản. Nêu rõ nguyên nhân, biện pháp hiện tại và yêu cầu họ hỗ trợ khẩn cấp.",
+    "rubric": "Must logically structure the report, use correct keigo, and make a clear, polite request for help.",
+    "difficulty": "N1-business"
+  },
+  {
+    "scenario_id": "boss_2",
+    "gate": "final_boss",
+    "title": "Apology to Major Client",
+    "business_context": "Your team shipped the wrong product batch to a VIP client. You are representing the company to apologize in a video call.",
+    "prompt_vi": "Đóng vai đại diện công ty xin lỗi khách hàng VIP vì đã giao sai lô hàng. Thể hiện sự thành khẩn và đưa ra hướng giải quyết.",
+    "rubric": "Extremely high standards for apology phrasing, zero keigo mistakes allowed.",
+    "difficulty": "N1-business"
+  },
+  {
+    "scenario_id": "boss_3",
+    "gate": "final_boss",
+    "title": "Defending Your Team's Scope",
+    "business_context": "A Japanese project manager is pushing unreasonable extra scope onto your dev team without adjusting the deadline.",
+    "prompt_vi": "Thuyết phục PM người Nhật rằng yêu cầu mới nằm ngoài scope và không thể hoàn thành đúng hạn mà không có thêm nguồn lực, nhưng vẫn giữ thái độ hợp tác.",
+    "rubric": "Must balance firmness with politeness and propose a constructive alternative.",
+    "difficulty": "N1-business"
+  }
+]
