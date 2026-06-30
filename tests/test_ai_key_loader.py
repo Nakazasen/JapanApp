@@ -12,6 +12,7 @@ from frontend.services.ai_providers.local_key_loader import (
 )
 from frontend.services.ai_providers.gemini_provider import GeminiProvider
 from frontend.services.ai_providers.openai_compatible_provider import OpenAICompatibleProvider
+from frontend.services.japanese_work_memory import JapaneseWorkLearningMemory
 from frontend.services.jp_business_hell_ai import JPBusinessHellAI
 
 
@@ -205,9 +206,11 @@ def test_local_only_mode_never_calls_external_providers():
         os.remove(temp_path)
 
 
-def test_jp_business_hell_works_offline_without_keys():
-    # Make sure JPBusinessHellAI runs without keys and defaults to offline_demo
-    app = JPBusinessHellAI()
+def test_jp_business_hell_works_offline_without_keys(tmp_path):
+    # Make sure JPBusinessHellAI runs without keys and defaults to offline_demo.
+    # Use temporary memory so this regression test never mutates real learning memory.
+    memory = JapaneseWorkLearningMemory(tmp_path / "jp_hell_memory.json", mode="synthetic")
+    app = JPBusinessHellAI(memory=memory)
     scenario = app.generate_scenario(privacy_mode="synthetic")
     assert scenario["provider_used"] == "offline_demo"
     
