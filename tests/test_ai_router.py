@@ -9,14 +9,14 @@ class InvalidProvider(AIProviderAdapter):
     def generate(self, request): return ProviderResponse(True, text='not json', model='bad')
 
 def router_with(extra=None):
-    r=AIRouter(cooldown_seconds=1)
+    r=AIRouter(cooldown_seconds=1, health_path=None)
     if extra:
         for pid, adapter in extra.items():
             r.providers[pid]=adapter
     return r
 
 def test_router_selects_offline_demo_for_scenario_generation():
-    r=AIRouter()
+    r=AIRouter(health_path=None)
     res=r.route(AITaskRequest(AITaskType.SCENARIO_GENERATION, 'make scenario', privacy_mode='synthetic'))
     assert res.ok
     assert res.provider_used == 'offline_demo'
@@ -24,7 +24,7 @@ def test_router_selects_offline_demo_for_scenario_generation():
     assert res.data['scenario_id']
 
 def test_fallback_when_preferred_provider_fails():
-    r=AIRouter(cooldown_seconds=1)
+    r=AIRouter(cooldown_seconds=1, health_path=None)
     prof=r.profiles['groq']
     r.providers['groq']=FailingProvider(prof)
     res=r.route(AITaskRequest(AITaskType.SCENARIO_GENERATION, 'x', privacy_mode='redacted', preferred_provider='groq'))
@@ -35,7 +35,7 @@ def test_fallback_when_preferred_provider_fails():
     assert res2.provider_used == 'offline_demo'
 
 def test_invalid_json_degrades_then_cooldowns_provider():
-    r=AIRouter(cooldown_seconds=1)
+    r=AIRouter(cooldown_seconds=1, health_path=None)
     r.providers['groq']=InvalidProvider(r.profiles['groq'])
     req=AITaskRequest(AITaskType.RUBRIC_GRADING, 'grade', privacy_mode='redacted', preferred_provider='groq')
     assert not r.route(req).ok

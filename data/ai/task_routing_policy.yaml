@@ -15,7 +15,7 @@ tiers:
     name: development/audit
     tasks: [code_generation, architecture_review, audit_review, security_review]
 routing:
-  scenario_generation: {tier: 1, providers: [offline_demo, groq, cerebras, mistral, sambanova, cloudflare, huggingface, github_models, ai21, gemini], escalate_to: [japanese_nuance_review]}
+  scenario_generation: {tier: 1, providers: [offline_demo, groq, cerebras, mistral, sambanova, cloudflare, huggingface, github, ai21, gemini], escalate_to: [japanese_nuance_review]}
   drill_variation: {tier: 1, providers: [offline_demo, groq, cerebras, mistral, huggingface, gemini]}
   rubric_grading: {tier: 1, providers: [offline_demo, groq, cerebras, mistral, openrouter, gemini], escalate_on_invalid_json: true}
   japanese_nuance_review: {tier: 2, providers: [offline_demo, openrouter, gemini, mistral]}

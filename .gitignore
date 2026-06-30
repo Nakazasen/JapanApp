@@ -47,3 +47,7 @@ build/
 # E-books / local reading material
 *.azw3
 
+
+# AI provider runtime state
+data/ai/provider_health.json
+quarantine_reports/

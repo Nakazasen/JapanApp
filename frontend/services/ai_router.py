@@ -10,10 +10,11 @@ from typing import Any
 from frontend.models.ai_provider import ProviderHealth, ProviderProfile, ProviderRuntimeState
 from frontend.models.ai_task_result import AITaskRequest, AITaskResult
 from frontend.services.ai_task_policy import AITaskPolicy
-from frontend.services.ai_providers import OfflineDemoProvider, GeminiProvider, OpenAICompatibleProvider, CloudflareProvider, HuggingFaceProvider
+from frontend.services.ai_providers import OfflineDemoProvider, GeminiProvider, OpenAICompatibleProvider, CloudflareProvider, HuggingFaceProvider, AI21Provider
 
 ROOT = Path(__file__).resolve().parents[2]
 PROFILE_PATH = ROOT / "data" / "ai" / "provider_profiles.yaml"
+HEALTH_PATH = ROOT / "data" / "ai" / "provider_health.json"
 SECRET_RE = re.compile(r"(?i)(api[_-]?key|token|secret)[=:]\s*['\"]?([A-Za-z0-9_\-]{8,})")
 
 AUTH_HINTS=("401","403","unauthorized","auth","invalid api key","forbidden")
@@ -52,7 +53,9 @@ def _parse_profiles(path: Path=PROFILE_PATH) -> dict[str, ProviderProfile]:
             raw = yaml.safe_load(path.read_text(encoding='utf-8')) or {}
             out = {}
             for pid, cfg in (raw.get('providers') or {}).items():
-                out[pid] = ProviderProfile(provider_id=pid, display_name=cfg.get('display_name', pid), enabled=cfg.get('enabled', True), default_model=cfg.get('default_model',''), env_key=cfg.get('env_key',''), base_url=cfg.get('base_url',''), priority=int(cfg.get('priority',100)), max_tier=int(cfg.get('max_tier',1)), cost_class=cfg.get('cost_class','free'), privacy_modes=cfg.get('privacy_modes') or ['redacted'], capabilities=cfg.get('capabilities') or [], notes=cfg.get('notes',''))
+                known = {'display_name','enabled','default_model','env_key','base_url','priority','max_tier','cost_class','privacy_modes','capabilities','notes','adapter_type','timeout','provider_id'}
+                extra = {k:v for k,v in cfg.items() if k not in known}
+                out[pid] = ProviderProfile(provider_id=pid, display_name=cfg.get('display_name', pid), enabled=cfg.get('enabled', True), default_model=cfg.get('default_model',''), env_key=cfg.get('env_key',''), base_url=cfg.get('base_url',''), priority=int(cfg.get('priority',100)), max_tier=int(cfg.get('max_tier',1)), cost_class=cfg.get('cost_class','free'), privacy_modes=cfg.get('privacy_modes') or ['redacted'], capabilities=cfg.get('capabilities') or [], notes=cfg.get('notes',''), adapter_type=cfg.get('adapter_type',''), timeout=float(cfg.get('timeout',20)), extra=extra)
             if out: return out
         except Exception:
             pass
@@ -60,11 +63,22 @@ def _parse_profiles(path: Path=PROFILE_PATH) -> dict[str, ProviderProfile]:
             "gemini": ProviderProfile("gemini", "Gemini", True, "gemini-2.5-flash", "GEMINI_API_KEY", priority=30, max_tier=4, capabilities=["code_generation","architecture_review","audit_review","japanese_nuance_review"])}
 
 class AIRouter:
-    def __init__(self, policy: AITaskPolicy | None = None, profiles: dict[str, ProviderProfile] | None = None, cooldown_seconds: int = 60):
+    def __init__(
+        self,
+        policy: AITaskPolicy | None = None,
+        profiles: dict[str, ProviderProfile] | None = None,
+        cooldown_seconds: int = 60,
+        health_path: Path | str | None = HEALTH_PATH,
+        load_health: bool = True,
+    ):
         self.policy = policy or AITaskPolicy()
         self.profiles = profiles or _parse_profiles()
         self.cooldown_seconds = cooldown_seconds
+        self.health_path = Path(health_path) if health_path is not None else None
+        self._persist_health_enabled = self.health_path is not None
         self.states = {pid: ProviderRuntimeState(pid) for pid in self.profiles}
+        if load_health and self.health_path is not None:
+            self._load_health()
         self.providers = {pid: self._adapter(profile) for pid, profile in self.profiles.items()}
 
     def _adapter(self, profile: ProviderProfile):
@@ -72,6 +86,7 @@ class AIRouter:
         if profile.provider_id == "gemini": return GeminiProvider(profile)
         if profile.provider_id == "cloudflare": return CloudflareProvider(profile)
         if profile.provider_id == "huggingface": return HuggingFaceProvider(profile)
+        if profile.provider_id == "ai21": return AI21Provider(profile)
         return OpenAICompatibleProvider(profile)
 
     def provider_health(self) -> dict[str, dict[str, Any]]:
@@ -97,8 +112,22 @@ class AIRouter:
             if task not in prof.capabilities: continue
             if int(prof.max_tier) < tier: continue
             if request.privacy_mode not in prof.privacy_modes: continue
+            adapter = self.providers.get(pid)
+            if adapter and not adapter.is_available() and pid != "offline_demo": continue
             result.append(pid)
-        return sorted(result, key=lambda p: self.profiles[p].priority)
+        sorted_result = sorted(result, key=lambda p: self.profiles[p].priority)
+        
+        # Policy enforcement for JAPANAPP_AI_MODE
+        ai_mode = os.getenv("JAPANAPP_AI_MODE", "auto").lower().strip()
+        if ai_mode == "offline":
+            if "offline_demo" in sorted_result:
+                return ["offline_demo"]
+            return []
+        elif ai_mode == "live":
+            # Prefer live providers, fallback to offline_demo last
+            if "offline_demo" in sorted_result:
+                return [p for p in sorted_result if p != "offline_demo"] + ["offline_demo"]
+        return sorted_result
 
     def route(self, request: AITaskRequest) -> AITaskResult:
         attempts=[]; tier=int(self.policy.tier_for(request.task_type)); providers=self._eligible(request)
@@ -118,7 +147,8 @@ class AIRouter:
                     if not data:
                         self._record_failure(pid, "invalid_json")
                         continue
-                st.success_count += 1; st.consecutive_failures=0; st.timeout_failures=0; st.health=ProviderHealth.HEALTHY
+                st.success_count += 1; st.consecutive_failures=0; st.timeout_failures=0; st.health=ProviderHealth.HEALTHY; st.last_error_type=""
+                self._persist_health()
                 return AITaskResult(True, content=resp.text, data=data, provider_used=pid, provider_tier=tier, fallback_used=(pid != first or len(attempts)>1), model=resp.model or prof.default_model, attempts=attempts)
             self._record_failure(pid, resp.error_type or classify_error(resp.error_message))
         return AITaskResult(False, provider_tier=tier, fallback_used=len(attempts)>1, attempts=attempts, error_type="all_providers_failed", error_message=sanitize_text("All eligible providers failed"))
@@ -138,6 +168,38 @@ class AIRouter:
         elif st.consecutive_failures >= 3:
             st.health=ProviderHealth.COOLDOWN; st.cooldown_until=time.time()+self.cooldown_seconds
         else: st.health=ProviderHealth.DEGRADED
+        self._persist_health()
+
+    def _load_health(self) -> None:
+        try:
+            if self.health_path is None or not self.health_path.exists(): return
+            raw=json.loads(self.health_path.read_text(encoding="utf-8"))
+            for pid, item in (raw.get("providers") or {}).items():
+                if pid not in self.states: continue
+                st=self.states[pid]
+                st.health=ProviderHealth(item.get("health", st.health.value))
+                st.cooldown_until=float(item.get("cooldown_until",0) or 0)
+                st.consecutive_failures=int(item.get("consecutive_failures",0) or 0)
+                st.timeout_failures=int(item.get("timeout_failures",0) or 0)
+                st.invalid_json_failures=int(item.get("invalid_json_failures",0) or 0)
+                st.invalid_json_total=int(item.get("invalid_json_total",0) or 0)
+                st.auth_failed=bool(item.get("auth_failed",False))
+                st.quota_exhausted=bool(item.get("quota_exhausted",False))
+                st.last_error_type=str(item.get("last_error_type","") or "")
+                st.success_count=int(item.get("success_count",0) or 0)
+                st.failure_count=int(item.get("failure_count",0) or 0)
+        except Exception:
+            return
+
+    def _persist_health(self) -> None:
+        try:
+            if self.health_path is None or not self._persist_health_enabled:
+                return
+            self.health_path.parent.mkdir(parents=True, exist_ok=True)
+            data={"updated_at": int(time.time()), "providers": {pid: st.public_dict() for pid, st in self.states.items()}}
+            self.health_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception:
+            pass
 
 _default_router: AIRouter | None = None
 def get_ai_router() -> AIRouter:

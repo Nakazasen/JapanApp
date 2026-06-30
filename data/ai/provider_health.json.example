@@ -1,0 +1,12 @@
+﻿{
+  "updated_at": 0,
+  "providers": {
+    "offline_demo": {
+      "provider_id": "offline_demo",
+      "health": "healthy",
+      "cooldown_until": 0,
+      "last_error_type": ""
+    }
+  },
+  "notes": "Example only. Runtime data/ai/provider_health.json is git-ignored and must not contain prompts, responses, or secrets."
+}

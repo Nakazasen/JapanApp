@@ -49,6 +49,9 @@ class ProviderProfile:
     privacy_modes: list[str] = field(default_factory=lambda: ["redacted", "synthetic"])
     capabilities: list[str] = field(default_factory=list)
     notes: str = ""
+    adapter_type: str = ""
+    timeout: float = 20.0
+    extra: dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass

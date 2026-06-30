@@ -1,0 +1,10 @@
+live_api_calls: false
+cases:
+  - name: openai_compatible_mock_success
+    providers: [groq, cerebras, openrouter, mistral, sambanova, github]
+  - name: special_adapter_mock_success
+    providers: [gemini, cloudflare, huggingface, ai21]
+  - name: fallback_and_health
+    checks: [auth_failure_disable, quota_cooldown, invalid_json_fallback, local_only_block]
+  - name: credential_masking
+    checks: [no_key, no_key_prefix]

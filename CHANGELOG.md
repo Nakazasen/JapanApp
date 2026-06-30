@@ -1,7 +1,14 @@
-﻿# Changelog
+# Changelog
 
 ## [Unreleased]
 ### Added
+- **AI Resource Layer Provider Parity & Safe Key Loading**:
+  - Implemented safe local key loader at `frontend/services/ai_providers/local_key_loader.py` supporting JSON, `.env` format, and alternating Label-Key lines.
+  - Ported provider naming, defaults, and routing fallback logic from `translation_app`.
+  - Added new `deepseek` provider utilizing `DEEPSEEK_API_KEY` for high-quality translation and grading task routing.
+  - Implemented `JAPANAPP_AI_MODE=offline|auto|live` configuration policy in `frontend/services/ai_router.py`.
+  - Added key loader evaluation harness `harness/provider_key_loader_eval.py` validating safety checks, boolean presence metrics, and router policy tests.
+  - Added comprehensive test suite `tests/test_ai_key_loader.py` covering all loader parser paths and routing modes.
 - **ﾄ雪ｻ蟻 ng盻･c ti蘯ｿng Nh蘯ｭt (Business Japanese Dojo) MVP**: 
   - UI Dashboard with 6 training gates (Meeting Listening, Meeting Speaking, Business Mail, Document Reading, Keigo & Nuance, Final Boss).
   - Drill interface with AI router integration.

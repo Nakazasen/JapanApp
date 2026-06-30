@@ -34,7 +34,7 @@ def main():
     token = login_dialog.get_token()
     user_info = login_dialog.get_user_info()
     
-    print(f"[DEBUG main] Token: {token}")
+    print(f"[DEBUG main] Token present: {bool(token)}")
     print(f"[DEBUG main] User info: {user_info}")
     
     if not token:

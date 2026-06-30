@@ -146,9 +146,19 @@ python scripts/init_db.py
 ### AI Resource Layer & API Keys
 
 - JapanApp sử dụng **AI Resource Layer** với tính năng Offline Demo mặc định (không yêu cầu API Key).
-- Để bật các tính năng AI nâng cao bằng Gemini, bạn có thể thiết lập:
-  ```
-  GEMINI_API_KEY=your_gemini_api_key_here
-  ```
+- Để cấu hình tự động nạp API Keys từ file cục bộ:
+  - Mặc định hệ thống tìm kiếm file key tại `D:\Sandbox\AIOS_habbit\API Key.txt`.
+  - Có thể đổi đường dẫn này bằng cách cài đặt biến môi trường:
+    ```
+    JAPANAPP_API_KEY_FILE=C:\path\to\your\API_Key.txt
+    ```
+  - Hệ thống tự động phân tích cả các định dạng JSON, gán kiểu `.env` (`KEY=val`), và định dạng dòng xen kẽ (Label -> Key) từ file `API Key.txt` một cách an toàn (không ghi nhận key vào log, kiểm tra trạng thái bằng boolean).
+- Để điều khiển luồng định tuyến AI:
+  - Cấu hình biến môi trường `JAPANAPP_AI_MODE`:
+    - `offline`: Chỉ sử dụng `offline_demo` cục bộ (tiết kiệm chi phí, chạy không cần mạng).
+    - `auto` (Mặc định): Tự động thử các provider ngoài nếu có API key, nếu lỗi sẽ tự động chuyển hướng về fallback.
+    - `live`: Ưu tiên tuyệt đối các API ngoài (ví dụ Gemini, Groq, DeepSeek), chỉ quay về `offline_demo` khi toàn bộ provider ngoài thất bại.
+- Danh sách API key được hỗ trợ: `GEMINI_API_KEY`, `GROQ_API_KEY`, `CEREBRAS_API_KEY`, `OPENROUTER_API_KEY`, `MISTRAL_API_KEY`, `SAMBANOVA_API_KEY`, `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `HUGGINGFACE_API_KEY`, `GITHUB_TOKEN`, `AI21_API_KEY`, `DEEPSEEK_API_KEY`.
 - Các thiết lập nâng cao khác xem trong `data/ai/provider_profiles.yaml`.
+
 

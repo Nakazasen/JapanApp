@@ -48,12 +48,11 @@ This is a comprehensive desktop application designed to help users master multip
    pip install -r requirements.txt
    ```
 
-4. **Cấu hình AI Resource Layer / Các Provider (Tùy chọn)**:
+ 4. **Cấu hình AI Resource Layer / Các Provider**:
    - JapanApp sử dụng AI Resource Layer cho phép cấu hình đa dạng các mô hình.
-   - Ứng dụng có thể chạy với chế độ Offline Demo không cần API Key cho một số tính năng giả lập (synthetic).
-   - **Gemini (Legacy & AI Resource Layer)**: Mở file `.env` (copy từ `.env.example` nếu chưa có) và thêm `GEMINI_API_KEY=your_api_key_here` nếu bạn muốn dùng Gemini.
-   - **Phi-3 / Whisper (Local Models)**: Sử dụng mô hình cục bộ không cần API Key, xem `QUICK_START.md`.
-   - Các API Key khác có thể cấu hình trực tiếp trong giao diện ứng dụng (Tab Cài đặt) ở Phase 2.
+   - **Tải API Keys từ file cục bộ**: Ứng dụng hỗ trợ nạp key tự động từ file tại `D:\Sandbox\AIOS_habbit\API Key.txt` (hoặc đường dẫn tùy chọn qua biến `JAPANAPP_API_KEY_FILE`). Định dạng label-key xen kẽ, JSON và gán biến `.env` đều được hỗ trợ một cách an toàn.
+   - **Chế độ hoạt động AI**: Thiết lập biến môi trường `JAPANAPP_AI_MODE` thành `offline` (chỉ dùng demo offline), `auto` (kết hợp tự động/offline), hoặc `live` (ưu tiên kết nối mạng).
+   - **Mô hình cục bộ (Phi-3 / Whisper)**: Xem hướng dẫn chi tiết trong `QUICK_START.md`.
 
 5. **Khởi tạo cơ sở dữ liệu**:
 
@@ -89,3 +88,8 @@ EnglishApp/
 ## License
 
 MIT License
+
+### Phase 2B AI provider adapters & local key loading
+
+JapanApp now has live adapter plumbing for Gemini plus the 10-provider pool: Groq, Cerebras, OpenRouter, Mistral, SambaNova, Cloudflare Workers AI, HuggingFace, GitHub Models, AI21, and DeepSeek. Key loading is handled safely via `local_key_loader.py` targeting `D:\Sandbox\AIOS_habbit\API Key.txt` without logging secrets. Automated tests use mocked HTTP; live smoke is opt-in via `RUN_LIVE_PROVIDER_SMOKE=1`.
+

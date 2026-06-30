@@ -1,29 +1,182 @@
 providers:
   offline_demo:
+    provider_id: offline_demo
     display_name: Offline Demo Provider
+    adapter_type: offline_demo
     enabled: true
+    base_url: ""
+    env_key: ""
     default_model: synthetic-jp-business-v1
     priority: 1
     max_tier: 3
     cost_class: local
     privacy_modes: [redacted, synthetic, local_only]
     capabilities: [scenario_generation, drill_variation, rubric_grading, japanese_nuance_review, keigo_correction, business_mail_rewrite, meeting_roleplay, final_boss_judge]
-  gemini:
-    display_name: Gemini
+    timeout: 1
+    notes: Local deterministic fallback; no external calls.
+  groq:
+    provider_id: groq
+    display_name: Groq
+    adapter_type: openai_compatible
     enabled: true
+    base_url: https://api.groq.com/openai/v1
+    env_key: GROQ_API_KEY
+    default_model: llama3-8b-8192
+    priority: 10
+    max_tier: 2
+    cost_class: free_low_cost
+    privacy_modes: [redacted, synthetic]
+    capabilities: [scenario_generation, drill_variation, rubric_grading]
+    timeout: 20
+    notes: OpenAI-compatible chat completions.
+  cerebras:
+    provider_id: cerebras
+    display_name: Cerebras
+    adapter_type: openai_compatible
+    enabled: true
+    base_url: https://api.cerebras.ai/v1
+    env_key: CEREBRAS_API_KEY
+    default_model: llama3.1-70b
+    priority: 11
+    max_tier: 2
+    cost_class: free_low_cost
+    privacy_modes: [redacted, synthetic]
+    capabilities: [scenario_generation, drill_variation, rubric_grading]
+    timeout: 20
+    notes: OpenAI-compatible chat completions.
+  openrouter:
+    provider_id: openrouter
+    display_name: OpenRouter
+    adapter_type: openai_compatible
+    enabled: true
+    base_url: https://openrouter.ai/api/v1
+    env_key: OPENROUTER_API_KEY
+    default_model: meta-llama/llama-3.3-70b-instruct:free
+    priority: 12
+    max_tier: 3
+    cost_class: mixed
+    privacy_modes: [redacted, synthetic]
+    capabilities: [scenario_generation, drill_variation, rubric_grading, japanese_nuance_review, keigo_correction, business_mail_rewrite, meeting_roleplay, final_boss_judge, architecture_review, audit_review]
+    timeout: 25
+    notes: OpenAI-compatible aggregator; optional higher-tier judge.
+  mistral:
+    provider_id: mistral
+    display_name: Mistral
+    adapter_type: openai_compatible
+    enabled: true
+    base_url: https://api.mistral.ai/v1
+    env_key: MISTRAL_API_KEY
+    default_model: mistral-small-latest
+    priority: 13
+    max_tier: 2
+    cost_class: free_low_cost
+    privacy_modes: [redacted, synthetic]
+    capabilities: [scenario_generation, drill_variation, rubric_grading, japanese_nuance_review, keigo_correction, business_mail_rewrite]
+    timeout: 20
+    notes: OpenAI-compatible chat completions.
+  sambanova:
+    provider_id: sambanova
+    display_name: SambaNova
+    adapter_type: openai_compatible
+    enabled: true
+    base_url: https://api.sambanova.ai/v1
+    env_key: SAMBANOVA_API_KEY
+    default_model: DeepSeek-V3.1
+    priority: 14
+    max_tier: 2
+    cost_class: free_low_cost
+    privacy_modes: [redacted, synthetic]
+    capabilities: [scenario_generation, drill_variation, rubric_grading]
+    timeout: 20
+    notes: OpenAI-compatible chat completions.
+  cloudflare:
+    provider_id: cloudflare
+    display_name: Cloudflare Workers AI
+    adapter_type: cloudflare
+    enabled: true
+    base_url: https://api.cloudflare.com/client/v4
+    env_key: CLOUDFLARE_API_TOKEN
+    account_env_key: CLOUDFLARE_ACCOUNT_ID
+    default_model: '@cf/meta/llama-3-8b-instruct'
+    priority: 15
+    max_tier: 1
+    cost_class: low_cost
+    privacy_modes: [redacted, synthetic]
+    capabilities: [scenario_generation, drill_variation]
+    timeout: 20
+    notes: Requires account id env var in addition to API token.
+  huggingface:
+    provider_id: huggingface
+    display_name: HuggingFace
+    adapter_type: huggingface
+    enabled: true
+    base_url: https://api-inference.huggingface.co/models
+    env_key: HUGGINGFACE_API_KEY
+    default_model: meta-llama/Meta-Llama-3-8B-Instruct
+    priority: 16
+    max_tier: 1
+    cost_class: free_low_cost
+    privacy_modes: [redacted, synthetic]
+    capabilities: [scenario_generation, drill_variation]
+    timeout: 30
+    notes: HuggingFace Inference API.
+  github:
+    provider_id: github
+    display_name: GitHub Models
+    adapter_type: openai_compatible
+    enabled: true
+    base_url: https://models.inference.ai.azure.com
+    env_key: GITHUB_TOKEN
+    default_model: gpt-4o-mini
+    priority: 17
+    max_tier: 2
+    cost_class: quota
+    privacy_modes: [redacted, synthetic]
+    capabilities: [scenario_generation, drill_variation, rubric_grading]
+    timeout: 20
+    notes: OpenAI-compatible endpoint for GitHub Models.
+  ai21:
+    provider_id: ai21
+    display_name: AI21
+    adapter_type: ai21
+    enabled: true
+    base_url: https://api.ai21.com/studio/v1
+    env_key: AI21_API_KEY
+    default_model: jamba-1.5-mini
+    priority: 18
+    max_tier: 2
+    cost_class: low_cost
+    privacy_modes: [redacted, synthetic]
+    capabilities: [scenario_generation, drill_variation, rubric_grading, business_mail_rewrite]
+    timeout: 20
+    notes: Chat-compatible path is mocked and live-smoke opt-in.
+  deepseek:
+    provider_id: deepseek
+    display_name: DeepSeek
+    adapter_type: openai_compatible
+    enabled: true
+    base_url: https://api.deepseek.com/v1
+    env_key: DEEPSEEK_API_KEY
+    default_model: deepseek-chat
+    priority: 19
+    max_tier: 3
+    cost_class: low_cost
+    privacy_modes: [redacted, synthetic]
+    capabilities: [scenario_generation, drill_variation, rubric_grading, japanese_nuance_review, keigo_correction, business_mail_rewrite, meeting_roleplay, final_boss_judge]
+    timeout: 20
+    notes: OpenAI-compatible DeepSeek API.
+  gemini:
+    provider_id: gemini
+    display_name: Gemini
+    adapter_type: gemini
+    enabled: true
+    base_url: https://generativelanguage.googleapis.com/v1beta
     env_key: GEMINI_API_KEY
     default_model: gemini-2.5-flash
     priority: 30
     max_tier: 4
     cost_class: paid_or_quota
-    privacy_modes: [redacted]
-    capabilities: [scenario_generation, drill_variation, rubric_grading, japanese_nuance_review, keigo_correction, business_mail_rewrite, meeting_roleplay, final_boss_judge, code_generation, architecture_review]
-  groq: {display_name: Groq, enabled: true, env_key: GROQ_API_KEY, default_model: llama-3.1-70b-versatile, priority: 10, max_tier: 2, cost_class: free_low_cost, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, rubric_grading]}
-  cerebras: {display_name: Cerebras, enabled: true, env_key: CEREBRAS_API_KEY, default_model: llama3.1-70b, priority: 11, max_tier: 2, cost_class: free_low_cost, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, rubric_grading]}
-  openrouter: {display_name: OpenRouter, enabled: true, env_key: OPENROUTER_API_KEY, default_model: meta-llama/llama-3.1-70b-instruct, priority: 12, max_tier: 3, cost_class: mixed, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, rubric_grading, japanese_nuance_review, final_boss_judge]}
-  mistral: {display_name: Mistral, enabled: true, env_key: MISTRAL_API_KEY, default_model: mistral-small-latest, priority: 13, max_tier: 2, cost_class: free_low_cost, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, rubric_grading, business_mail_rewrite]}
-  sambanova: {display_name: SambaNova, enabled: true, env_key: SAMBANOVA_API_KEY, default_model: Meta-Llama-3.1-70B-Instruct, priority: 14, max_tier: 2, cost_class: free_low_cost, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, rubric_grading]}
-  cloudflare: {display_name: Cloudflare Workers AI, enabled: true, env_key: CLOUDFLARE_API_TOKEN, default_model: '@cf/meta/llama-3.1-8b-instruct', priority: 15, max_tier: 1, cost_class: low_cost, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation]}
-  huggingface: {display_name: HuggingFace, enabled: true, env_key: HUGGINGFACE_API_KEY, default_model: mistralai/Mistral-7B-Instruct-v0.3, priority: 16, max_tier: 1, cost_class: free_low_cost, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, vocabulary_examples]}
-  github_models: {display_name: GitHub Models, enabled: true, env_key: GITHUB_TOKEN, default_model: gpt-4o-mini, priority: 17, max_tier: 2, cost_class: quota, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, rubric_grading]}
-  ai21: {display_name: AI21, enabled: true, env_key: AI21_API_KEY, default_model: jamba-mini, priority: 18, max_tier: 2, cost_class: low_cost, privacy_modes: [redacted], capabilities: [scenario_generation, drill_variation, rubric_grading, business_mail_rewrite]}
+    privacy_modes: [redacted, synthetic]
+    capabilities: [scenario_generation, drill_variation, rubric_grading, japanese_nuance_review, keigo_correction, business_mail_rewrite, meeting_roleplay, final_boss_judge, code_generation, architecture_review, audit_review]
+    timeout: 25
+    notes: Gemini remains supported as one provider alongside the pool.

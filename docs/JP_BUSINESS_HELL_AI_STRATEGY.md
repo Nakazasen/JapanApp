@@ -92,3 +92,9 @@ Every grading result includes AI routing metadata:
 | code_generation | 4 |
 | architecture_review | 4 |
 | audit_review | 4 |
+
+## Phase 2B provider routing update
+
+Địa ngục tiếng Nhật continues to work in offline/demo mode with no API keys. When providers are configured, the AI Resource Layer can route non-local tasks to Gemini plus the 9-provider pool. `local_only` mode is reserved for local/offline behavior and must not call external providers.
+
+Phase 2B does not add the Deep Training Loop and does not change the Phase 2A seed data or UI scope.
